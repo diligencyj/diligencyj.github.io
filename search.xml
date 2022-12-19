@@ -12,7 +12,6 @@
 <li>下载加速器FastGithub</li>
 <li>使用Markdown</li>
 </ol>
-<p>（对于搭建网站，1.4.5.6步是必须）</p>
 <span id="more"></span>
 
 <p>hh以下过程搭的网站被我一个<code>git push XXXX --force</code>命令给全部覆盖掉了，算是引导我学习了很多搭网站必须步骤之外的东西吧，比如如何把代码文件等任何东西上传上库，而不仅仅是网页内容。（但好像用hexo也可以？）<br>看了这里理解了如果要fork别人的模板正确的方式应该怎么做 <em><a href="https://segmentfault.com/q/1010000008049369">hexo部署后把原来的仓库覆盖了</a></em><br>或许以后我可以试试</p>
@@ -55,19 +54,44 @@
 <p>有点晚了，刚好十一点半了，该准备睡觉啦！</p>
 <p>PS：本篇文章初稿写于12&#x2F;14，完善于12&#x2F;16。</p>
 ]]></content>
+      <categories>
+        <category>娱乐性学习</category>
+        <category>计算机</category>
+      </categories>
       <tags>
         <tag>搭建网站</tag>
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2022/12/15/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<p><strong>这篇官网文章写的很详细，忘记了命令可以回来看看</strong></p>
+<p><em><a href="https://hexo.io/zh-cn/docs/commands">Hexo指令</a></em></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>搭建网站过程2（从零开始版）</title>
     <url>/2022/12/16/create-another-weside/</url>
-    <content><![CDATA[<p>本文摘要</p>
+    <content><![CDATA[<p>本文摘要：</p>
 <ol>
 <li>下载npm</li>
 <li>下载并配置hexo</li>
 <li>自定义next主题</li>
 <li>如何让图片在网页上显示</li>
+<li>添加标签、分类、关于页面</li>
 <li>要注意的两个点：git和hexo命令的使用范围、clone命令的先后顺序<span id="more"></span></li>
 </ol>
 <h2 id="搭建网站所需的完整步骤（除创建GitHub仓库）"><a href="#搭建网站所需的完整步骤（除创建GitHub仓库）" class="headerlink" title="搭建网站所需的完整步骤（除创建GitHub仓库）"></a>搭建网站所需的完整步骤（除创建GitHub仓库）</h2><h3 id="1-下载npm"><a href="#1-下载npm" class="headerlink" title="1. 下载npm"></a>1. 下载npm</h3><p> <em><a href="https://blog.csdn.net/hyh17808770899/article/details/112213437">npm安装并配置环境变量（安装node.js）</a></em><br> 前车之鉴，为了做到周全这一步我是结合着几篇文章来看的，说的大同小异大差不差。唯一遇到的一点问题是安装时有一个没有默认的选项是安装必要的工具，我勾选了，但后来实际上又没有下载（因为提示是说安装powershall迷惑了我），这会直接导致我能看到npm.exe却没有办法在命令行里找到npm。后来是change的时候不勾选就成功了。</p>
@@ -96,6 +120,8 @@
 <p><strong>第二步</strong> 把本地文章的图片链接替换成GitHub上的链接。 </p>
 <p><strong>第三步</strong> 把链接中的blob改成raw，图片瞬间就出来了！太令人激动啦啦啦啦</p>
 <p>我找到的第一篇提出的两种方法，方法一是直接在库上面新建.md文件，按照Markdown格式把图片在GitHub的链接放进去，preview的时候就能显示。我试过可以，但是这发布不上网页啊！方法二是在把图片直接插入.md,写完后把整篇文章的文字加图片复制到另一个空的.md，再上传就会把本地图片也一起上传。这个想法看似可行实际有点荒谬，代码这里根本看不到图片，而能看到图片的预览这里根本复制不了……</p>
+<h3 id="5-添加标签、分类、关于页面"><a href="#5-添加标签、分类、关于页面" class="headerlink" title="5. 添加标签、分类、关于页面"></a>5. 添加标签、分类、关于页面</h3><p>这一步的教程找了好久呢，大概半个小时？没踩中关键词，一开始弹出来的都是GitHub仓库的页面装扮教程。所幸这一步的难度很低啦，创建加上写了一篇about也就用了40min。教程是这个：</p>
+<p><a href="https://blog.csdn.net/nineya_com/article/details/103322773">hexo博客添加标签、分类、归档、关于等页面</a></p>
 <hr>
 <h2 id="要注意两个小问题"><a href="#要注意两个小问题" class="headerlink" title="要注意两个小问题"></a>要注意两个小问题</h2><h3 id="1-git-和-hexo-命令的使用范围"><a href="#1-git-和-hexo-命令的使用范围" class="headerlink" title="1. git 和 hexo 命令的使用范围"></a>1. git 和 hexo 命令的使用范围</h3><p>git命令只能在有.git文件夹的目录里打开Git Bash here才可用。clone需要在本地仓库文件夹内打开才可以成功pull和push。</p>
 <p>hexo命令是只能在命令提示符进到本地仓库的目录下才可以使用。在我电脑要打开的路径是：D:\colorlife\diligencyj.github.io</p>
@@ -107,28 +133,12 @@
 <p>2022&#x2F;12&#x2F;19</p>
 <p>今天又上来看看，浅浅改了文章的一些格式和目录，以及给网站新增了搜索、点击礼花特效、字数和阅读时长统计、修改链接样式、显示摘要这六个功能！嘿嘿已经满熟练的啦，对于什么文件在哪个目录下，大致要修改什么地方，进行的很顺利捏！</p>
 ]]></content>
+      <categories>
+        <category>娱乐性学习</category>
+        <category>计算机</category>
+      </categories>
       <tags>
         <tag>搭建网站</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/12/15/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<p><strong>这篇官网文章写的很详细，忘记了命令可以回来看看</strong></p>
-<p><em><a href="https://hexo.io/zh-cn/docs/commands">Hexo指令</a></em></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
 </search>
