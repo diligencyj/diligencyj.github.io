@@ -63,80 +63,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/12/15/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<p><strong>这篇官网文章写的很详细，忘记了命令可以回来看看</strong></p>
-<p><em><a href="https://hexo.io/zh-cn/docs/commands">Hexo指令</a></em></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>尖烽时刻初赛总结</title>
-    <url>/2023/01/03/%E5%B0%96%E7%83%BD%E6%97%B6%E5%88%BB%E5%88%9D%E8%B5%9B%E6%80%BB%E7%BB%93/</url>
-    <content><![CDATA[<p>这是一篇迟到的总结……</p>
-<p>为了能在复赛有更高效率的决策和更清晰的思路——<br>Keep Fighting！</p>
-<span id="more"></span>
-
-<p>首先说说结果，我们开局定价太高，库存过多，排名7&#x2F;10，很劣势。第二回合追了一名变第六，第三到第四回合我们都是第五，第五回合变第四，最后一回合第三。（中间排名大概是这样）可以说是实现了一路追赶一路反超。前两名一直是我们学习的榜样，他们俩在我们剩余的人中间已经形成了断层，我们对他们是没有威胁的了。</p>
-<p>我们的决策方式是三人轮流共享屏幕，做最终决策者。这个方法目前我们仍打算沿用，虽然按照初赛的情形，一般两个人在发言，其中一个会是我。</p>
-<p>一般我们的决策从晚上八点开始，进行到十点多一点，持续两个小时。前面一个小时多一点多是表格上的操作，最后在系统的操作需要的时间不长。</p>
-<p>初赛的决策界面很简洁，只有 <strong>市场报告</strong> -— <strong>销售</strong> —— <strong>生产</strong> ——<strong>财务</strong>四部分。对于销售只有价格、广告和客户服务，对于产品销量的呢会有前三项加上<strong>质量管理</strong>产生影响。<br><img src="/%E5%B0%96%E7%83%BD%E5%88%9D%E8%B5%9B.jpg" alt="图片alt"></p>
-<p>下面写一写我们的决策步骤：</p>
-<ol>
-<li>看市场前景，了解本回合的主要走向</li>
-</ol>
-<p>里面内容大概是说因为什么什么原因，止痛片&#x2F;抗氧化剂的需求会增加&#x2F;减少，哪个国家的汇率会变化（可以说明在哪里发力比较有利）</p>
-<ol start="2">
-<li>看上一回合结果的Excel表，分析策略</li>
-</ol>
-<p>我们会将下面的各项费用，比如折旧费用，财务费用等，不要觉得很少，因为这里的机器折旧25%，厂5%，而且总销售额也不大，因此算上之后分摊到每一件的成本多了上百块。在这种算法下，打高价的利润肯定是最可观的，因为有可能高价的利润是地价的两倍，但是销售量不会是二分之一。</p>
-<p>然后我们选定我们每个市场每个产品要模仿的对象，结合我们自己的意愿，初定如：芬兰抗氧化剂高价格高广告，止痛片平均价格高广告等。</p>
-<ol start="3">
-<li>进行需求预测，在系统上操作</li>
-</ol>
-<p>首先是根据我们的市场策略，瞄定的对手上一回合的市场份额，来预估我们用这个策略的销量</p>
-<p>其次是根据市场前景给的大致增长&#x2F;减少量，乘以我们上一步预测的销量，来确定我们本回合的预计需求</p>
-<ol start="4">
-<li>销售部分，根据初定策略和对手上回合售价，来决定本回合售价。</li>
-</ol>
-<p>这一步首先要根据之前回合市场平均每回合下降价格的趋势，先算出平均价格，再在这基础上增加&#x2F;减少我们的售价。</p>
-<p><em>这一步我认为我们需要改进，因为我们会在这里怀疑、动摇我们开始的分析，觉得“哎呀他卖的也不多，利润好像也一般般”之类的，或者对于价格调整幅度把控不好，又要倒回表中进行价格反复比对，会耽误很多时间。<strong>可行的改进方案：在第2步分析Excel的时候就把价格写上，然后到时再根据我们的定价和销量调整广告。</strong></em></p>
-<ol start="5">
-<li>生产部分，在满足需求的基础上设置各有5-10的库存</li>
-</ol>
-<p>因为缺货成本会比库存成本高很多，因此略有库存是很有必要的。</p>
-<p>第一回合建厂力度太猛，导致产能空缺很多，我们又不愿意打倾销战。但是后来有一回合还是太保守，在我们还有很多产能的情况下出现了未满足需求。后面基本都会预多几件。</p>
-<p>一般都是芬兰产够芬兰和法国的，美国产够自己的就好。因为芬兰运到法国的运费永远会更便宜。</p>
-<ol start="6">
-<li>财务部分</li>
-</ol>
-<p>只能调整长期贷款和内部贷款，可操作的空间不大。后期基本是在借钱防止短贷，用内部贷款把各个市场的现金调平。</p>
-<hr>
-<p>以上基本就是我们的决策步骤。</p>
-<p>我认为我们只有两个人讨论问题也不是很大，就是如果我投屏没有人理我的时候会有点难受。</p>
-<p><strong>改进措施：（只能谈谈我做决策时的改进）</strong></p>
-<p>首先是做决策的时候自己能完成的表格部分就先完成，在讨论时间前完成，不要耽误大家一起决策的时间。</p>
-<p>其次是自己先有一个大致的分析，然后问她们，如果她们肯定的答案我就直接填数据，有问题再一起讨论，不要边征求意见边想，这样效率不高。</p>
-<p>最后是要有一个很完整的决策步骤，虽然以上写的步骤在脑子里会有一个大概的雏形，类似于出门前要干什么事一样，但是有一个明确的步骤就会有利于控制时间，每一步大概需要多长时间（自己在决策两次后估算出一个时间），后面还有什么内容，在这一步不要拖太久之类的。</p>
-<p>今天上午磨蹭了一小时+下午两小时决策了第一回合，属于是身心俱疲，真的好累，虽然不是我投屏，但做完是有长舒一口气的感觉。汽车案例是我们上学期的企业经营模拟那节课玩过的，是真的很多变量和要思考的地方，用时更长也正常。明天想想这一案例我们的决策步骤以及如何提高决策效率。</p>
-]]></content>
-      <categories>
-        <category>总结</category>
-      </categories>
-  </entry>
-  <entry>
     <title>搭建网站过程2（从零开始版）</title>
     <url>/2022/12/16/create-another-weside/</url>
     <content><![CDATA[<p>本文摘要：</p>
@@ -194,6 +120,70 @@
       <tags>
         <tag>搭建网站</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/12/15/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<p><strong>这篇官网文章写的很详细，忘记了命令可以回来看看</strong></p>
+<p><em><a href="https://hexo.io/zh-cn/docs/commands">Hexo指令</a></em></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>尖烽时刻初赛总结</title>
+    <url>/2023/01/03/%E5%B0%96%E7%83%BD%E6%97%B6%E5%88%BB%E5%88%9D%E8%B5%9B%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<p>这是一篇迟到的总结……</p>
+<p>为了能在复赛有更高效率的决策和更清晰的思路——</p>
+<p>Keep Fighting！</p>
+<span id="more"></span>
+
+<p>首先说说结果，我们开局定价太高，库存过多，排名7&#x2F;10，很劣势。第二回合追了一名变第六，第三到第四回合我们都是第五，第五回合变第四，最后一回合第三。（中间排名大概是这样）可以说是实现了一路追赶一路反超。前两名一直是我们学习的榜样，他们俩在我们剩余的人中间已经形成了断层，我们对他们是没有威胁的了。</p>
+<p>我们的决策方式是三人轮流共享屏幕，做最终决策者。这个方法目前我们仍打算沿用，虽然按照初赛的情形，一般两个人在发言，其中一个会是我。</p>
+<p>一般我们的决策从晚上八点开始，进行到十点多一点，持续两个小时。前面一个小时多一点多是表格上的操作，最后在系统的操作需要的时间不长。</p>
+<p>初赛的决策界面很简洁，只有 <strong>市场报告</strong> -— <strong>销售</strong> —— <strong>生产</strong> ——<strong>财务</strong>四部分。对于销售只有价格、广告和客户服务，对于产品销量的呢会有前三项加上<strong>质量管理</strong>产生影响。<br><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%B0%96%E7%83%BD%E5%88%9D%E8%B5%9B.jpg" alt="图片alt"></p>
+<hr>
+<p>下面写一写我们的决策步骤：</p>
+<p><strong>1. 看市场前景，了解本回合的主要走向</strong></p>
+<p>里面内容大概是说因为什么什么原因，止痛片&#x2F;抗氧化剂的需求会增加&#x2F;减少，哪个国家的汇率会变化（可以说明在哪里发力比较有利）</p>
+<p><strong>2. 看上一回合结果的Excel表，分析策略</strong></p>
+<p>我们会将下面的各项费用，比如折旧费用，财务费用等，不要觉得很少，因为这里的机器折旧25%，厂5%，而且总销售额也不大，因此算上之后分摊到每一件的成本多了上百块。在这种算法下，打高价的利润肯定是最可观的，因为有可能高价的利润是地价的两倍，但是销售量不会是二分之一。</p>
+<p>然后我们选定我们每个市场每个产品要模仿的对象，结合我们自己的意愿，初定如：芬兰抗氧化剂高价格高广告，止痛片平均价格高广告等。</p>
+<p><strong>3. 进行需求预测，在系统上操作</strong></p>
+<p>首先是根据我们的市场策略，瞄定的对手上一回合的市场份额，来预估我们用这个策略的销量</p>
+<p>其次是根据市场前景给的大致增长&#x2F;减少量，乘以我们上一步预测的销量，来确定我们本回合的预计需求</p>
+<p><strong>4. 销售部分，根据初定策略和对手上回合售价，来决定本回合售价</strong></p>
+<p>这一步首先要根据之前回合市场平均每回合下降价格的趋势，先算出平均价格，再在这基础上增加&#x2F;减少我们的售价。</p>
+<p><em>这一步我认为我们需要改进，因为我们会在这里怀疑、动摇我们开始的分析，觉得“哎呀他卖的也不多，利润好像也一般般”之类的，或者对于价格调整幅度把控不好，又要倒回表中进行价格反复比对，会耽误很多时间。<strong>可行的改进方案：在第2步分析Excel的时候就把价格写上，然后到时再根据我们的定价和销量调整广告。</strong></em></p>
+<p><strong>5. 生产部分，在满足需求的基础上设置各有5-10的库存</strong></p>
+<p>因为缺货成本会比库存成本高很多，因此略有库存是很有必要的。</p>
+<p>第一回合建厂力度太猛，导致产能空缺很多，我们又不愿意打倾销战。但是后来有一回合还是太保守，在我们还有很多产能的情况下出现了未满足需求。后面基本都会预多几件。</p>
+<p>一般都是芬兰产够芬兰和法国的，美国产够自己的就好。因为芬兰运到法国的运费永远会更便宜。</p>
+<p><strong>6. 财务部分</strong></p>
+<p>只能调整长期贷款和内部贷款，可操作的空间不大。后期基本是在借钱防止短贷，用内部贷款把各个市场的现金调平。</p>
+<hr>
+<p>以上基本就是我们的决策步骤。</p>
+<p>我认为我们只有两个人讨论问题也不是很大，就是如果我投屏没有人理我的时候会有点难受。</p>
+<p><strong>改进措施：（只能谈谈我做决策时的改进）</strong></p>
+<p>首先是做决策的时候自己能完成的表格部分就先完成，在讨论时间前完成，不要耽误大家一起决策的时间。</p>
+<p>其次是自己先有一个大致的分析，然后问她们，如果她们肯定的答案我就直接填数据，有问题再一起讨论，不要边征求意见边想，这样效率不高。</p>
+<p>最后是要有一个很完整的决策步骤，虽然以上写的步骤在脑子里会有一个大概的雏形，类似于出门前要干什么事一样，但是有一个明确的步骤就会有利于控制时间，每一步大概需要多长时间（自己在决策两次后估算出一个时间），后面还有什么内容，在这一步不要拖太久之类的。</p>
+<p>今天上午磨蹭了一小时+下午两小时决策了第一回合，属于是身心俱疲，真的好累，虽然不是我投屏，但做完是有长舒一口气的感觉。汽车案例是我们上学期的企业经营模拟那节课玩过的，是真的很多变量和要思考的地方，用时更长也正常。明天想想这一案例我们的决策步骤以及如何提高决策效率。</p>
+]]></content>
+      <categories>
+        <category>总结</category>
+      </categories>
   </entry>
   <entry>
     <title>浅谈我的消费观</title>
