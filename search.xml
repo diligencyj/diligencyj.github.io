@@ -1,65 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>搭建网站过程2（从零开始版）</title>
-    <url>/2022/12/16/create-another-weside/</url>
-    <content><![CDATA[<p>本文摘要：</p>
-<ol>
-<li>下载npm</li>
-<li>下载并配置hexo</li>
-<li>自定义next主题</li>
-<li>如何让图片在网页上显示</li>
-<li>添加标签、分类、关于页面</li>
-<li>要注意的两个点：git和hexo命令的使用范围、clone命令的先后顺序<span id="more"></span></li>
-</ol>
-<h2 id="搭建网站所需的完整步骤（除创建GitHub仓库）"><a href="#搭建网站所需的完整步骤（除创建GitHub仓库）" class="headerlink" title="搭建网站所需的完整步骤（除创建GitHub仓库）"></a>搭建网站所需的完整步骤（除创建GitHub仓库）</h2><h3 id="1-下载npm"><a href="#1-下载npm" class="headerlink" title="1. 下载npm"></a>1. 下载npm</h3><p> <em><a href="https://blog.csdn.net/hyh17808770899/article/details/112213437">npm安装并配置环境变量（安装node.js）</a></em><br> 前车之鉴，为了做到周全这一步我是结合着几篇文章来看的，说的大同小异大差不差。唯一遇到的一点问题是安装时有一个没有默认的选项是安装必要的工具，我勾选了，但后来实际上又没有下载（因为提示是说安装powershall迷惑了我），这会直接导致我能看到npm.exe却没有办法在命令行里找到npm。后来是change的时候不勾选就成功了。</p>
-<h3 id="2-下载并配置hexo"><a href="#2-下载并配置hexo" class="headerlink" title="2. 下载并配置hexo"></a>2. 下载并配置hexo</h3><p>   <em><a href="https://blog.csdn.net/Dabie_haze/article/details/117407833#:~:text=1,%E5%86%99%E5%AE%8C%E5%90%8E%E5%86%8D%E7%94%A8hexo%20publish%E5%91%BD%E4%BB%A4%E5%8F%91%E5%B8%83%EF%BC%8C%E5%85%B7%E4%BD%93%E7%9A%84%E5%8F%AF%E4%BB%A5%E7%9C%8B%E6%88%91%E7%9A%84github%E5%8D%9A%E5%AE%A2%E4%B8%AD%E7%9A%84%E8%BF%99%E7%AF%87%E6%96%87%E7%AB%A0%EF%BC%8C%E9%87%8C%E9%9D%A2%E6%9C%89%E4%B8%80%E4%BA%9B%E5%9F%BA%E6%9C%AC%E7%9A%84Markdown%E8%AF%AD%E6%B3%95%E5%92%8Chexo%E7%9A%84%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%EF%BC%9Ahttps%3A%2F%2Fyuzehuiic.github.io%2F2021%2F05%2F29%2FA-Quick-Start-for-Blog-Writing-Markdown%2F%E3%80%82">教程：纯小白如何搭建自己的Github博客并写第一篇博文</a></em></p>
-<p>   其实我是先看到这篇文章才知道要下载npm和hexo。里面说的很好，网上教人搭网站大多停留在能用那个URL打开网页就结束了，不会讲如何发博客，虽然这篇文章很短，但内容很实用。</p>
-<p>   我遇到的问题是，他说要我在我打算装blog的父文件夹下载hexo，但是这和我下载npm不是同一个文件夹，install hexo一直失败，说hexo不是内部也不是外部命令。我在npm所在的父文件夹下载也失败了，最后是在我本地仓库的父文件夹的目录下才下载成功，到现在也没搞懂为什么hh。结论就是多换地方试试。</p>
-<p>   <strong>最后是<code>hexo deploy</code>命令，哈哈直接导致了前仓库完全被覆盖。现在想想这样误打误撞是一件好事捏，之前那个模板又不好看，里面超多post，wiki和images我还没学会批量删除，一点点删很消磨我耐心的。</strong></p>
-<h3 id="3-自定义next主题"><a href="#3-自定义next主题" class="headerlink" title="3. 自定义next主题"></a>3. 自定义next主题</h3><p>既然从零开始搭建网站，当然是要好好的美观美观啦！支撑我做下去的动力还有一个是找到了很多很好的教程，指导我一点一点的完善，改进。以下是对我帮助很大的文章！致敬！</p>
-<ul>
-<li><em><a href="https://blog.csdn.net/nightmare_dimple/article/details/86661502">Hexo博客优化之Next主题美化</a></em></li>
-</ul>
-<p>这是我找到的第一篇文章，里面的版面和风格挺吸引我的，写得也很清晰明了。是跟着这篇完成了最基本的title等信息的更改。遇到的问题是里面提到的很多配置是要再_custom.stym和_style.stym等文件里进行的，我在自己的文件夹找不到这些文件，因此就有了第二篇——</p>
-<ul>
-<li><em><a href="https://tding.top/archives/2bd6d82.html">Hexo-NexT 版本更新记录</a></em></li>
-</ul>
-<p>这篇是今天早上完成的工作，基本是跟着他完成了目前网页的个性化制作，本身网页就好漂亮哈哈给人产生“跟着他也能做得这么好看”的想法，给人以信心，里面最重要的是解决了 <strong>新版hexo找不到文件夹如何实现个性化功能</strong>的问题，里面的粒子时钟和圆角设计好喜欢好喜欢！</p>
-<p>但是这篇文章也有需要更新的地方：</p>
-<p><strong>首先</strong>是我第一次hexo g 的时候就提示我next.yml已经被deperated弃用了，让我升级至hexo 5或以上（xs）并改名为config_next.yml.</p>
-<p><strong>其次</strong>是在hexo-theme-next文件夹下的_config.yml文件夹里已经没有了override这一配置（有一个override但那不是实现覆盖主题的功能），意味着不能在&#x2F;source&#x2F;_data&#x2F;下面新建next.yml来实现自定义主题的效果，所以我上一点所说的文件不知道还有什么用，只是改名后确实不会报错了。</p>
-<p>噢想起来昨晚上闹的一个乌龙，deploy上去之后主题完全丢了，后来看着_config.yml文件看了一会才发现是我的URL写错了，本该写我的网站网址，结果写成了我的仓库网址hh。</p>
-<p>乌龙2是在添加头像时把_config.yml里面的备用语句前面的#去掉了但是忘了把链接前的#去掉好笨好笨。</p>
-<h3 id="4-如何让图片在网页中显示"><a href="#4-如何让图片在网页中显示" class="headerlink" title="4. 如何让图片在网页中显示"></a>4. 如何让图片在网页中显示</h3><p>这个问题可谓是困扰了我一天啊，找了好多文章试了几种方法才成功！最后是看到这篇文章的最后一点让我幡然醒悟！原来人家是这样解决问题的，我可能要搜：GitHub图片链接不显示之类的才行。</p>
-<p><em><a href="https://www.cnblogs.com/ghm-777/p/11433425.html">Markdown使用Github图片地址</a></em></p>
-<p><strong>最终我的做法是：</strong></p>
-<p><strong>第一步</strong> 把图片放在本地仓库的文件夹里，hexo deploy过去，图片就生成了网址。</p>
-<p><strong>第二步</strong> 把本地文章的图片链接替换成GitHub上的链接。 </p>
-<p><strong>第三步</strong> 把链接中的blob改成raw，图片瞬间就出来了！太令人激动啦啦啦啦</p>
-<p>我找到的第一篇提出的两种方法，方法一是直接在库上面新建.md文件，按照Markdown格式把图片在GitHub的链接放进去，preview的时候就能显示。我试过可以，但是这发布不上网页啊！方法二是在把图片直接插入.md,写完后把整篇文章的文字加图片复制到另一个空的.md，再上传就会把本地图片也一起上传。这个想法看似可行实际有点荒谬，代码这里根本看不到图片，而能看到图片的预览这里根本复制不了……</p>
-<h3 id="5-添加标签、分类、关于页面"><a href="#5-添加标签、分类、关于页面" class="headerlink" title="5. 添加标签、分类、关于页面"></a>5. 添加标签、分类、关于页面</h3><p>这一步的教程找了好久呢，大概半个小时？没踩中关键词，一开始弹出来的都是GitHub仓库的页面装扮教程。所幸这一步的难度很低啦，创建加上写了一篇about也就用了40min。教程是这个：</p>
-<p><a href="https://blog.csdn.net/nineya_com/article/details/103322773">hexo博客添加标签、分类、归档、关于等页面</a></p>
-<hr>
-<h2 id="要注意两个小问题"><a href="#要注意两个小问题" class="headerlink" title="要注意两个小问题"></a>要注意两个小问题</h2><h3 id="1-git-和-hexo-命令的使用范围"><a href="#1-git-和-hexo-命令的使用范围" class="headerlink" title="1. git 和 hexo 命令的使用范围"></a>1. git 和 hexo 命令的使用范围</h3><p>git命令只能在有.git文件夹的目录里打开Git Bash here才可用。clone需要在本地仓库文件夹内打开才可以成功pull和push。</p>
-<p>hexo命令是只能在命令提示符进到本地仓库的目录下才可以使用。在我电脑要打开的路径是：D:\colorlife\diligencyj.github.io</p>
-<p>（当初第一次使用时教程是有强调这一步的，但是再次使用这两个命令时不约而同的忘记了……为了打开它们还研究了好一会……）</p>
-<h3 id="2-clone仓库时命令的先后顺序"><a href="#2-clone仓库时命令的先后顺序" class="headerlink" title="2. clone仓库时命令的先后顺序"></a>2. clone仓库时命令的先后顺序</h3><p>当想指定一个文件夹用来做clone的时候，<strong>首先是要<code>git init</code>初始化仓库</strong>，（虽说很多地方说不用，还说文章有.git文件会导致clone不成功，噢对了.git文件是隐藏文件，要“查看——隐藏的文件”才能看到）。**其次是<code>git clone 仓库SSL地址</code>**。</p>
-<hr>
-<h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>这次的搭建持续了可能也有十来个小时吧，从昨天早上十一点，到晚上睡觉，中午睡了两小时，晚上看了两小时音乐剧，真正用来做网页的时间也不多。但真的很顺利了可以说是呜呜，感谢我搜到的所有文章，你们告诉我的大多数解决方法都好棒！修缮过程到这里就先告一段落啦！</p>
-<p>今天总算是知道怎么把图弄上网页了，但大块的图实在是不太美观，上一篇用了的就算了，这一篇就尽量不放图了。（其实也没有记录了，因为我发现在我的电脑黑屏两小时不到就会自动关机，清空所有的网页……）</p>
-<p>2022&#x2F;12&#x2F;19</p>
-<p>今天又上来看看，浅浅改了文章的一些格式和目录，以及给网站新增了搜索、点击礼花特效、字数和阅读时长统计、修改链接样式、显示摘要这六个功能！嘿嘿已经满熟练的啦，对于什么文件在哪个目录下，大致要修改什么地方，进行的很顺利捏！</p>
-]]></content>
-      <categories>
-        <category>娱乐性学习</category>
-        <category>计算机</category>
-      </categories>
-      <tags>
-        <tag>搭建网站</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>搭建网站过程1（包含教程和debug过程）</title>
     <url>/2022/12/15/create-a-website/</url>
     <content><![CDATA[<p>本文摘要：</p>
@@ -122,6 +63,116 @@
       </tags>
   </entry>
   <entry>
+    <title>搭建网站过程2（从零开始版）</title>
+    <url>/2022/12/16/create-another-weside/</url>
+    <content><![CDATA[<p>本文摘要：</p>
+<ol>
+<li>下载npm</li>
+<li>下载并配置hexo</li>
+<li>自定义next主题</li>
+<li>如何让图片在网页上显示</li>
+<li>添加标签、分类、关于页面</li>
+<li>要注意的两个点：git和hexo命令的使用范围、clone命令的先后顺序<span id="more"></span></li>
+</ol>
+<h2 id="搭建网站所需的完整步骤（除创建GitHub仓库）"><a href="#搭建网站所需的完整步骤（除创建GitHub仓库）" class="headerlink" title="搭建网站所需的完整步骤（除创建GitHub仓库）"></a>搭建网站所需的完整步骤（除创建GitHub仓库）</h2><h3 id="1-下载npm"><a href="#1-下载npm" class="headerlink" title="1. 下载npm"></a>1. 下载npm</h3><p> <em><a href="https://blog.csdn.net/hyh17808770899/article/details/112213437">npm安装并配置环境变量（安装node.js）</a></em><br> 前车之鉴，为了做到周全这一步我是结合着几篇文章来看的，说的大同小异大差不差。唯一遇到的一点问题是安装时有一个没有默认的选项是安装必要的工具，我勾选了，但后来实际上又没有下载（因为提示是说安装powershall迷惑了我），这会直接导致我能看到npm.exe却没有办法在命令行里找到npm。后来是change的时候不勾选就成功了。</p>
+<h3 id="2-下载并配置hexo"><a href="#2-下载并配置hexo" class="headerlink" title="2. 下载并配置hexo"></a>2. 下载并配置hexo</h3><p>   <em><a href="https://blog.csdn.net/Dabie_haze/article/details/117407833#:~:text=1,%E5%86%99%E5%AE%8C%E5%90%8E%E5%86%8D%E7%94%A8hexo%20publish%E5%91%BD%E4%BB%A4%E5%8F%91%E5%B8%83%EF%BC%8C%E5%85%B7%E4%BD%93%E7%9A%84%E5%8F%AF%E4%BB%A5%E7%9C%8B%E6%88%91%E7%9A%84github%E5%8D%9A%E5%AE%A2%E4%B8%AD%E7%9A%84%E8%BF%99%E7%AF%87%E6%96%87%E7%AB%A0%EF%BC%8C%E9%87%8C%E9%9D%A2%E6%9C%89%E4%B8%80%E4%BA%9B%E5%9F%BA%E6%9C%AC%E7%9A%84Markdown%E8%AF%AD%E6%B3%95%E5%92%8Chexo%E7%9A%84%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%EF%BC%9Ahttps%3A%2F%2Fyuzehuiic.github.io%2F2021%2F05%2F29%2FA-Quick-Start-for-Blog-Writing-Markdown%2F%E3%80%82">教程：纯小白如何搭建自己的Github博客并写第一篇博文</a></em></p>
+<p>   其实我是先看到这篇文章才知道要下载npm和hexo。里面说的很好，网上教人搭网站大多停留在能用那个URL打开网页就结束了，不会讲如何发博客，虽然这篇文章很短，但内容很实用。</p>
+<p>   我遇到的问题是，他说要我在我打算装blog的父文件夹下载hexo，但是这和我下载npm不是同一个文件夹，install hexo一直失败，说hexo不是内部也不是外部命令。我在npm所在的父文件夹下载也失败了，最后是在我本地仓库的父文件夹的目录下才下载成功，到现在也没搞懂为什么hh。结论就是多换地方试试。</p>
+<p>   <strong>最后是<code>hexo deploy</code>命令，哈哈直接导致了前仓库完全被覆盖。现在想想这样误打误撞是一件好事捏，之前那个模板又不好看，里面超多post，wiki和images我还没学会批量删除，一点点删很消磨我耐心的。</strong></p>
+<h3 id="3-自定义next主题"><a href="#3-自定义next主题" class="headerlink" title="3. 自定义next主题"></a>3. 自定义next主题</h3><p>既然从零开始搭建网站，当然是要好好的美观美观啦！支撑我做下去的动力还有一个是找到了很多很好的教程，指导我一点一点的完善，改进。以下是对我帮助很大的文章！致敬！</p>
+<ul>
+<li><em><a href="https://blog.csdn.net/nightmare_dimple/article/details/86661502">Hexo博客优化之Next主题美化</a></em></li>
+</ul>
+<p>这是我找到的第一篇文章，里面的版面和风格挺吸引我的，写得也很清晰明了。是跟着这篇完成了最基本的title等信息的更改。遇到的问题是里面提到的很多配置是要再_custom.stym和_style.stym等文件里进行的，我在自己的文件夹找不到这些文件，因此就有了第二篇——</p>
+<ul>
+<li><em><a href="https://tding.top/archives/2bd6d82.html">Hexo-NexT 版本更新记录</a></em></li>
+</ul>
+<p>这篇是今天早上完成的工作，基本是跟着他完成了目前网页的个性化制作，本身网页就好漂亮哈哈给人产生“跟着他也能做得这么好看”的想法，给人以信心，里面最重要的是解决了 <strong>新版hexo找不到文件夹如何实现个性化功能</strong>的问题，里面的粒子时钟和圆角设计好喜欢好喜欢！</p>
+<p>但是这篇文章也有需要更新的地方：</p>
+<p><strong>首先</strong>是我第一次hexo g 的时候就提示我next.yml已经被deperated弃用了，让我升级至hexo 5或以上（xs）并改名为config_next.yml.</p>
+<p><strong>其次</strong>是在hexo-theme-next文件夹下的_config.yml文件夹里已经没有了override这一配置（有一个override但那不是实现覆盖主题的功能），意味着不能在&#x2F;source&#x2F;_data&#x2F;下面新建next.yml来实现自定义主题的效果，所以我上一点所说的文件不知道还有什么用，只是改名后确实不会报错了。</p>
+<p>噢想起来昨晚上闹的一个乌龙，deploy上去之后主题完全丢了，后来看着_config.yml文件看了一会才发现是我的URL写错了，本该写我的网站网址，结果写成了我的仓库网址hh。</p>
+<p>乌龙2是在添加头像时把_config.yml里面的备用语句前面的#去掉了但是忘了把链接前的#去掉好笨好笨。</p>
+<h3 id="4-如何让图片在网页中显示"><a href="#4-如何让图片在网页中显示" class="headerlink" title="4. 如何让图片在网页中显示"></a>4. 如何让图片在网页中显示</h3><p>这个问题可谓是困扰了我一天啊，找了好多文章试了几种方法才成功！最后是看到这篇文章的最后一点让我幡然醒悟！原来人家是这样解决问题的，我可能要搜：GitHub图片链接不显示之类的才行。</p>
+<p><em><a href="https://www.cnblogs.com/ghm-777/p/11433425.html">Markdown使用Github图片地址</a></em></p>
+<p><strong>最终我的做法是：</strong></p>
+<p><strong>第一步</strong> 把图片放在本地仓库的文件夹里，hexo deploy过去，图片就生成了网址。</p>
+<p><strong>第二步</strong> 把本地文章的图片链接替换成GitHub上的链接。 </p>
+<p><strong>第三步</strong> 把链接中的blob改成raw，图片瞬间就出来了！太令人激动啦啦啦啦</p>
+<p>我找到的第一篇提出的两种方法，方法一是直接在库上面新建.md文件，按照Markdown格式把图片在GitHub的链接放进去，preview的时候就能显示。我试过可以，但是这发布不上网页啊！方法二是在把图片直接插入.md,写完后把整篇文章的文字加图片复制到另一个空的.md，再上传就会把本地图片也一起上传。这个想法看似可行实际有点荒谬，代码这里根本看不到图片，而能看到图片的预览这里根本复制不了……</p>
+<h3 id="5-添加标签、分类、关于页面"><a href="#5-添加标签、分类、关于页面" class="headerlink" title="5. 添加标签、分类、关于页面"></a>5. 添加标签、分类、关于页面</h3><p>这一步的教程找了好久呢，大概半个小时？没踩中关键词，一开始弹出来的都是GitHub仓库的页面装扮教程。所幸这一步的难度很低啦，创建加上写了一篇about也就用了40min。教程是这个：</p>
+<p><a href="https://blog.csdn.net/nineya_com/article/details/103322773">hexo博客添加标签、分类、归档、关于等页面</a></p>
+<hr>
+<h2 id="要注意两个小问题"><a href="#要注意两个小问题" class="headerlink" title="要注意两个小问题"></a>要注意两个小问题</h2><h3 id="1-git-和-hexo-命令的使用范围"><a href="#1-git-和-hexo-命令的使用范围" class="headerlink" title="1. git 和 hexo 命令的使用范围"></a>1. git 和 hexo 命令的使用范围</h3><p>git命令只能在有.git文件夹的目录里打开Git Bash here才可用。clone需要在本地仓库文件夹内打开才可以成功pull和push。</p>
+<p>hexo命令是只能在命令提示符进到本地仓库的目录下才可以使用。在我电脑要打开的路径是：D:\colorlife\diligencyj.github.io</p>
+<p>（当初第一次使用时教程是有强调这一步的，但是再次使用这两个命令时不约而同的忘记了……为了打开它们还研究了好一会……）</p>
+<h3 id="2-clone仓库时命令的先后顺序"><a href="#2-clone仓库时命令的先后顺序" class="headerlink" title="2. clone仓库时命令的先后顺序"></a>2. clone仓库时命令的先后顺序</h3><p>当想指定一个文件夹用来做clone的时候，<strong>首先是要<code>git init</code>初始化仓库</strong>，（虽说很多地方说不用，还说文章有.git文件会导致clone不成功，噢对了.git文件是隐藏文件，要“查看——隐藏的文件”才能看到）。**其次是<code>git clone 仓库SSL地址</code>**。</p>
+<hr>
+<h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>这次的搭建持续了可能也有十来个小时吧，从昨天早上十一点，到晚上睡觉，中午睡了两小时，晚上看了两小时音乐剧，真正用来做网页的时间也不多。但真的很顺利了可以说是呜呜，感谢我搜到的所有文章，你们告诉我的大多数解决方法都好棒！修缮过程到这里就先告一段落啦！</p>
+<p>今天总算是知道怎么把图弄上网页了，但大块的图实在是不太美观，上一篇用了的就算了，这一篇就尽量不放图了。（其实也没有记录了，因为我发现在我的电脑黑屏两小时不到就会自动关机，清空所有的网页……）</p>
+<p>2022&#x2F;12&#x2F;19</p>
+<p>今天又上来看看，浅浅改了文章的一些格式和目录，以及给网站新增了搜索、点击礼花特效、字数和阅读时长统计、修改链接样式、显示摘要这六个功能！嘿嘿已经满熟练的啦，对于什么文件在哪个目录下，大致要修改什么地方，进行的很顺利捏！</p>
+]]></content>
+      <categories>
+        <category>娱乐性学习</category>
+        <category>计算机</category>
+      </categories>
+      <tags>
+        <tag>搭建网站</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>前几天想法的总结</title>
+    <url>/2023/01/08/%E5%89%8D%E5%87%A0%E5%A4%A9%E6%83%B3%E6%B3%95%E7%9A%84%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<hr>
+<p>写完第二篇论文后对于写论文有了一些自己的心得。</p>
+<p>首先是要先看很多相关主题的文章，尽量筛选精华的内容来读，对这方面内容有一个大致的了解（因为通常情况下写的主题和内容都是完全没有接触过的）</p>
+<p>其次是在这些主题中找到一个切入点，看看这个细分方向的资料多不多</p>
+<p>最后是写的时候把相关文献的观点总结融合后再输出，内容可以填上看的其他文章中相关的例子。</p>
+<hr>
+<p>写累了，过几天再写吧。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/12/15/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<p><strong>这篇官网文章写的很详细，忘记了命令可以回来看看</strong></p>
+<p><em><a href="https://hexo.io/zh-cn/docs/commands">Hexo指令</a></em></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>近期的一些事儿</title>
+    <url>/2023/01/04/%E6%9C%80%E8%BF%91%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/</url>
+    <content><![CDATA[<p>前段时间在写论文，近段时间在干一些想干的事，但是也不完全。</p>
+<span id="more"></span>
+
+<p>大概从12月20号左右吧，下决心要好好写论文，只有十来天要写两篇，任务不算重，但我知道我会拖，所以要尽早开始。但是呢，没有想到预留的时间还是过分充裕了，每每坐到书桌前看到论文和资料就头疼浑身难受，写不下去，最后反而是想着写论文不能学其他，大部分时间都在懊悔中刷着B站。。写保险学那篇的时候先好好复习了老师讲的内容，发现她只讲了最基本的保险原则，和最普遍的商业保险人身保险两种类型，对于写论文可谓是毫无帮助。我只能看知网的文章能给我什么启发，看了五六篇后发现“养老保险的保值增值”方面写的人不多，但是资料也有不少（事实证明挺多人分析的，但是最近养老保险新出台了很多文件，让以前文章的参考性下降）。具体心情有某天发的QQ空间为例：</p>
+<p>总之是院选课本身在意程度就不大，时隔半年再次写论文文笔很糟糕自己编不出多少字，缝缝补补左抄右鉴完成了论文。完整度还是挺高的我觉得，但是老师只给了72分，很不满，对于这个结果我并不接受哼哼。另外两门院选课我一门95一门92，就这个84……拉低我绩点好吧（虽然我也不出国但也不能这样！）</p>
+<p>写毛概论文的过程就更痛苦了，用了整整两天都没选定主题，再用一天选定主题写了800字发现偏题了，写不下去。在倒数第二天从0开始，真的是把自己逼上梁山了，在ddl前的3小时交上了论文。虽然我最后还是没能找到很好的切入角度，没能以小见大，但是我觉得我融合了很多文章很好的观点，逻辑性很强，而且大部分文字是我在理解了参考文献的观点之后写出了自己的想法。题目是“增强中华文明影响力的时代意义与实现路径”，或许我加一个“从二十大谈”会更好，因为我的实现路径完全是根据二十大的原文展开的，不过如果老师认真看应该也很容易看出来吧。</p>
+<p>写完论文准备了半天的寒招，晚上寒招我讲的大学生活部分自我感觉还不错，但是寒招和预想中相差特别大，并没有想象中有意思，甚至是没有意思，虽然听众有接近50人，但提问题的没几个，也没什么很高含金量的问题，主要是靠师姐freestyle创造话题，防止冷场。希望我有一天也能成为她一样的人，能在尴尬的时候讲很多有意思的事，引发大家思考。</p>
+<p>接着就是看跨年晚会，元旦看了一天的跨晚，很开心，但也有点空虚。都是这样的，这几天过的都是这样。一月二为了看一个视频手机下载了B站，一月四下午从起床看到五点多，一气之下又卸了……是这样的。</p>
+<hr>
+<p>以上是没有什么用的废话。</p>
+<p>只是对于过去的一段日子有点懊悔，认为过得很不充实，想通过这种记录方式让它们看上去更充实。</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
     <title>尖烽时刻初赛总结</title>
     <url>/2023/01/03/%E5%B0%96%E7%83%BD%E6%97%B6%E5%88%BB%E5%88%9D%E8%B5%9B%E6%80%BB%E7%BB%93/</url>
     <content><![CDATA[<p>这是一篇迟到的总结……</p>
@@ -163,41 +214,6 @@
 ]]></content>
       <categories>
         <category>总结</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/12/15/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<p><strong>这篇官网文章写的很详细，忘记了命令可以回来看看</strong></p>
-<p><em><a href="https://hexo.io/zh-cn/docs/commands">Hexo指令</a></em></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>近期的一些想法</title>
-    <url>/2023/01/04/%E6%9C%80%E8%BF%91%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/</url>
-    <content><![CDATA[<p>前段时间在写论文，近段时间在干一些想干的事，但是也不完全。</p>
-<span id="more"></span>
-
-<p>大概从12月20号左右吧，下决心要好好写论文，只有十来天要写两篇，任务不算重，但我知道我会拖，所以要尽早开始。但是呢，没有想到预留的时间还是过分充裕了，每每坐到书桌前看到论文和资料就头疼浑身难受，写不下去，最后反而是想着写论文不能学其他，大部分时间都在懊悔中刷着B站。。写保险学那篇的时候先好好复习了老师讲的内容，发现她只讲了最基本的保险原则，和最普遍的商业保险人身保险两种类型，对于写论文可谓是毫无帮助。我只能看知网的文章能给我什么启发，看了五六篇后发现“养老保险的保值增值”方面写的人不多，但是资料也有不少（事实证明挺多人分析的，但是最近养老保险新出台了很多文件，让以前文章的参考性下降）。具体心情有某天发的QQ空间为例：</p>
-<p>总之是院选课本身在意程度就不大，时隔半年再次写论文文笔很糟糕自己编不出多少字，缝缝补补左抄右鉴完成了论文。完整度还是挺高的我觉得，但是老师只给了72分，很不满，对于这个结果我并不接受哼哼。另外两门院选课我一门95一门92，就这个84……拉低我绩点好吧（虽然我也不出国但也不能这样！）</p>
-<p>写毛概论文的过程就更痛苦了，用了整整两天都没选定主题，再用一天选定主题写了800字发现偏题了，写不下去。在倒数第二天从0开始，真的是把自己逼上梁山了，在ddl前的3小时交上了论文。虽然我最后还是没能找到很好的切入角度，没能以小见大，但是我觉得我融合了很多文章很好的观点，逻辑性很强，而且大部分文字是我在理解了参考文献的观点之后写出了自己的想法。题目是“增强中华文明影响力的时代意义与实现路径”，或许我加一个“从二十大谈”会更好，因为我的实现路径完全是根据二十大的原文展开的，不过如果老师认真看应该也很容易看出来吧。</p>
-<p>写完论文准备了半天的寒招，晚上寒招我讲的大学生活部分自我感觉还不错，但是寒招和预想中相差特别大，并没有想象中有意思，甚至是没有意思，虽然听众有接近50人，但提问题的没几个，也没什么很高含金量的问题，主要是靠师姐freestyle创造话题，防止冷场。希望我有一天也能成为她一样的人，能在尴尬的时候讲很多有意思的事，引发大家思考。</p>
-]]></content>
-      <categories>
-        <category>个性化想法</category>
       </categories>
   </entry>
   <entry>
