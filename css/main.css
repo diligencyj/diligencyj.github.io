@@ -199,7 +199,7 @@ body {
   color: var(--text-color);
   font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 1em;
-  line-height: 2;
+  line-height: 1.9;
   min-height: 100%;
   position: relative;
   transition: padding 0.2s ease-in-out;
@@ -1005,7 +1005,7 @@ pre code {
 }
 .site-subtitle {
   color: #ddd;
-  font-size: 0.8125em;
+  font-size: 0.8em;
   margin: 10px 10px 0;
 }
 .use-motion .site-title,
@@ -1074,7 +1074,7 @@ pre code {
 .menu-item a {
   border-bottom: 0;
   display: block;
-  font-size: 0.8125em;
+  font-size: 0.8em;
   transition: border-color 0.2s ease-in-out;
 }
 .menu-item a:hover,
@@ -1140,11 +1140,11 @@ pre code {
 }
 .site-description {
   color: #999;
-  font-size: 0.8125em;
+  font-size: 0.8em;
   margin-top: 0;
 }
 .links-of-author a {
-  font-size: 0.8125em;
+  font-size: 0.8em;
 }
 .links-of-author .fa,
 .links-of-author .fab,
@@ -1175,7 +1175,7 @@ pre code {
   margin-right: 5px;
 }
 .links-of-blogroll {
-  font-size: 0.8125em;
+  font-size: 0.8em;
 }
 .links-of-blogroll-title {
   font-size: 0.875em;
@@ -1350,7 +1350,7 @@ pre code {
 }
 .site-state-item-name {
   color: #999;
-  font-size: 0.8125em;
+  font-size: 0.8em;
 }
 .footer {
   color: #999;
@@ -1392,7 +1392,7 @@ pre code {
 }
 .languages {
   display: inline-block;
-  font-size: 1.125em;
+  font-size: 1em;
   position: relative;
 }
 .languages .lang-select-label span {
@@ -1514,7 +1514,7 @@ pre code {
   }
 }
 .posts-collapse .post-content .collection-title {
-  font-size: 1.125em;
+  font-size: 1em;
   position: relative;
 }
 .posts-collapse .post-content .collection-title::before {
@@ -1610,7 +1610,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .post-body {
-    font-size: 1.125em;
+    font-size: 1em;
   }
 }
 @media (min-width: 992px) {
@@ -1761,7 +1761,7 @@ pre code {
   margin: 15px 0;
 }
 .posts-expand .post-header {
-  font-size: 1.125em;
+  font-size: 1em;
   margin-bottom: 60px;
   text-align: center;
 }
@@ -1886,7 +1886,7 @@ pre code {
 }
 .post-tags a {
   display: inline-block;
-  font-size: 0.8125em;
+  font-size: 0.8em;
 }
 .post-tags a:not(:last-child) {
   margin-right: 10px;
