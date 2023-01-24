@@ -71,6 +71,68 @@
       </categories>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2022/12/15/2022-12-19-hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<p><strong>这篇官网文章写的很详细，忘记了命令可以回来看看</strong></p>
+<p><em><a href="https://hexo.io/zh-cn/docs/commands">Hexo指令</a></em></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>思想好像有了明显变化</title>
+    <url>/2023/01/23/2023-01-23-%E6%80%9D%E6%83%B3%E5%A5%BD%E5%83%8F%E6%9C%89%E4%BA%86%E6%98%8E%E6%98%BE%E5%8F%98%E5%8C%96/</url>
+    <content><![CDATA[<p>过年这段时间没有学习了，也没有很多时间玩手机，心沉下来便能感受到自己真的有很大变化。</p>
+<span id="more"></span>
+
+<hr>
+<p>最初是我妈说我很喜欢说“无所谓”，什么都“无所谓”，“都可以”。睡觉前仔细想了想，我说这话其实并不是敷衍也不是不关心。这段时间的心境是我从来没有过的，我更倾向于认为我说“无所谓”是我不执着于这件事或这个东西，不是不喜欢，不是不想要，而是觉得，我喜欢我拿了又有什么意义呢，它有和没有对我有什么实质影响呢，“一切皆空”，它并不会永远属于我的，有了它并不会让我实现什么重大目的……以上想法只是我分析我的心境的解释，现实中当事情发生时脑子已经完全是“无所谓”了。</p>
+<p>究其原因，其实从上高三开始我独处时光变多之后性格开始慢慢发生变化，大一上学期开始定型，变得更沉稳更喜欢和自己对话，对待朋友开始觉得：人总是要分别的，不用太执着于朋友的离去，身边有一二可以说话的人就可以，除了最亲近的朋友，其他人可以不刻意维持关系。从这时起我对大部分人都已经是一个偏冷淡的态度了。</p>
+]]></content>
+      <categories>
+        <category>个性化想法</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>解决Easyconnect开机自启动问题</title>
+    <url>/2023/01/24/2023-01-24-%E8%A7%A3%E5%86%B3Easyconnect%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>Easyconnect的执行程序SangforPWEs甚至是在任务管理器里也kill不掉呢，因为用户是system…</p>
+<span id="more"></span>
+
+<hr>
+<p>不知道从什么时候开始（大概是一两个月前？），我的电脑在关机的时候偶尔会显示“阻止关机的任务”——Easyconnect，但我其实在整个电脑使用过程中没有打开过这个软件。我没有在意，给自己的理由是：电脑有点问题吧（现在想想是我有点问题吧……电脑检测错误在后台运行的进程的概率按道理是很低的）</p>
+<p>直到前几天我妈说她的电脑的硬盘弹不出来，一直有任务占用，硬拔又觉得很伤硬盘。我上网搜到了如何查看占用的进程，<code>我的计算机-&gt;管理-&gt;系统工具-&gt;事件查看器-&gt;Windows 日志-&gt;系统</code>，然后就能看到警告的记录，第一个Kernel-PnP的进程就是阻止的进程。如果是用户级的就可以在任务管理器直接结束掉，系统级的任务管理器就行不通了。给我妈电脑的解决方法是把那个进程停止后，硬盘就可以正常弹出了。</p>
+<p>在搜解决方法的过程中看到一篇<a href="https://www.jianshu.com/p/3e81fa164fb1">文章</a>说：“最近在使用Activity Monitor查看网络情况的时候，无意中却发现了这么一个进程：EasyMonitor，一直源源不断的上传下载数据包。不能强制退出，即使我在终端使用kill命令结束了，也会立刻重启，继续上传下载数据包！”，有一点害怕。</p>
+<p>直到昨天晚上我用完我的电脑关机时再次发现Easyconnet在阻止我关机，我才想起这件事，觉得我应该采取措施解决一下，今天一大早就起来搜处理办法了，我试到可行的一个方法是在上面那篇文章的评论区：“在Windows下，停止相关服务 songfor easy connect… 解决”。</p>
+<p>具体方法是</p>
+<ol>
+<li><p>从开始菜单里打开控制面板，双击“管理工具”，双击“服务”</p>
+</li>
+<li><p>从右侧列表中找到Sangfor VPN Security和Sangfor SP，双击进入页面</p>
+</li>
+<li><p>然后点击“停止”（我还把启动类型从自动改成了手动）</p>
+</li>
+</ol>
+<p>设完之后我再在任务管理器上看，那两个系统级进程确实已经不见掉了，说明是成功了。</p>
+<p>我再登录Easyconnet运行正常，这时候在任务管理器-&gt;详细信息里看到的是<code>SangforCSClient</code>，也并不是之前自启动的<code>Sangfor PWEs</code>。</p>
+<p>这个解决方法目前来看是很成功的，并没有对正常使用造成影响，也有效防止了程序自启动。</p>
+]]></content>
+      <categories>
+        <category>计算机</category>
+      </categories>
+  </entry>
+  <entry>
     <title>搭建网站过程1（包含教程和debug过程）</title>
     <url>/2022/12/15/create-a-website/</url>
     <content><![CDATA[<p>本文摘要：</p>
@@ -125,8 +187,8 @@
 <p>PS：本篇文章初稿写于12&#x2F;14，完善于12&#x2F;16。</p>
 ]]></content>
       <categories>
-        <category>娱乐性学习</category>
         <category>计算机</category>
+        <category>娱乐性学习</category>
       </categories>
       <tags>
         <tag>搭建网站</tag>
@@ -195,8 +257,8 @@
 <p>今天又上来看看，浅浅改了文章的一些格式和目录，以及给网站新增了搜索、点击礼花特效、字数和阅读时长统计、修改链接样式、显示摘要这六个功能！嘿嘿已经满熟练的啦，对于什么文件在哪个目录下，大致要修改什么地方，进行的很顺利捏！</p>
 ]]></content>
       <categories>
-        <category>娱乐性学习</category>
         <category>计算机</category>
+        <category>娱乐性学习</category>
       </categories>
       <tags>
         <tag>搭建网站</tag>
@@ -212,26 +274,6 @@
 <p>最后是写的时候把相关文献的观点总结融合后再输出，内容可以填上看的其他文章中相关的例子。</p>
 <hr>
 <p>写累了，过几天再写吧。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/12/15/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<p><strong>这篇官网文章写的很详细，忘记了命令可以回来看看</strong></p>
-<p><em><a href="https://hexo.io/zh-cn/docs/commands">Hexo指令</a></em></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
   <entry>
@@ -276,6 +318,23 @@
 ]]></content>
       <categories>
         <category>总结</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>有点难过</title>
+    <url>/2023/01/08/%E6%9C%89%E7%82%B9%E4%BC%A4%E6%84%9F/</url>
+    <content><![CDATA[<p>由昨晚的梦引起的……</p>
+<span id="more"></span>
+
+<p>昨晚梦见了高三时班上的两个男生朋友ywq和lsc，好像也没有讲什么话，也不知道在什么地方，但感觉上大家还是像以前一样要好。我们随便聊着点什么，互相帮帮忙啥的。突然就有点想念ywq，他外表看上去特别像刻板印象中程序员大佬的样子，瘦弱文静不爱说话，但实际上他的体育还是不错的，熟起来也是特别多讲，有点外冷内热。高三时时常和他聊天，lzq在我们附近的时候我们三个一起聊，lzq走后我俩也经常聊。聊什么呢，可能是我问他某道题，可能是他给我讲他以前的故事或者他最近听来的15班那边的事儿，可能……我也记不起来了。在很多地方都能感受到他的才气和我，包括我们班的大多数人都不是一个层次的。我想起他和我说他以前初中进信息学，比别人晚两周进去，但是几天就把大部分人赶超了；想起他说他为了奖金去参加了某一个省级计算机比赛，拿了省二十几名；想起物理考试有一道题要用相对的思想（我忘了我有没有理解），他说他一考完试就想到了怎么做，去问物理老师，老师惊讶地问他是不是物理竞赛的；他书上也是没有什么笔记，如果有也会写的很工整秀气，作业也是；他偶尔也会提起lhf（一个奥赛金牌的北大大佬）讲讲他的故事，言语中能感受到ywq对他还是挺佩服的，这也是我听他讲过的人里唯一一个。我也总是看见他俩一起吃饭，可能大佬都是相互吸引的吧。</p>
+<p>我遇到的很优秀的人也不止他，比如tlj应该也是这种类型的，不过和他的关系确实不如和ywq密切，也没有过很多交流。去到的大学层次比ywq更高的也有很多（我认为的），比如sxl，xyq，sp，lky等，但是他们的优秀和ywq的在我感觉上还是有区别的。我喜欢和比我优秀的人做朋友是肯定的，又优秀又有趣又有灵气的最是喜欢，现在能想起的可能只有sxl和ywq。</p>
+<p>越想越难过啦，和sxl虽然在pyq偶尔会相遇，但总归是好久好久没有私聊过啦，也没有什么共同话题了。ywq就更是了，高考毕业游之后就再也没有交流过了，他也从来没有发过pyq，就等于再也没有这个朋友一样啦。其实有时候很想问问他在南科大感觉怎么样，是不是过得很好？但感觉很怪啊没啥事去关心一个异性朋友的近况，也是没有过的事。南科大的环境应该特别适合他那样的人的成长吧，能让才能得到充分释放。</p>
+<p>在大学再没有遇见到令我惊艳敬佩的人了，想想这也是很合理的，真符合我标准的“优秀有趣有灵气”的人，怎么会来华工呢……唉好难过好难过，想到了选择好的学校就是选择好的平台好的同学，好同学虽然是果，但也是真的很重要……以前的朋友不知道该怎么重新联系啦，新的朋友也不知道该怎么找。或许只能等我读研和工作吧……前提是我能成为这么优秀的人，够得着他们在的地方……</p>
+<p>才气是很难赶上的，但或许可以更加努力啊，据我所知前面提到的人可能除了ywq和我差不多以外，都是非常非常努力的，而且……所有人效率都比我高……</p>
+<p>任重而道远。以每天按计划进行，少娱乐少社交，考好期末为第一步吧。</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
       </categories>
   </entry>
   <entry>
@@ -326,23 +385,6 @@
 ]]></content>
       <categories>
         <category>个性化想法</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>有点难过</title>
-    <url>/2023/01/08/%E6%9C%89%E7%82%B9%E4%BC%A4%E6%84%9F/</url>
-    <content><![CDATA[<p>由昨晚的梦引起的……</p>
-<span id="more"></span>
-
-<p>昨晚梦见了高三时班上的两个男生朋友ywq和lsc，好像也没有讲什么话，也不知道在什么地方，但感觉上大家还是像以前一样要好。我们随便聊着点什么，互相帮帮忙啥的。突然就有点想念ywq，他外表看上去特别像刻板印象中程序员大佬的样子，瘦弱文静不爱说话，但实际上他的体育还是不错的，熟起来也是特别多讲，有点外冷内热。高三时时常和他聊天，lzq在我们附近的时候我们三个一起聊，lzq走后我俩也经常聊。聊什么呢，可能是我问他某道题，可能是他给我讲他以前的故事或者他最近听来的15班那边的事儿，可能……我也记不起来了。在很多地方都能感受到他的才气和我，包括我们班的大多数人都不是一个层次的。我想起他和我说他以前初中进信息学，比别人晚两周进去，但是几天就把大部分人赶超了；想起他说他为了奖金去参加了某一个省级计算机比赛，拿了省二十几名；想起物理考试有一道题要用相对的思想（我忘了我有没有理解），他说他一考完试就想到了怎么做，去问物理老师，老师惊讶地问他是不是物理竞赛的；他书上也是没有什么笔记，如果有也会写的很工整秀气，作业也是；他偶尔也会提起lhf（一个奥赛金牌的北大大佬）讲讲他的故事，言语中能感受到ywq对他还是挺佩服的，这也是我听他讲过的人里唯一一个。我也总是看见他俩一起吃饭，可能大佬都是相互吸引的吧。</p>
-<p>我遇到的很优秀的人也不止他，比如tlj应该也是这种类型的，不过和他的关系确实不如和ywq密切，也没有过很多交流。去到的大学层次比ywq更高的也有很多（我认为的），比如sxl，xyq，sp，lky等，但是他们的优秀和ywq的在我感觉上还是有区别的。我喜欢和比我优秀的人做朋友是肯定的，又优秀又有趣又有灵气的最是喜欢，现在能想起的可能只有sxl和ywq。</p>
-<p>越想越难过啦，和sxl虽然在pyq偶尔会相遇，但总归是好久好久没有私聊过啦，也没有什么共同话题了。ywq就更是了，高考毕业游之后就再也没有交流过了，他也从来没有发过pyq，就等于再也没有这个朋友一样啦。其实有时候很想问问他在南科大感觉怎么样，是不是过得很好？但感觉很怪啊没啥事去关心一个异性朋友的近况，也是没有过的事。南科大的环境应该特别适合他那样的人的成长吧，能让才能得到充分释放。</p>
-<p>在大学再没有遇见到令我惊艳敬佩的人了，想想这也是很合理的，真符合我标准的“优秀有趣有灵气”的人，怎么会来华工呢……唉好难过好难过，想到了选择好的学校就是选择好的平台好的同学，好同学虽然是果，但也是真的很重要……以前的朋友不知道该怎么重新联系啦，新的朋友也不知道该怎么找。或许只能等我读研和工作吧……前提是我能成为这么优秀的人，够得着他们在的地方……</p>
-<p>才气是很难赶上的，但或许可以更加努力啊，据我所知前面提到的人可能除了ywq和我差不多以外，都是非常非常努力的，而且……所有人效率都比我高……</p>
-<p>任重而道远。以每天按计划进行，少娱乐少社交，考好期末为第一步吧。</p>
-]]></content>
-      <categories>
-        <category>杂记</category>
       </categories>
   </entry>
 </search>
