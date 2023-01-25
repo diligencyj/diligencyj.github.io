@@ -394,4 +394,26 @@
         <category>计算机</category>
       </categories>
   </entry>
+  <entry>
+    <title>hexo d的出错记录</title>
+    <url>/2023/01/25/2023-01-25-hexo-d%E7%9A%84%E5%87%BA%E9%94%99%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<p>好奇怪呢，一个多月以来第一次遇到一些问题……</p>
+<span id="more"></span>
+
+<hr>
+<h3 id="Fatal1"><a href="#Fatal1" class="headerlink" title="Fatal1"></a>Fatal1</h3><p><code>git fatal: detected dubious ownership in repository</code><br>直译过来是<code>仓库检测到可疑的所有者</code>。</p>
+<p>具体的下面的报错我忘记复制下来了，大意是以前仓库的所有者是’S-1-5-32-544’，现在是×××。下面还有提示是如果要给这个所有者权限，可以输入×××。（但是我一开始没有认真读这段话，直接搜了解决方法）</p>
+<p>找到普遍的解决方法都是这种类型的<a href="https://blog.csdn.net/tcjy1000/article/details/127129224">文章</a>，我试着改了一下，一点用也没有，因为我不知道’S-1-5-32-544’是什么所有者的名字，现在又是什么所有者……到最后是认真读了读提示，把那段命令复制下来运行，解决。</p>
+<h3 id="Fatal2"><a href="#Fatal2" class="headerlink" title="Fatal2"></a>Fatal2</h3><p>以下是报错全文：</p>
+<figure class="highlight vbnet"><table><tr><td class="code"><pre><span class="line"><span class="keyword">On</span> branch master</span><br><span class="line"><span class="literal">nothing</span> <span class="keyword">to</span> commit, working tree clean</span><br><span class="line"><span class="symbol">kex_exchange_identification:</span> Connection closed <span class="keyword">by</span> remote host</span><br><span class="line">Connection closed <span class="keyword">by</span> ::<span class="number">1</span> port <span class="number">22</span></span><br><span class="line"><span class="symbol">fatal:</span> Could <span class="built_in">not</span> read <span class="keyword">from</span> remote repository.</span><br><span class="line"></span><br><span class="line">Please make sure you have the correct access rights</span><br><span class="line"><span class="built_in">and</span> the repository exists.</span><br><span class="line">FATAL Something<span class="comment">&#x27;s wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html</span></span><br><span class="line"><span class="symbol">Error:</span> Spawn failed</span><br><span class="line">    at ChildProcess.&lt;anonymous&gt; (D:\colorlife\diligencyj.github.io\node_modules\hexo-util\<span class="keyword">lib</span>\spawn.js:<span class="number">51</span>:<span class="number">21</span>)</span><br><span class="line">    at ChildProcess.emit (node:events:<span class="number">513</span>:<span class="number">28</span>)</span><br><span class="line">    at cp.emit (D:\colorlife\diligencyj.github.io\node_modules\cross-spawn\<span class="keyword">lib</span>\enoent.js:<span class="number">34</span>:<span class="number">29</span>)</span><br><span class="line">    at ChildProcess._handle.onexit (node:internal/child_process:<span class="number">291</span>:<span class="number">12</span>)</span><br></pre></td></tr></table></figure>
+<p>说我Could not read from remote repository.奇怪极了。可能的原因和<a href="https://www.zhihu.com/question/20023544">解决方法</a>千奇百怪，最后看到一个很合我新意的回答：<strong>如果之前楼上的答案都不行 ，你可以试着换个IP，你会惊奇的发现，耶 ！特么的竟然好了！</strong> 哈哈有意思，还有一个回答说网络异常也会这样。</p>
+<p>没错，我重试了几次之后就又可以了（耶！）</p>
+]]></content>
+      <categories>
+        <category>计算机</category>
+      </categories>
+      <tags>
+        <tag>搭建网站</tag>
+      </tags>
+  </entry>
 </search>
