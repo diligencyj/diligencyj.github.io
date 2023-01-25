@@ -63,26 +63,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/12/15/2022-12-19-hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<p><strong>这篇官网文章写的很详细，忘记了命令可以回来看看</strong></p>
-<p><em><a href="https://hexo.io/zh-cn/docs/commands">Hexo指令</a></em></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>搭建网站过程2（从零开始版）</title>
     <url>/2022/12/16/2022-12-16-%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E8%BF%87%E7%A8%8B2/</url>
     <content><![CDATA[<p>本文摘要：</p>
@@ -153,6 +133,26 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2022/12/15/2022-12-19-hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<p><strong>这篇官网文章写的很详细，忘记了命令可以回来看看</strong></p>
+<p><em><a href="https://hexo.io/zh-cn/docs/commands">Hexo指令</a></em></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>浅谈我的消费观</title>
     <url>/2022/12/20/2022-12-20%E6%B5%85%E8%B0%88%E6%88%91%E7%9A%84%E6%B6%88%E8%B4%B9%E8%A7%82/</url>
     <content><![CDATA[<p>又名《今日下午刷tb有感》</p>
@@ -167,25 +167,6 @@
 ]]></content>
       <categories>
         <category>个性化想法</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>近期的一些事儿</title>
-    <url>/2023/01/04/2023-01-04-%E8%BF%91%E6%9C%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BA%8B%E5%84%BF/</url>
-    <content><![CDATA[<p>前段时间在写论文，近段时间在干一些想干的事，但是也不完全。</p>
-<span id="more"></span>
-
-<p>大概从12月20号左右吧，下决心要好好写论文，只有十来天要写两篇，任务不算重，但我知道我会拖，所以要尽早开始。但是呢，没有想到预留的时间还是过分充裕了，每每坐到书桌前看到论文和资料就头疼浑身难受，写不下去，最后反而是想着写论文不能学其他，大部分时间都在懊悔中刷着B站。。写保险学那篇的时候先好好复习了老师讲的内容，发现她只讲了最基本的保险原则，和最普遍的商业保险人身保险两种类型，对于写论文可谓是毫无帮助。我只能看知网的文章能给我什么启发，看了五六篇后发现“养老保险的保值增值”方面写的人不多，但是资料也有不少（事实证明挺多人分析的，但是最近养老保险新出台了很多文件，让以前文章的参考性下降）。具体心情有某天发的QQ空间为例：</p>
-<p>总之是院选课本身在意程度就不大，时隔半年再次写论文文笔很糟糕自己编不出多少字，缝缝补补左抄右鉴完成了论文。完整度还是挺高的我觉得，但是老师只给了72分，很不满，对于这个结果我并不接受哼哼。另外两门院选课我一门95一门92，就这个84……拉低我绩点好吧（虽然我也不出国但也不能这样！）</p>
-<p>写毛概论文的过程就更痛苦了，用了整整两天都没选定主题，再用一天选定主题写了800字发现偏题了，写不下去。在倒数第二天从0开始，真的是把自己逼上梁山了，在ddl前的3小时交上了论文。虽然我最后还是没能找到很好的切入角度，没能以小见大，但是我觉得我融合了很多文章很好的观点，逻辑性很强，而且大部分文字是我在理解了参考文献的观点之后写出了自己的想法。题目是“增强中华文明影响力的时代意义与实现路径”，或许我加一个“从二十大谈”会更好，因为我的实现路径完全是根据二十大的原文展开的，不过如果老师认真看应该也很容易看出来吧。</p>
-<p>写完论文准备了半天的寒招，晚上寒招我讲的大学生活部分自我感觉还不错，但是寒招和预想中相差特别大，并没有想象中有意思，甚至是没有意思，虽然听众有接近50人，但提问题的没几个，也没什么很高含金量的问题，主要是靠师姐freestyle创造话题，防止冷场。希望我有一天也能成为她一样的人，能在尴尬的时候讲很多有意思的事，引发大家思考。</p>
-<p>接着就是看跨年晚会，元旦看了一天的跨晚，很开心，但也有点空虚。都是这样的，这几天过的都是这样。一月二为了看一个视频手机下载了B站，一月四下午从起床看到五点多，一气之下又卸了……是这样的。</p>
-<hr>
-<p>以上是没有什么用的废话。</p>
-<p>只是对于过去的一段日子有点懊悔，认为过得很不充实，想通过这种记录方式让它们看上去更充实。</p>
-]]></content>
-      <categories>
-        <category>杂记</category>
       </categories>
   </entry>
   <entry>
@@ -230,6 +211,25 @@
 ]]></content>
       <categories>
         <category>总结</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>近期的一些事儿</title>
+    <url>/2023/01/04/2023-01-04-%E8%BF%91%E6%9C%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BA%8B%E5%84%BF/</url>
+    <content><![CDATA[<p>前段时间在写论文，近段时间在干一些想干的事，但是也不完全。</p>
+<span id="more"></span>
+
+<p>大概从12月20号左右吧，下决心要好好写论文，只有十来天要写两篇，任务不算重，但我知道我会拖，所以要尽早开始。但是呢，没有想到预留的时间还是过分充裕了，每每坐到书桌前看到论文和资料就头疼浑身难受，写不下去，最后反而是想着写论文不能学其他，大部分时间都在懊悔中刷着B站。。写保险学那篇的时候先好好复习了老师讲的内容，发现她只讲了最基本的保险原则，和最普遍的商业保险人身保险两种类型，对于写论文可谓是毫无帮助。我只能看知网的文章能给我什么启发，看了五六篇后发现“养老保险的保值增值”方面写的人不多，但是资料也有不少（事实证明挺多人分析的，但是最近养老保险新出台了很多文件，让以前文章的参考性下降）。具体心情有某天发的QQ空间为例：</p>
+<p>总之是院选课本身在意程度就不大，时隔半年再次写论文文笔很糟糕自己编不出多少字，缝缝补补左抄右鉴完成了论文。完整度还是挺高的我觉得，但是老师只给了72分，很不满，对于这个结果我并不接受哼哼。另外两门院选课我一门95一门92，就这个84……拉低我绩点好吧（虽然我也不出国但也不能这样！）</p>
+<p>写毛概论文的过程就更痛苦了，用了整整两天都没选定主题，再用一天选定主题写了800字发现偏题了，写不下去。在倒数第二天从0开始，真的是把自己逼上梁山了，在ddl前的3小时交上了论文。虽然我最后还是没能找到很好的切入角度，没能以小见大，但是我觉得我融合了很多文章很好的观点，逻辑性很强，而且大部分文字是我在理解了参考文献的观点之后写出了自己的想法。题目是“增强中华文明影响力的时代意义与实现路径”，或许我加一个“从二十大谈”会更好，因为我的实现路径完全是根据二十大的原文展开的，不过如果老师认真看应该也很容易看出来吧。</p>
+<p>写完论文准备了半天的寒招，晚上寒招我讲的大学生活部分自我感觉还不错，但是寒招和预想中相差特别大，并没有想象中有意思，甚至是没有意思，虽然听众有接近50人，但提问题的没几个，也没什么很高含金量的问题，主要是靠师姐freestyle创造话题，防止冷场。希望我有一天也能成为她一样的人，能在尴尬的时候讲很多有意思的事，引发大家思考。</p>
+<p>接着就是看跨年晚会，元旦看了一天的跨晚，很开心，但也有点空虚。都是这样的，这几天过的都是这样。一月二为了看一个视频手机下载了B站，一月四下午从起床看到五点多，一气之下又卸了……是这样的。</p>
+<hr>
+<p>以上是没有什么用的废话。</p>
+<p>只是对于过去的一段日子有点懊悔，认为过得很不充实，想通过这种记录方式让它们看上去更充实。</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
       </categories>
   </entry>
   <entry>
