@@ -1,85 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>搭建网站过程1（包含教程和debug过程）</title>
-    <url>/2022/12/15/2022-12-15-%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E8%BF%87%E7%A8%8B1/</url>
-    <content><![CDATA[<p>本文摘要：</p>
-<ol>
-<li>创建GitHub仓库</li>
-<li>下载Git及简单操作</li>
-<li>Git设置用户名和密码</li>
-<li>远程库和本地库进行链接</li>
-<li>下载加速器FastGithub</li>
-<li>使用Markdown</li>
-</ol>
-<span id="more"></span>
-
-<p>hh以下过程搭的网站被我一个<code>git push XXXX --force</code>命令给全部覆盖掉了，算是引导我学习了很多搭网站必须步骤之外的东西吧，比如如何把代码文件等任何东西上传上库，而不仅仅是网页内容。（但好像用hexo也可以？）<br>看了这里理解了如果要fork别人的模板正确的方式应该怎么做 <em><a href="https://segmentfault.com/q/1010000008049369">hexo部署后把原来的仓库覆盖了</a></em><br>或许以后我可以试试</p>
-<hr>
-<h3 id="1-创建GitHub仓库"><a href="#1-创建GitHub仓库" class="headerlink" title="1. 创建GitHub仓库"></a>1. <strong>创建GitHub仓库</strong></h3><p> <em><a href="https://zhuanlan.zhihu.com/p/83834939#:~:text=%E6%8A%80%E6%9C%AF%E5%B0%8F%E7%99%BD%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%9F%201%20%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%89%8D%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%20%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%8C%E5%85%B6%E5%AE%9E%E5%B0%B1%E6%98%AF%E5%BB%BA%E7%AB%8B%E4%B8%80%E4%B8%AA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E3%80%82%20%E5%AF%B9%E4%BA%8E%E7%BD%91%E7%AB%99%E6%9D%A5%E8%AF%B4%EF%BC%8C%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E6%98%AF%E6%8B%A5%E6%9C%89%E4%B8%80%E4%B8%AA%E5%9F%9F%E5%90%8D%E3%80%82%20...%202%20%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%B5%81%E7%A8%8B,5%20%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E4%BB%96%E4%BA%BA%E7%9A%84%E6%A8%A1%E6%9D%BF%20%E7%82%B9%E5%87%BB%E4%B8%8A%E9%9D%A2%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%A8%A1%E6%9D%BF%E9%93%BE%E6%8E%A5%EF%BC%8C%E4%BC%9A%E8%B7%B3%E8%BD%AC%E5%88%B0%E5%8D%9A%E5%AE%A2%E6%A8%A1%E6%9D%BF%E6%89%80%E5%9C%A8%E7%9A%84Github%E4%BB%93%E5%BA%93%E3%80%82%20...%206%20%E5%8F%91%E5%B8%83%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E6%9D%A1%E5%8D%9A%E5%AE%A2%20%E5%A6%82%E6%9E%9C%E4%BD%A0%E5%AE%8C%E6%88%90%E4%BA%86%E4%B8%8A%E9%9D%A2%E7%9A%84%E6%89%80%E6%9C%89%E6%AD%A5%E9%AA%A4%EF%BC%8C%E9%82%A3%E4%B9%88%E6%81%AD%E5%96%9C%E4%BD%A0%EF%BC%8C%E6%8E%A5%E4%B8%8B%E6%9D%A5%E5%B0%B1%E5%8F%AF%E4%BB%A5%E5%8F%91%E5%B8%83%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E6%9D%A1%E5%8D%9A%E5%AE%A2%E4%BA%86%E3%80%82%20">技术小白如何搭建个人博客？</a></em></p>
-<p>（现在看来用这种方法搭网站很难受，板式也没有我现在的好看，当初不应该fork别人的模板，因此<em>强烈不建议</em>跟着这篇文章做<br>具体看哪篇文章好我还没有对比过，但一开始一定要自己新建仓库，不要fork模板仓库。）</p>
-<p>因为我当时是直接fork别人的模板，他有几十篇文章残留在post文件夹，要把它删掉。 <em><a href="https://blog.csdn.net/Panda325/article/details/108074536?spm=1001.2101.3001.6650.9&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-9-108074536-blog-106346561.pc_relevant_3mothn_strategy_recovery&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-9-108074536-blog-106346561.pc_relevant_3mothn_strategy_recovery&utm_relevant_index=10">删除github上仓库里的文件</a></em><br>这里告诉我们要用本地比较快（网页上要一个一个文件点进去delete——save是真的慢），所以要下载Git</p>
-<h3 id="2-下载Git及简单操作"><a href="#2-下载Git及简单操作" class="headerlink" title="2. 下载Git及简单操作"></a>2. <strong>下载Git及简单操作</strong></h3><p>  <em><a href="https://zhuanlan.zhihu.com/p/369486197">还不会使用 GitHub ？ GitHub 教程来了！</a></em> （这篇文章的后面讲到了Git的下载和基本使用）</p>
-<p>这篇文章超级详细，还有教clone、pull、push之类的,让我学会了很多必要的命令，也是除搭建那个废弃版面的一个重要收获。</p>
-<p>能记得的是进入要删除的文件夹，右键Git Bash here，然后在里面dir 查看文件， 再一个个git rm “filename” 过于折磨弄了一个多小时，后来想到可不可以直接在文件夹里删掉，在删wiki文件夹时试了一下，提示没有这个过程,好奇怪。然后我push之后</p>
-<p><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%871.jpg" alt="图片alt"></p>
-<p>这是我再次pull和push，也没有成功删掉wiki里的文件<br><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%872.jpg" alt="图片alt"></p>
-<h3 id="3-Git设置用户名和密码"><a href="#3-Git设置用户名和密码" class="headerlink" title="3. Git设置用户名和密码"></a>3. Git设置用户名和密码</h3><p><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%873.jpg" alt="图片alt"><br>在我要把文件放进库里的时候提示 Author identity unknown,是我刚下载时没有设置用户名和密码，幸好当时那个页面还没有关，在设置了下面两行之后再运行就成功了。（在:c&#x2F;Users&#x2F;14779下面的）<br><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%874.jpg" alt="图片alt"></p>
-<p>这样就可以成功了。</p>
-<h3 id="4-远程库和本地库进行链接"><a href="#4-远程库和本地库进行链接" class="headerlink" title="4. 远程库和本地库进行链接"></a>4. 远程库和本地库进行链接</h3><p>用ssh设置公钥私钥<br><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%875.jpg" alt="图片alt"></p>
-<p>第一个ssh是检查有没有下载ssh，默认Git是带了的</p>
-<p>第二步就是生成公钥私钥，然后可以看到有说储存在哪里。</p>
-<p>私钥可以直接强行用web打开，但是公钥不行，上网找到了可以用cmd打开的方法：用命令行（忘了要不要管理员权限）用cd命令进入ssh目录（cd .ssh),接着输入 more id_ras.pub,就可以得到公钥。最后进入GitHub里面配置。上面那篇文章有具体将在哪里配置。但有一个很致命的问题是他说到：<br><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%876.jpg" alt="图片alt"></p>
-<p><strong>很重要！链接的网址或者clone的网址一定要是SSL</strong><br>上面教我们复制的网址是HTTPS的（应该是要SSL那个），在此感谢一篇文章 <em><a href="https://blog.csdn.net/supermarian/article/details/124321031?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1-124321031-blog-119841089.pc_relevant_3mothn_strategy_and_data_recovery&spm=1001.2101.3001.4242.2&utm_relevant_index=4">用Git将本地文件push到远程github网站的过程中踩的坑</a></em>(谢谢你呜呜），这就直接导致了我push回去的时候出现问题，搞了好久……</p>
-<p>一开始的问题不是这个，而是链接不上网站<br><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%877.jpg" alt="图片alt"></p>
-<p>用了很多解决方法，比如这篇<a href="https://blog.csdn.net/good_good_xiu/article/details/118567249?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-3-118567249-blog-114586867.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-3-118567249-blog-114586867.pc_relevant_default&utm_relevant_index=4">git提交或克隆报错fatal: unable to access</a>里面也说了有可能是网速太慢。我试了无数次，甚至打开了端口看1080什么的想能不能挂VPN？还是失败了<br><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%878.jpg" alt="图片alt"></p>
-<h3 id="5-下载加速器FastGithub（帮助pull和push）"><a href="#5-下载加速器FastGithub（帮助pull和push）" class="headerlink" title="5. 下载加速器FastGithub（帮助pull和push）"></a>5. 下载加速器FastGithub（帮助pull和push）</h3><p>最后的解决方案是下载了一个加速器FastGithub,下载的过程也是有点曲折，本来一下子就找个GitHub里的代码源了，但是我找不到在哪里找exe文件下载，搜遍全网都没有，就在我要放弃的时候……我看到了那个repo的code的右边有一小栏relese，就是在里面……呜呜好笨我好笨为什么没有文章体谅一下小白第一次在这里找代码真的不一定找的到的。接下来就没有这个433的problem了真好。</p>
-<p>新的问题是：<br><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%879.jpg" alt="图片alt"></p>
-<p>网上教的解决方法也如上图所示，把ssl认证改为true。</p>
-<p>接着新问题2：<br><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%8710.jpg" alt="图片alt"><br>网上教的解决方法也如图：把ssl改为false……就是在这种重复折磨中我也不知道度过了多久，直到看到那篇令我无比感激的文章教把http地址改成SSL地址。</p>
-<p>到这里这个本地远程的问题就解决啦！但是好像其实对我网站搭建也没多大用处捏。</p>
-<hr>
-<p><strong>以下更改内容虽然花了不少时间，但已被完全覆盖掉了</strong></p>
-<p>接下来是改网页，那些超链接我点进去全是模板所有者的网站，令我甚是崩溃。找到一个文章让我改index那个文件夹，一点用没有。最后是重新看了一下最开始模板自带的指示：<br><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%8711.jpg" alt="图片alt"><br>对于自己没有认真看深感惭愧，这里耽误了好长时间。<br>一开始其实改过的，但是没弄懂部分代码什么含义就直接跳过了。其实看了好多次都忽略了很多东西，最关键的一步其实是改URL，但这是我琢磨试错了很久才得出的结论，没想到他其实一开始就告诉我了……</p>
-<p>到这里我的网站界面就告一段落啦，基本的“关于”里的文字都有稍微改改。</p>
-<hr>
-<h3 id="6-使用Markdown"><a href="#6-使用Markdown" class="headerlink" title="6. 使用Markdown"></a>6. 使用Markdown</h3><p>下一步就是学习如何发文章了。</p>
-<p>安装插件 一些动图的演示 <em><a href="https://zhuanlan.zhihu.com/p/56943330">使用vscode开始Markdown写作之旅</a></em></p>
-<p> <em><a href="https://markdown.com.cn/">Markdown语法</a></em></p>
-<p>也就有了我现在这篇—搭建网站过程全纪录的文章。</p>
-<p>以此为记。</p>
-<hr>
-<h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>从早上10点多做到晚上9点多，效率还是低了一点……</p>
-<p>写一些个人感受吧<br>真的很舒服不要太舒服了这个编辑器 爱惨了，比那个什么vim好用多了（对不起是我层次太低看不懂代码只喜欢这种简洁美观的东西，vim在复制粘贴和中文显示就卡了我很久（虽然现在都弄好了）给我留下了很大的阴影哼哼，OS实验结束了估计以后也不会用了（可惜捏））</p>
-<p>有点晚了，刚好十一点半了，该准备睡觉啦！</p>
-<p>PS：本篇文章初稿写于12&#x2F;14，完善于12&#x2F;16。</p>
-]]></content>
-      <categories>
-        <category>娱乐性学习</category>
-        <category>计算机</category>
-      </categories>
-      <tags>
-        <tag>搭建网站</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>浅谈我的消费观</title>
-    <url>/2022/12/20/2022-12-20%E6%B5%85%E8%B0%88%E6%88%91%E7%9A%84%E6%B6%88%E8%B4%B9%E8%A7%82/</url>
-    <content><![CDATA[<p>又名《今日下午刷tb有感》</p>
-<p>也是借写文章的机会总结一下我的消费观念</p>
-<span id="more"></span>
-
-<p>在家呆了三周了，没有日历时间过得很没有实感，又快到下一年了，正好可以买一个新日历。嘿嘿便开心的打开了淘宝，那种将花又未花钱的感觉是最好的，只有买新东西的期待而没有花钱的痛感。一开始淘宝给我推的是那种很务实很简约，大大的空格给我写字，看似还挺合我胃口，但价格才6块8，让我觉得我心爱的要用一整年的日历不应该只值这个价……呃呃可能也是我个人的问题吧，<strong>在一些将会用较长时间的东西上不喜欢买过于便宜的东西</strong>，即使我理智也告诉我几张纸本就不值什么钱。想起我买手机支架，4.9的我偏不买要，买了一个22.9的……即使我也知道22.9的性价比不高。<strong>可能是在这种小钱上奢侈我不太care，让周围的小东西都精致美观才能让自己有一个很好的心情和状态呢hhh</strong>就像是我高三用着全套斑马百乐国誉文具，会让做笔记都变得更有意思。归根结底或许是奇怪的虚荣心吧……</p>
-<p>后来看中一个正面也是简洁白净的，后面有横线写每月计划，有方格给每天实施情况打钩。很符合我对于自己的设想：自律、有恒心、用富兰克林方法养成了多种好习惯……于是这款日历被我全款拿下。再后来看到一个很漂亮的千里江山图的日历设计，木质底座＋硬纸卡，每月的纸卡组成了连绵的山峦，设计非常棒，短暂的心动了一小会，以不实用告终。在这方面我倒是挺理性的，<strong>只会买很符合我设想的东西，好看没大用的东西不会碰。</strong>想起了我的ycf台历，88rmb始终没下的了手，最重要的原因也是我买回来不会舍得用来写写画画，这就失去了日历的本来意义，而我也没那么想要几张厚实的照片。</p>
-<p>自己的事情搞定了就想起有一位朋友快生日了，要挑一挑礼物。我挑礼物的标准：一是自己喜欢的（因为只有这一点最有把握），二是朋友可能喜欢的，三是一定要精致漂亮，可以接受不实用。所以买礼物的时候是我偏离自己消费观最远的时候，往往会买一些只有摆设价值没有实用价值的物品。这并不是说那些东西我不喜欢，相反，我只有刷到某样令我心动的东西，才会考虑给朋友送，只是如果是买给自己，永远过不了心里实用性这一关。<strong>不过礼物的意义不就是这样的吗，给朋友一瞬的惊喜，能在桌面上或其他地方一直陪伴着ta就更好了。还有就是，达成像我一样实用导向性太强的人获得一些可爱摆件和小玩意儿的愿望。</strong> 真需要的东西自己已经买了，哪能这么巧等朋友来送呢？（嘿嘿其实也不是没试过，但那实在是太心有灵犀啦！） 给朋友买礼物避免不了会纠结，我本身挑选自用物品的样式就有够纠结了，现在还要加一层纠结：猜测琢磨朋友会喜欢哪一种，哪一款更适合ta……我个人认为纠结是一件很浪费时间的事情并有在极力避免纠结发生：比如少逛tb少买东西，真要买时我也会大致就好，毕竟我纠结的根本是因为我是一个包容性很高的人，都可以接受。但或许我的朋友不是……我买礼物总想精益求精……也不知道上一次买的礼物朋友喜不喜欢……</p>
-<p>挑完礼物纠结完款式之后美美睡了一觉，起来继续刷了0.5h的tb。这次就是漫无目的的刷，挑些令我印象深刻的说。首先点进了最近给我拼命推的卡西欧新款手表，7000+的price……怎么，是觉得我会是它的目标客户吗？这大数据判断的未免也太不精准了吧？呃怎么说，我个人感觉我的价格接受程度是有在提高，从几年前100+的鞋现在买到了400+，也是之前说过的那个原因，<strong>会陪伴我很久或者使用频率很高的东西我会倾向于花更大价钱打造更好的</strong>。从这个角度来说卡西欧的手表是符合我这个消费想法的，只是不是我这一消费层次的人考虑的。接着是看到有卖160r的弹弓的，点进评论清一色的好评，说弹弓手感如何好，准度如何高，人体美学设计如何科学。想起我曾经也有一个弹弓，三年级在深圳买的，当时我表哥买了一把小扇子，我坚持要那把弹弓，只有我妈支持我，现在想来我们家只有我妈不会在意世俗认为的女生应该玩什么喜欢什么，应该成长为什么样子，而我从小性格确实也不像普通小女孩一般。小时候买东西可不管有用没有，只要它酷我就想要。最后是想说说一个响指奶盖，799，还不少人购买，大致的样子就是两个磁铁一样的东西吸在一起（商家说是用磁悬浮？），扭动的时候会发出响指一样的喀喀声，手感也很好。呃如果是79我可能脑子亿热就会买了，但这是799……我无法想象会是什么消费水平、什么需求的人会买这个东西，<strong>大概是世界上有闲钱的人很多，便能买很多无用但能令心情好的小玩意儿吧，从这个角度来说也可以理解，但不会效仿</strong></p>
-<p>说到这里就不得不提进剧场看剧，票价基本是180&#x2F;280起步封顶880&#x2F;1080。但是今天没空剖析我对于这个特定爱好的消费想法了，因为今天的任务一项都没有完成……等有空再回来填坑。</p>
-]]></content>
-      <categories>
-        <category>个性化想法</category>
-      </categories>
-  </entry>
-  <entry>
     <title>搭建网站过程2（从零开始版）</title>
     <url>/2022/12/16/2022-12-16-%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E8%BF%87%E7%A8%8B2/</url>
     <content><![CDATA[<p>本文摘要：</p>
@@ -150,6 +71,105 @@
       </tags>
   </entry>
   <entry>
+    <title>搭建网站过程1（包含教程和debug过程）</title>
+    <url>/2022/12/15/2022-12-15-%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E8%BF%87%E7%A8%8B1/</url>
+    <content><![CDATA[<p>本文摘要：</p>
+<ol>
+<li>创建GitHub仓库</li>
+<li>下载Git及简单操作</li>
+<li>Git设置用户名和密码</li>
+<li>远程库和本地库进行链接</li>
+<li>下载加速器FastGithub</li>
+<li>使用Markdown</li>
+</ol>
+<span id="more"></span>
+
+<p>hh以下过程搭的网站被我一个<code>git push XXXX --force</code>命令给全部覆盖掉了，算是引导我学习了很多搭网站必须步骤之外的东西吧，比如如何把代码文件等任何东西上传上库，而不仅仅是网页内容。（但好像用hexo也可以？）<br>看了这里理解了如果要fork别人的模板正确的方式应该怎么做 <em><a href="https://segmentfault.com/q/1010000008049369">hexo部署后把原来的仓库覆盖了</a></em><br>或许以后我可以试试</p>
+<hr>
+<h3 id="1-创建GitHub仓库"><a href="#1-创建GitHub仓库" class="headerlink" title="1. 创建GitHub仓库"></a>1. <strong>创建GitHub仓库</strong></h3><p> <em><a href="https://zhuanlan.zhihu.com/p/83834939#:~:text=%E6%8A%80%E6%9C%AF%E5%B0%8F%E7%99%BD%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%9F%201%20%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%89%8D%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%20%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%8C%E5%85%B6%E5%AE%9E%E5%B0%B1%E6%98%AF%E5%BB%BA%E7%AB%8B%E4%B8%80%E4%B8%AA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E3%80%82%20%E5%AF%B9%E4%BA%8E%E7%BD%91%E7%AB%99%E6%9D%A5%E8%AF%B4%EF%BC%8C%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E6%98%AF%E6%8B%A5%E6%9C%89%E4%B8%80%E4%B8%AA%E5%9F%9F%E5%90%8D%E3%80%82%20...%202%20%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%B5%81%E7%A8%8B,5%20%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E4%BB%96%E4%BA%BA%E7%9A%84%E6%A8%A1%E6%9D%BF%20%E7%82%B9%E5%87%BB%E4%B8%8A%E9%9D%A2%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%A8%A1%E6%9D%BF%E9%93%BE%E6%8E%A5%EF%BC%8C%E4%BC%9A%E8%B7%B3%E8%BD%AC%E5%88%B0%E5%8D%9A%E5%AE%A2%E6%A8%A1%E6%9D%BF%E6%89%80%E5%9C%A8%E7%9A%84Github%E4%BB%93%E5%BA%93%E3%80%82%20...%206%20%E5%8F%91%E5%B8%83%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E6%9D%A1%E5%8D%9A%E5%AE%A2%20%E5%A6%82%E6%9E%9C%E4%BD%A0%E5%AE%8C%E6%88%90%E4%BA%86%E4%B8%8A%E9%9D%A2%E7%9A%84%E6%89%80%E6%9C%89%E6%AD%A5%E9%AA%A4%EF%BC%8C%E9%82%A3%E4%B9%88%E6%81%AD%E5%96%9C%E4%BD%A0%EF%BC%8C%E6%8E%A5%E4%B8%8B%E6%9D%A5%E5%B0%B1%E5%8F%AF%E4%BB%A5%E5%8F%91%E5%B8%83%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E6%9D%A1%E5%8D%9A%E5%AE%A2%E4%BA%86%E3%80%82%20">技术小白如何搭建个人博客？</a></em></p>
+<p>（现在看来用这种方法搭网站很难受，板式也没有我现在的好看，当初不应该fork别人的模板，因此<em>强烈不建议</em>跟着这篇文章做<br>具体看哪篇文章好我还没有对比过，但一开始一定要自己新建仓库，不要fork模板仓库。）</p>
+<p>因为我当时是直接fork别人的模板，他有几十篇文章残留在post文件夹，要把它删掉。 <em><a href="https://blog.csdn.net/Panda325/article/details/108074536?spm=1001.2101.3001.6650.9&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-9-108074536-blog-106346561.pc_relevant_3mothn_strategy_recovery&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-9-108074536-blog-106346561.pc_relevant_3mothn_strategy_recovery&utm_relevant_index=10">删除github上仓库里的文件</a></em><br>这里告诉我们要用本地比较快（网页上要一个一个文件点进去delete——save是真的慢），所以要下载Git</p>
+<h3 id="2-下载Git及简单操作"><a href="#2-下载Git及简单操作" class="headerlink" title="2. 下载Git及简单操作"></a>2. <strong>下载Git及简单操作</strong></h3><p>  <em><a href="https://zhuanlan.zhihu.com/p/369486197">还不会使用 GitHub ？ GitHub 教程来了！</a></em> （这篇文章的后面讲到了Git的下载和基本使用）</p>
+<p>这篇文章超级详细，还有教clone、pull、push之类的,让我学会了很多必要的命令，也是除搭建那个废弃版面的一个重要收获。</p>
+<p>能记得的是进入要删除的文件夹，右键Git Bash here，然后在里面dir 查看文件， 再一个个git rm “filename” 过于折磨弄了一个多小时，后来想到可不可以直接在文件夹里删掉，在删wiki文件夹时试了一下，提示没有这个过程,好奇怪。然后我push之后</p>
+<p><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%871.jpg" alt="图片alt"></p>
+<p>这是我再次pull和push，也没有成功删掉wiki里的文件<br><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%872.jpg" alt="图片alt"></p>
+<h3 id="3-Git设置用户名和密码"><a href="#3-Git设置用户名和密码" class="headerlink" title="3. Git设置用户名和密码"></a>3. Git设置用户名和密码</h3><p><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%873.jpg" alt="图片alt"><br>在我要把文件放进库里的时候提示 Author identity unknown,是我刚下载时没有设置用户名和密码，幸好当时那个页面还没有关，在设置了下面两行之后再运行就成功了。（在:c&#x2F;Users&#x2F;14779下面的）<br><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%874.jpg" alt="图片alt"></p>
+<p>这样就可以成功了。</p>
+<h3 id="4-远程库和本地库进行链接"><a href="#4-远程库和本地库进行链接" class="headerlink" title="4. 远程库和本地库进行链接"></a>4. 远程库和本地库进行链接</h3><p>用ssh设置公钥私钥<br><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%875.jpg" alt="图片alt"></p>
+<p>第一个ssh是检查有没有下载ssh，默认Git是带了的</p>
+<p>第二步就是生成公钥私钥，然后可以看到有说储存在哪里。</p>
+<p>私钥可以直接强行用web打开，但是公钥不行，上网找到了可以用cmd打开的方法：用命令行（忘了要不要管理员权限）用cd命令进入ssh目录（cd .ssh),接着输入 more id_ras.pub,就可以得到公钥。最后进入GitHub里面配置。上面那篇文章有具体将在哪里配置。但有一个很致命的问题是他说到：<br><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%876.jpg" alt="图片alt"></p>
+<p><strong>很重要！链接的网址或者clone的网址一定要是SSL</strong><br>上面教我们复制的网址是HTTPS的（应该是要SSL那个），在此感谢一篇文章 <em><a href="https://blog.csdn.net/supermarian/article/details/124321031?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1-124321031-blog-119841089.pc_relevant_3mothn_strategy_and_data_recovery&spm=1001.2101.3001.4242.2&utm_relevant_index=4">用Git将本地文件push到远程github网站的过程中踩的坑</a></em>(谢谢你呜呜），这就直接导致了我push回去的时候出现问题，搞了好久……</p>
+<p>一开始的问题不是这个，而是链接不上网站<br><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%877.jpg" alt="图片alt"></p>
+<p>用了很多解决方法，比如这篇<a href="https://blog.csdn.net/good_good_xiu/article/details/118567249?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-3-118567249-blog-114586867.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-3-118567249-blog-114586867.pc_relevant_default&utm_relevant_index=4">git提交或克隆报错fatal: unable to access</a>里面也说了有可能是网速太慢。我试了无数次，甚至打开了端口看1080什么的想能不能挂VPN？还是失败了<br><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%878.jpg" alt="图片alt"></p>
+<h3 id="5-下载加速器FastGithub（帮助pull和push）"><a href="#5-下载加速器FastGithub（帮助pull和push）" class="headerlink" title="5. 下载加速器FastGithub（帮助pull和push）"></a>5. 下载加速器FastGithub（帮助pull和push）</h3><p>最后的解决方案是下载了一个加速器FastGithub,下载的过程也是有点曲折，本来一下子就找个GitHub里的代码源了，但是我找不到在哪里找exe文件下载，搜遍全网都没有，就在我要放弃的时候……我看到了那个repo的code的右边有一小栏relese，就是在里面……呜呜好笨我好笨为什么没有文章体谅一下小白第一次在这里找代码真的不一定找的到的。接下来就没有这个433的problem了真好。</p>
+<p>新的问题是：<br><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%879.jpg" alt="图片alt"></p>
+<p>网上教的解决方法也如上图所示，把ssl认证改为true。</p>
+<p>接着新问题2：<br><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%8710.jpg" alt="图片alt"><br>网上教的解决方法也如图：把ssl改为false……就是在这种重复折磨中我也不知道度过了多久，直到看到那篇令我无比感激的文章教把http地址改成SSL地址。</p>
+<p>到这里这个本地远程的问题就解决啦！但是好像其实对我网站搭建也没多大用处捏。</p>
+<hr>
+<p><strong>以下更改内容虽然花了不少时间，但已被完全覆盖掉了</strong></p>
+<p>接下来是改网页，那些超链接我点进去全是模板所有者的网站，令我甚是崩溃。找到一个文章让我改index那个文件夹，一点用没有。最后是重新看了一下最开始模板自带的指示：<br><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%9B%BE%E7%89%8711.jpg" alt="图片alt"><br>对于自己没有认真看深感惭愧，这里耽误了好长时间。<br>一开始其实改过的，但是没弄懂部分代码什么含义就直接跳过了。其实看了好多次都忽略了很多东西，最关键的一步其实是改URL，但这是我琢磨试错了很久才得出的结论，没想到他其实一开始就告诉我了……</p>
+<p>到这里我的网站界面就告一段落啦，基本的“关于”里的文字都有稍微改改。</p>
+<hr>
+<h3 id="6-使用Markdown"><a href="#6-使用Markdown" class="headerlink" title="6. 使用Markdown"></a>6. 使用Markdown</h3><p>下一步就是学习如何发文章了。</p>
+<p>安装插件 一些动图的演示 <em><a href="https://zhuanlan.zhihu.com/p/56943330">使用vscode开始Markdown写作之旅</a></em></p>
+<p> <em><a href="https://markdown.com.cn/">Markdown语法</a></em></p>
+<p>也就有了我现在这篇—搭建网站过程全纪录的文章。</p>
+<p>以此为记。</p>
+<hr>
+<h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>从早上10点多做到晚上9点多，效率还是低了一点……</p>
+<p>写一些个人感受吧<br>真的很舒服不要太舒服了这个编辑器 爱惨了，比那个什么vim好用多了（对不起是我层次太低看不懂代码只喜欢这种简洁美观的东西，vim在复制粘贴和中文显示就卡了我很久（虽然现在都弄好了）给我留下了很大的阴影哼哼，OS实验结束了估计以后也不会用了（可惜捏））</p>
+<p>有点晚了，刚好十一点半了，该准备睡觉啦！</p>
+<p>PS：本篇文章初稿写于12&#x2F;14，完善于12&#x2F;16。</p>
+]]></content>
+      <categories>
+        <category>娱乐性学习</category>
+        <category>计算机</category>
+      </categories>
+      <tags>
+        <tag>搭建网站</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/12/15/2022-12-19-hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<p><strong>这篇官网文章写的很详细，忘记了命令可以回来看看</strong></p>
+<p><em><a href="https://hexo.io/zh-cn/docs/commands">Hexo指令</a></em></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>浅谈我的消费观</title>
+    <url>/2022/12/20/2022-12-20%E6%B5%85%E8%B0%88%E6%88%91%E7%9A%84%E6%B6%88%E8%B4%B9%E8%A7%82/</url>
+    <content><![CDATA[<p>又名《今日下午刷tb有感》</p>
+<p>也是借写文章的机会总结一下我的消费观念</p>
+<span id="more"></span>
+
+<p>在家呆了三周了，没有日历时间过得很没有实感，又快到下一年了，正好可以买一个新日历。嘿嘿便开心的打开了淘宝，那种将花又未花钱的感觉是最好的，只有买新东西的期待而没有花钱的痛感。一开始淘宝给我推的是那种很务实很简约，大大的空格给我写字，看似还挺合我胃口，但价格才6块8，让我觉得我心爱的要用一整年的日历不应该只值这个价……呃呃可能也是我个人的问题吧，<strong>在一些将会用较长时间的东西上不喜欢买过于便宜的东西</strong>，即使我理智也告诉我几张纸本就不值什么钱。想起我买手机支架，4.9的我偏不买要，买了一个22.9的……即使我也知道22.9的性价比不高。<strong>可能是在这种小钱上奢侈我不太care，让周围的小东西都精致美观才能让自己有一个很好的心情和状态呢hhh</strong>就像是我高三用着全套斑马百乐国誉文具，会让做笔记都变得更有意思。归根结底或许是奇怪的虚荣心吧……</p>
+<p>后来看中一个正面也是简洁白净的，后面有横线写每月计划，有方格给每天实施情况打钩。很符合我对于自己的设想：自律、有恒心、用富兰克林方法养成了多种好习惯……于是这款日历被我全款拿下。再后来看到一个很漂亮的千里江山图的日历设计，木质底座＋硬纸卡，每月的纸卡组成了连绵的山峦，设计非常棒，短暂的心动了一小会，以不实用告终。在这方面我倒是挺理性的，<strong>只会买很符合我设想的东西，好看没大用的东西不会碰。</strong>想起了我的ycf台历，88rmb始终没下的了手，最重要的原因也是我买回来不会舍得用来写写画画，这就失去了日历的本来意义，而我也没那么想要几张厚实的照片。</p>
+<p>自己的事情搞定了就想起有一位朋友快生日了，要挑一挑礼物。我挑礼物的标准：一是自己喜欢的（因为只有这一点最有把握），二是朋友可能喜欢的，三是一定要精致漂亮，可以接受不实用。所以买礼物的时候是我偏离自己消费观最远的时候，往往会买一些只有摆设价值没有实用价值的物品。这并不是说那些东西我不喜欢，相反，我只有刷到某样令我心动的东西，才会考虑给朋友送，只是如果是买给自己，永远过不了心里实用性这一关。<strong>不过礼物的意义不就是这样的吗，给朋友一瞬的惊喜，能在桌面上或其他地方一直陪伴着ta就更好了。还有就是，达成像我一样实用导向性太强的人获得一些可爱摆件和小玩意儿的愿望。</strong> 真需要的东西自己已经买了，哪能这么巧等朋友来送呢？（嘿嘿其实也不是没试过，但那实在是太心有灵犀啦！） 给朋友买礼物避免不了会纠结，我本身挑选自用物品的样式就有够纠结了，现在还要加一层纠结：猜测琢磨朋友会喜欢哪一种，哪一款更适合ta……我个人认为纠结是一件很浪费时间的事情并有在极力避免纠结发生：比如少逛tb少买东西，真要买时我也会大致就好，毕竟我纠结的根本是因为我是一个包容性很高的人，都可以接受。但或许我的朋友不是……我买礼物总想精益求精……也不知道上一次买的礼物朋友喜不喜欢……</p>
+<p>挑完礼物纠结完款式之后美美睡了一觉，起来继续刷了0.5h的tb。这次就是漫无目的的刷，挑些令我印象深刻的说。首先点进了最近给我拼命推的卡西欧新款手表，7000+的price……怎么，是觉得我会是它的目标客户吗？这大数据判断的未免也太不精准了吧？呃怎么说，我个人感觉我的价格接受程度是有在提高，从几年前100+的鞋现在买到了400+，也是之前说过的那个原因，<strong>会陪伴我很久或者使用频率很高的东西我会倾向于花更大价钱打造更好的</strong>。从这个角度来说卡西欧的手表是符合我这个消费想法的，只是不是我这一消费层次的人考虑的。接着是看到有卖160r的弹弓的，点进评论清一色的好评，说弹弓手感如何好，准度如何高，人体美学设计如何科学。想起我曾经也有一个弹弓，三年级在深圳买的，当时我表哥买了一把小扇子，我坚持要那把弹弓，只有我妈支持我，现在想来我们家只有我妈不会在意世俗认为的女生应该玩什么喜欢什么，应该成长为什么样子，而我从小性格确实也不像普通小女孩一般。小时候买东西可不管有用没有，只要它酷我就想要。最后是想说说一个响指奶盖，799，还不少人购买，大致的样子就是两个磁铁一样的东西吸在一起（商家说是用磁悬浮？），扭动的时候会发出响指一样的喀喀声，手感也很好。呃如果是79我可能脑子亿热就会买了，但这是799……我无法想象会是什么消费水平、什么需求的人会买这个东西，<strong>大概是世界上有闲钱的人很多，便能买很多无用但能令心情好的小玩意儿吧，从这个角度来说也可以理解，但不会效仿</strong></p>
+<p>说到这里就不得不提进剧场看剧，票价基本是180&#x2F;280起步封顶880&#x2F;1080。但是今天没空剖析我对于这个特定爱好的消费想法了，因为今天的任务一项都没有完成……等有空再回来填坑。</p>
+]]></content>
+      <categories>
+        <category>个性化想法</category>
+      </categories>
+  </entry>
+  <entry>
     <title>尖烽时刻初赛总结</title>
     <url>/2023/01/03/2023-01-03%E5%B0%96%E7%83%BD%E6%97%B6%E5%88%BB%E5%88%9D%E8%B5%9B%E6%80%BB%E7%BB%93/</url>
     <content><![CDATA[<p>这是一篇迟到的总结……</p>
@@ -194,23 +214,15 @@
       </categories>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/12/15/2022-12-19-hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<p><strong>这篇官网文章写的很详细，忘记了命令可以回来看看</strong></p>
-<p><em><a href="https://hexo.io/zh-cn/docs/commands">Hexo指令</a></em></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>前几天想法的总结</title>
+    <url>/2023/01/08/2023-01-08-%E5%89%8D%E5%87%A0%E5%A4%A9%E6%83%B3%E6%B3%95%E7%9A%84%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<hr>
+<p>写完第二篇论文后对于写论文有了一些自己的心得。</p>
+<p>首先是要先看很多相关主题的文章，尽量筛选精华的内容来读，对这方面内容有一个大致的了解（因为通常情况下写的主题和内容都是完全没有接触过的）</p>
+<p>其次是在这些主题中找到一个切入点，看看这个细分方向的资料多不多</p>
+<p>最后是写的时候把相关文献的观点总结融合后再输出，内容可以填上看的其他文章中相关的例子。</p>
+<hr>
+<p>写累了，过几天再写吧。</p>
 ]]></content>
   </entry>
   <entry>
@@ -227,36 +239,6 @@
 <hr>
 <p>以上是没有什么用的废话。</p>
 <p>只是对于过去的一段日子有点懊悔，认为过得很不充实，想通过这种记录方式让它们看上去更充实。</p>
-]]></content>
-      <categories>
-        <category>杂记</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>前几天想法的总结</title>
-    <url>/2023/01/08/2023-01-08-%E5%89%8D%E5%87%A0%E5%A4%A9%E6%83%B3%E6%B3%95%E7%9A%84%E6%80%BB%E7%BB%93/</url>
-    <content><![CDATA[<hr>
-<p>写完第二篇论文后对于写论文有了一些自己的心得。</p>
-<p>首先是要先看很多相关主题的文章，尽量筛选精华的内容来读，对这方面内容有一个大致的了解（因为通常情况下写的主题和内容都是完全没有接触过的）</p>
-<p>其次是在这些主题中找到一个切入点，看看这个细分方向的资料多不多</p>
-<p>最后是写的时候把相关文献的观点总结融合后再输出，内容可以填上看的其他文章中相关的例子。</p>
-<hr>
-<p>写累了，过几天再写吧。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>有点难过</title>
-    <url>/2023/01/08/2023-01-08-%E6%9C%89%E7%82%B9%E9%9A%BE%E8%BF%87/</url>
-    <content><![CDATA[<p>由昨晚的梦引起的……</p>
-<span id="more"></span>
-
-<p>昨晚梦见了高三时班上的两个男生朋友ywq和lsc，好像也没有讲什么话，也不知道在什么地方，但感觉上大家还是像以前一样要好。我们随便聊着点什么，互相帮帮忙啥的。突然就有点想念ywq，他外表看上去特别像刻板印象中程序员大佬的样子，瘦弱文静不爱说话，但实际上他的体育还是不错的，熟起来也是特别多讲，有点外冷内热。高三时时常和他聊天，lzq在我们附近的时候我们三个一起聊，lzq走后我俩也经常聊。聊什么呢，可能是我问他某道题，可能是他给我讲他以前的故事或者他最近听来的15班那边的事儿，可能……我也记不起来了。在很多地方都能感受到他的才气和我，包括我们班的大多数人都不是一个层次的。我想起他和我说他以前初中进信息学，比别人晚两周进去，但是几天就把大部分人赶超了；想起他说他为了奖金去参加了某一个省级计算机比赛，拿了省二十几名；想起物理考试有一道题要用相对的思想（我忘了我有没有理解），他说他一考完试就想到了怎么做，去问物理老师，老师惊讶地问他是不是物理竞赛的；他书上也是没有什么笔记，如果有也会写的很工整秀气，作业也是；他偶尔也会提起lhf（一个奥赛金牌的北大大佬）讲讲他的故事，言语中能感受到ywq对他还是挺佩服的，这也是我听他讲过的人里唯一一个。我也总是看见他俩一起吃饭，可能大佬都是相互吸引的吧。</p>
-<p>我遇到的很优秀的人也不止他，比如tlj应该也是这种类型的，不过和他的关系确实不如和ywq密切，也没有过很多交流。去到的大学层次比ywq更高的也有很多（我认为的），比如sxl，xyq，sp，lky等，但是他们的优秀和ywq的在我感觉上还是有区别的。我喜欢和比我优秀的人做朋友是肯定的，又优秀又有趣又有灵气的最是喜欢，现在能想起的可能只有sxl和ywq。</p>
-<p>越想越难过啦，和sxl虽然在pyq偶尔会相遇，但总归是好久好久没有私聊过啦，也没有什么共同话题了。ywq就更是了，高考毕业游之后就再也没有交流过了，他也从来没有发过pyq，就等于再也没有这个朋友一样啦。其实有时候很想问问他在南科大感觉怎么样，是不是过得很好？但感觉很怪啊没啥事去关心一个异性朋友的近况，也是没有过的事。南科大的环境应该特别适合他那样的人的成长吧，能让才能得到充分释放。</p>
-<p>在大学再没有遇见到令我惊艳敬佩的人了，想想这也是很合理的，真符合我标准的“优秀有趣有灵气”的人，都会去到更好的学校吧……唉好难过好难过，以前的朋友不知道该怎么重新联系啦，新的朋友也不知道该怎么找。或许只能等我读研和工作吧……前提是我能成为这么优秀的人，够得着他们在的地方……</p>
-<p>才气是很难赶上的，但或许可以更加努力啊，据我所知前面提到的人可能除了ywq和我差不多以外，都是非常非常努力的，而且……所有人效率都比我高……</p>
-<p>任重而道远。以每天按计划进行，少娱乐少社交，考好期末为第一步吧。</p>
-<p>编辑：还是怀着美好的期待能在学校遇到的……</p>
 ]]></content>
       <categories>
         <category>杂记</category>
@@ -330,6 +312,24 @@
 ]]></content>
       <categories>
         <category>总结</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>有点难过</title>
+    <url>/2023/01/08/2023-01-08-%E6%9C%89%E7%82%B9%E9%9A%BE%E8%BF%87/</url>
+    <content><![CDATA[<p>由昨晚的梦引起的……</p>
+<span id="more"></span>
+
+<p>昨晚梦见了高三时班上的两个男生朋友ywq和lsc，好像也没有讲什么话，也不知道在什么地方，但感觉上大家还是像以前一样要好。我们随便聊着点什么，互相帮帮忙啥的。突然就有点想念ywq，他外表看上去特别像刻板印象中程序员大佬的样子，瘦弱文静不爱说话，但实际上他的体育还是不错的，熟起来也是特别多讲，有点外冷内热。高三时时常和他聊天，lzq在我们附近的时候我们三个一起聊，lzq走后我俩也经常聊。聊什么呢，可能是我问他某道题，可能是他给我讲他以前的故事或者他最近听来的15班那边的事儿，可能……我也记不起来了。在很多地方都能感受到他的才气和我，包括我们班的大多数人都不是一个层次的。我想起他和我说他以前初中进信息学，比别人晚两周进去，但是几天就把大部分人赶超了；想起他说他为了奖金去参加了某一个省级计算机比赛，拿了省二十几名；想起物理考试有一道题要用相对的思想（我忘了我有没有理解），他说他一考完试就想到了怎么做，去问物理老师，老师惊讶地问他是不是物理竞赛的；他书上也是没有什么笔记，如果有也会写的很工整秀气，作业也是；他偶尔也会提起lhf（一个奥赛金牌的北大大佬）讲讲他的故事，言语中能感受到ywq对他还是挺佩服的，这也是我听他讲过的人里唯一一个。我也总是看见他俩一起吃饭，可能大佬都是相互吸引的吧。</p>
+<p>我遇到的很优秀的人也不止他，比如tlj应该也是这种类型的，不过和他的关系确实不如和ywq密切，也没有过很多交流。去到的大学层次比ywq更高的也有很多（我认为的），比如sxl，xyq，sp，lky等，但是他们的优秀和ywq的在我感觉上还是有区别的。我喜欢和比我优秀的人做朋友是肯定的，又优秀又有趣又有灵气的最是喜欢，现在能想起的可能只有sxl和ywq。</p>
+<p>越想越难过啦，和sxl虽然在pyq偶尔会相遇，但总归是好久好久没有私聊过啦，也没有什么共同话题了。ywq就更是了，高考毕业游之后就再也没有交流过了，他也从来没有发过pyq，就等于再也没有这个朋友一样啦。其实有时候很想问问他在南科大感觉怎么样，是不是过得很好？但感觉很怪啊没啥事去关心一个异性朋友的近况，也是没有过的事。南科大的环境应该特别适合他那样的人的成长吧，能让才能得到充分释放。</p>
+<p>在大学再没有遇见到令我惊艳敬佩的人了，想想这也是很合理的，真符合我标准的“优秀有趣有灵气”的人，都会去到更好的学校吧……唉好难过好难过，以前的朋友不知道该怎么重新联系啦，新的朋友也不知道该怎么找。或许只能等我读研和工作吧……前提是我能成为这么优秀的人，够得着他们在的地方……</p>
+<p>才气是很难赶上的，但或许可以更加努力啊，据我所知前面提到的人可能除了ywq和我差不多以外，都是非常非常努力的，而且……所有人效率都比我高……</p>
+<p>任重而道远。以每天按计划进行，少娱乐少社交，考好期末为第一步吧。</p>
+<p>编辑：还是怀着美好的期待能在学校遇到的……</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
       </categories>
   </entry>
   <entry>
@@ -439,7 +439,14 @@
   <entry>
     <title>2023-03-28-让我欣喜与感动的</title>
     <url>/2023/03/28/2023-03-28-%E8%AE%A9%E6%88%91%E6%AC%A3%E5%96%9C%E4%B8%8E%E6%84%9F%E5%8A%A8%E7%9A%84/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>能遇到优秀的人总是一件幸福又幸运的事儿！</p>
+<hr>
+<p>期末周过后备考了一周的六级（呜呜不太理想），接着马不停蹄开始看计算机二级（还不错！Word做过Excel和PPT看过），昨天总算是结束了这两项比较重要的考试，今天又是没课的一早</p>
+<p>——于是，虽然是想找初会有关的资料，但还是先稍微地放松了一下——</p>
+<p>首页给我推了一位交大up的记录视频，记录他申请到了哈佛的CS博士……真的太厉害！他是记录了他小半年的申请季，有写申请书，等顶会的录用，五考托福，与教授面试……仿佛是与他共同分享了这段经历，看过他沮丧也看着他欣喜若狂，到了视频结尾我能感到他已经把这份快乐传递给了我，我也深深地享受着这份幸福：为他而高兴，为我能知道如此优秀的他而幸福。</p>
+<p>上次有这种感觉是大抵是找操作系统复习资料的时候翻到浙大信安的大佬的博客，除了记录他的学习笔记和朋辈辅学的教案，还有他记录自己的生活与想法、总结学习和实习的文章，从这些文字背后可以让我真切地感到我在了解他的生活他的内心，单方面拉进了我与他的距离。</p>
+<p>关注的这两位大佬恰巧都是计算机的，不仅仅技术方面大牛，表达能力和情商都让仰慕，让我渴望向他们学习，向他们靠近。</p>
+]]></content>
   </entry>
   <entry>
     <title>开学前的考试周</title>
@@ -467,6 +474,23 @@
 <p><strong>经验教训：老师说不是重点的地方也起码把书和习题看一遍！</strong></p>
 <p>还有一个就是做的题太少，（找不到配套相关的练习册 呃课后习题只差一点没做完啦）错的地方都是没见过的考点和考法，法律这种东西自己又推不出来，没见过的只能靠蒙。</p>
 <p>财管自我感觉复习的还不错！成绩也还不错！考试考得好简单，可能难一点我的班级排名会更高呢。不过话说回来，我们是和会一一起排名，所以简单分高也不是一件坏事呢。财管真的是我这一学期最喜欢的课，不仅是老师讲得好，更重要的是我能感觉真真切切学到了与我们专业很相关还很实用最重要的是也很有趣的知识！</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>清明义工带给我的</title>
+    <url>/2023/04/09/2023-04-09-%E6%B8%85%E6%98%8E%E4%B9%89%E5%B7%A5%E6%B4%BB%E5%8A%A8/</url>
+    <content><![CDATA[<p>二十年间收获唔该嗮最多的一天……好开心喔</p>
+<p>part1是交作业交上去了 part2是自存的<br>（写2的时候已经好困好困了呜呜 今天好累也是真的 明天还早八</p>
+<span id="more"></span>
+<hr>
+<h2 id="Part-1"><a href="#Part-1" class="headerlink" title="Part 1 "></a>Part 1 </h2><p>清晨伴着微雨迎来了一天的清明义工活动，我作为后勤组被安排在了大门口负责引导民众进入和解答民众们的疑惑。志愿服务负责人给我们交代：如果有人没有预约或者预约错了就指引他们现场预约，如果他们要办骨灰撒海就要到对面撒海办……但事实上活动开始的前一小时我面对民众的疑问是一头雾水，因为他们问的是：没带身份证怎么办？其他亲人还没到可以先进去吗？里面有地方买水吗？用预约成功的短信可以进吗……我不知道，很迷茫也很不好意思。很幸运的是站我们那边的保安非常乐于和我们聊天，我很快就问到了这些问题的答案，接下来的一整天便是持着这些回答，看到有人在惊呼忘记带身份证时主动上前告诉他只要预约码就可以进，看到有几个人站着一起焦急地等着亲人时告诉他们可以先进去，把预约短信转发给他们就可以了……这就是我们一天的全部工作。</p>
+<p>在这数不清与民众的问答对话中我也收获了数不清的“唔该晒”和“多谢”。不仅是我收获了感谢，每每有人推着轮椅过来时保安都会开闸门并俯下身帮忙抬轮椅，我能看到在这些推轮椅的家人和坐轮椅的老人点头致意，眼中是由衷的感激与感恩，他们感动于保安提供便捷通道方便行走，而我作为旁边者被他们与保安间的善意所感动。我很欣赏这里的保安们，他们和我们一样从早站到晚没有太多休息，但我从他们身上没有看到不满没有感受到戾气，他们一直用耐心的话语对待每一位到来的人。他们似乎也挺喜欢这份工作，和我站得最近的保安总是乐呵呵的，时不时和我们聊上几句，比如说他不会说粤语也听不太懂粤语，所以和民众沟通有点障碍，但是他后来突然问我们：“呢边”的意思是“这里”吗？哈哈他好厉害领悟能力真好。</p>
+<p>令我印象比较深的一件事是有一个爸爸带着小儿子，有点焦急地说忘记带口罩了，问我们哪里有口罩卖，我当然是不知道的，和他说要不我拿两个给你吧，就从自己包里拿了两个给他们。那位爸爸边和我说着谢谢，边拍着他儿子：要说什么？小男孩很害羞地：“谢谢阿姨~”那位爸爸拍着儿子的头：什么阿姨，是姐姐！无奈地代他儿子对我说了谢谢。他们站在一旁戴上了口罩，又绕回入口时再次向我挥手致意：谢谢非常感谢！我感动又激动不已，两个小小的口罩就配起了他们这么真诚、直击内心的感谢，我能强烈地感受到了他给我的情绪传递。这种体验非常打动我。我似乎理解了保安对坐轮椅老人的帮助，除了他本身是一个善良的人，还可能是因为当一个人对你表示由衷感谢时，不仅是嘴上说着“谢谢”，他的身体会说、他的眼睛会说，他的心也会说，这些都是可以被感受到的，付出微小的善意就可以获得隆重的感激，似乎没有人能拒绝这样的乐事。</p>
+<p>当我们五点多准备离开园区时，看到保安还站在门口。我和同伴上前和保安道别：“我们要走了，再见！”保安说，你们还会再来吗？我们说不会了我们只来一天……不过还会有其他同学周末来。“好吧那再见吧”“再见！”我觉得我是不舍的，我不舍这位认识了一天的可爱保安，更不舍这里带给我的内心富足感。有缘再见吧！</p>
+<h2 id="Part-2"><a href="#Part-2" class="headerlink" title="Part 2"></a>Part 2</h2><p>还有一份感想是关于清明的。今天在门口站岗估计也从面前经过了上万了，老老少少形形色色，有老人和老人来的，有老人拖小孩，有年轻小两口来的……在没有看见有人需要帮忙时，我常常让大脑放空，看着他们我就会情不自禁地想他们之间是什么关系，想他们的家庭组成是怎样，他们有儿女吗，他们的父母还健在吗，他们穿着如何——年轻人大多酷酷的，也有中年人很潮流……有些人手提几大袋，有人开车送几箱东西来，有人两手空空走进去（也可能是有家人在里面了），这时我又会想他们与逝去的亲人关系如何，他们是否是孝顺子孙呢，他们是怀着什么样的心态来的呢，是对父辈的追思，还是为了完成一项义务，是为此准备了很久，还是想着人来了就好。有七八成的人都是老年人，老年人来祭拜已经成灰的人，很难描述我的感觉，但心情是有点复杂的。差点让我落泪的，是吃完午饭逛园区的时候，我看见有很多台围了好多人，一大家子热热闹闹的，香炉里的香也正旺；也有一些台前甚是冷清，有看见一对母女、一对老年夫妻、一小家人，桌子上摆满了东西，两三人静静地坐在凳子上等香烧完。桌上一个骨灰盒，凳上三两五六人，我突然被这些景象所触动，大家虔诚地在对一个不知还在不在的魂灵，述说着自己的思念：我还记得你，我还挂念着你呢。或许我还想到了有些家族人丁兴旺，但有一些已逐渐式微，在很久之后，还会有人记得他们吗（有点代入感……）。又或许我还想到，不久的将来，大部分的我们都会住进那小小的盒子里，这是一个很清晰的结局，我们都会消逝的。我好难过。</p>
 ]]></content>
       <categories>
         <category>杂记</category>
