@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2022/12/15/2022-12-19-hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<p><strong>这篇官网文章写的很详细，忘记了命令可以回来看看</strong></p>
+<p><em><a href="https://hexo.io/zh-cn/docs/commands">Hexo指令</a></em></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>搭建网站过程2（从零开始版）</title>
     <url>/2022/12/16/2022-12-16-%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E8%BF%87%E7%A8%8B2/</url>
     <content><![CDATA[<p>本文摘要：</p>
@@ -131,26 +151,6 @@
       <tags>
         <tag>搭建网站</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/12/15/2022-12-19-hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<p><strong>这篇官网文章写的很详细，忘记了命令可以回来看看</strong></p>
-<p><em><a href="https://hexo.io/zh-cn/docs/commands">Hexo指令</a></em></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
   <entry>
     <title>浅谈我的消费观</title>
@@ -333,23 +333,6 @@
       </categories>
   </entry>
   <entry>
-    <title>最近很喜欢看的</title>
-    <url>/2023/01/13/2023-01-13-%E6%9C%80%E8%BF%91%E5%BE%88%E5%96%9C%E6%AC%A2%E7%9C%8B%E7%9A%84/</url>
-    <content><![CDATA[<p>想把想法记录下来的欲望很强烈呢</p>
-<span id="more"></span>
-
-<hr>
-<p>这段时间卸掉了B站后开始重温小绿和小蓝，从最新的开始翻，然后往前翻，直到翻到了16年的机器人篇，看到了一些熟悉的和不熟悉的文章，得知了一些从前不知道的设定和背景，也能看出作者在这三四年间画画风格的转变。以前画的小蓝过激时的反应会让我觉得呃呃啊……更喜欢最近（最近一年也就两三篇）的风格，更加沉稳更加符合我心目中他们的性格。虽然知道公众号上的火柴人，笛子也画了对应的动漫人物，但说实话动漫人物我喜欢不起来，觉得会很奇怪，而火柴人能我让有一种熟悉感和亲切感，看着他们感觉在看老朋友的故事（亲切感大概是因为高一时真的很疯狂吧……高一怎么干过这么多有趣的事儿）</p>
-<p>最近每次打开笛子的公众号一看就会一个小时以上，一般都是中午洗完碗躺在椅子上开始看，一看就是半下午，like today——90min。我知道不应该，我还有很多重要的事情要做，这个漫画在哪里看都行，只应该在闲暇碎片时间看，但是就是忍不住啊……很喜欢里面的设定，互相之间的尊重关心，喜欢但又保持距离。小蓝是编程大牛，为人谦虚，不善于表达自己的想法，不习惯和朋友交往；小绿是翻译大人（笑），人际交往方面柔韧有余，能很坦诚地表达自己的想法，说话也很得体。呃啊虽然我知道这是编的，但都是我很喜欢的性格……可能也不止我喜欢吧。漫画是以小蓝为视角画的，所以比较容易代入……那种在欣赏的人面前的不自信（甚至是有点自卑）和倾向于在背后默默关注，代入感狠狠地强。那种难以坦白倒不会有，因为我不是这样的人，这点我更像小绿（笑）。其实我写这么多，最想说的是我觉得小绿很像我的一个朋友……漫画画的从小蓝的视角看小绿是什么样的人的时候，我都会觉得，这也是我看我朋友时的想法（甚至连翻译这个设定也……能很游刃地处理好人情上的事（maybe），能在一些时候提供最有力的情感支撑，能很从容地面对很多杂乱的事情……但是也好久没联系啦，可能ta也变了呢，真实的ta可能我也没有完全了解呢……不重要啦，我还记得这些就好，曾经的情感也是很宝贵的。好希望能和小绿这样的人做朋友呢……</p>
-<hr>
-<p>之前就关注了笛子的微博，但是是近期才去翻看，最近在讲ta（我到现在也没能知道笛子是男是女(?))用AI绘画的体验，看完直呼牛逼，是我完全没有接触过的领域，有点好奇但不多（因为知道自己不太行）。（对于自己不了解的领域的大佬总是会怀有很高的敬意）更多的微博是在谈近期的学习和玩的游戏，ta在玩的游戏ta说是英文花体字爱好者的福音，剧情有点慢但是制作很用心，内容很有深度，开放式结局，挺推荐大家玩的，但是英语不好者慎入（是在劝我了）（也在暗示作者英语非常好……更厉害了）</p>
-<p>我把公众号往前翻可以看到小绿和小蓝是从15年开始更新的，从那时开始作者的绘画不会仅限于主线剧情，还会有很多小故事，融合了作者自己思考的故事，比如以前的作品——世界是由世界树控制的模拟世界；虚拟世界的美好让人放弃现实世界肉体，在虚拟世界永生；人工智能取代翻译的问题，在主线有穿插；关于读取别人内心想法的题材作者写过好多，有可以读懂植物的动物的他人的，有最近的一个放头顶的同声对话机器人……都很有意思，时常会感慨与作者的脑洞和逻辑的完整性（绝大部分），有一些是更偏向注重设定的想法，有一些是偏向注重人物内心的想法，各有各的特色与精彩之处。Above，佩服作者，小绿和小蓝是我很喜欢的漫画捏。</p>
-]]></content>
-      <categories>
-        <category>杂记</category>
-      </categories>
-  </entry>
-  <entry>
     <title>是消极还是豁达呢</title>
     <url>/2023/01/23/2023-01-23-%E6%80%9D%E6%83%B3%E5%A5%BD%E5%83%8F%E6%9C%89%E4%BA%86%E6%98%8E%E6%98%BE%E5%8F%98%E5%8C%96/</url>
     <content><![CDATA[<p>过年这段时间没有学习了，也没有很多时间玩手机，心沉下来便能感受到自己真的有很大变化。</p>
@@ -364,6 +347,23 @@
 ]]></content>
       <categories>
         <category>个性化想法</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>最近很喜欢看的</title>
+    <url>/2023/01/13/2023-01-13-%E6%9C%80%E8%BF%91%E5%BE%88%E5%96%9C%E6%AC%A2%E7%9C%8B%E7%9A%84/</url>
+    <content><![CDATA[<p>想把想法记录下来的欲望很强烈呢</p>
+<span id="more"></span>
+
+<hr>
+<p>这段时间卸掉了B站后开始重温小绿和小蓝，从最新的开始翻，然后往前翻，直到翻到了16年的机器人篇，看到了一些熟悉的和不熟悉的文章，得知了一些从前不知道的设定和背景，也能看出作者在这三四年间画画风格的转变。以前画的小蓝过激时的反应会让我觉得呃呃啊……更喜欢最近（最近一年也就两三篇）的风格，更加沉稳更加符合我心目中他们的性格。虽然知道公众号上的火柴人，笛子也画了对应的动漫人物，但说实话动漫人物我喜欢不起来，觉得会很奇怪，而火柴人能我让有一种熟悉感和亲切感，看着他们感觉在看老朋友的故事（亲切感大概是因为高一时真的很疯狂吧……高一怎么干过这么多有趣的事儿）</p>
+<p>最近每次打开笛子的公众号一看就会一个小时以上，一般都是中午洗完碗躺在椅子上开始看，一看就是半下午，like today——90min。我知道不应该，我还有很多重要的事情要做，这个漫画在哪里看都行，只应该在闲暇碎片时间看，但是就是忍不住啊……很喜欢里面的设定，互相之间的尊重关心，喜欢但又保持距离。小蓝是编程大牛，为人谦虚，不善于表达自己的想法，不习惯和朋友交往；小绿是翻译大人（笑），人际交往方面柔韧有余，能很坦诚地表达自己的想法，说话也很得体。呃啊虽然我知道这是编的，但都是我很喜欢的性格……可能也不止我喜欢吧。漫画是以小蓝为视角画的，所以比较容易代入……那种在欣赏的人面前的不自信（甚至是有点自卑）和倾向于在背后默默关注，代入感狠狠地强。那种难以坦白倒不会有，因为我不是这样的人，这点我更像小绿（笑）。其实我写这么多，最想说的是我觉得小绿很像我的一个朋友……漫画画的从小蓝的视角看小绿是什么样的人的时候，我都会觉得，这也是我看我朋友时的想法（甚至连翻译这个设定也……能很游刃地处理好人情上的事（maybe），能在一些时候提供最有力的情感支撑，能很从容地面对很多杂乱的事情……但是也好久没联系啦，可能ta也变了呢，真实的ta可能我也没有完全了解呢……不重要啦，我还记得这些就好，曾经的情感也是很宝贵的。好希望能和小绿这样的人做朋友呢……</p>
+<hr>
+<p>之前就关注了笛子的微博，但是是近期才去翻看，最近在讲ta（我到现在也没能知道笛子是男是女(?))用AI绘画的体验，看完直呼牛逼，是我完全没有接触过的领域，有点好奇但不多（因为知道自己不太行）。（对于自己不了解的领域的大佬总是会怀有很高的敬意）更多的微博是在谈近期的学习和玩的游戏，ta在玩的游戏ta说是英文花体字爱好者的福音，剧情有点慢但是制作很用心，内容很有深度，开放式结局，挺推荐大家玩的，但是英语不好者慎入（是在劝我了）（也在暗示作者英语非常好……更厉害了）</p>
+<p>我把公众号往前翻可以看到小绿和小蓝是从15年开始更新的，从那时开始作者的绘画不会仅限于主线剧情，还会有很多小故事，融合了作者自己思考的故事，比如以前的作品——世界是由世界树控制的模拟世界；虚拟世界的美好让人放弃现实世界肉体，在虚拟世界永生；人工智能取代翻译的问题，在主线有穿插；关于读取别人内心想法的题材作者写过好多，有可以读懂植物的动物的他人的，有最近的一个放头顶的同声对话机器人……都很有意思，时常会感慨与作者的脑洞和逻辑的完整性（绝大部分），有一些是更偏向注重设定的想法，有一些是偏向注重人物内心的想法，各有各的特色与精彩之处。Above，佩服作者，小绿和小蓝是我很喜欢的漫画捏。</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
       </categories>
   </entry>
   <entry>
@@ -437,18 +437,6 @@
       </categories>
   </entry>
   <entry>
-    <title>2023-03-28-让我欣喜与感动的</title>
-    <url>/2023/03/28/2023-03-28-%E8%AE%A9%E6%88%91%E6%AC%A3%E5%96%9C%E4%B8%8E%E6%84%9F%E5%8A%A8%E7%9A%84/</url>
-    <content><![CDATA[<p>能遇到优秀的人总是一件幸福又幸运的事儿！</p>
-<hr>
-<p>期末周过后备考了一周的六级（呜呜不太理想），接着马不停蹄开始看计算机二级（还不错！Word做过Excel和PPT看过），昨天总算是结束了这两项比较重要的考试，今天又是没课的一早</p>
-<p>——于是，虽然是想找初会有关的资料，但还是先稍微地放松了一下——</p>
-<p>首页给我推了一位交大up的记录视频，记录他申请到了哈佛的CS博士……真的太厉害！他是记录了他小半年的申请季，有写申请书，等顶会的录用，五考托福，与教授面试……仿佛是与他共同分享了这段经历，看过他沮丧也看着他欣喜若狂，到了视频结尾我能感到他已经把这份快乐传递给了我，我也深深地享受着这份幸福：为他而高兴，为我能知道如此优秀的他而幸福。</p>
-<p>上次有这种感觉是大抵是找操作系统复习资料的时候翻到浙大信安的大佬的博客，除了记录他的学习笔记和朋辈辅学的教案，还有他记录自己的生活与想法、总结学习和实习的文章，从这些文字背后可以让我真切地感到我在了解他的生活他的内心，单方面拉进了我与他的距离。</p>
-<p>关注的这两位大佬恰巧都是计算机的，不仅仅技术方面大牛，表达能力和情商都让仰慕，让我渴望向他们学习，向他们靠近。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>开学前的考试周</title>
     <url>/2023/03/06/2023-03-06-%E5%BC%80%E5%AD%A6%E5%89%8D%E7%9A%84%E8%80%83%E8%AF%95%E5%91%A8/</url>
     <content><![CDATA[<p>成绩除了体育都出完啦，考得不太理想……</p>
@@ -477,6 +465,49 @@
 ]]></content>
       <categories>
         <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>2023-03-28-让我欣喜与感动的</title>
+    <url>/2023/03/28/2023-03-28-%E8%AE%A9%E6%88%91%E6%AC%A3%E5%96%9C%E4%B8%8E%E6%84%9F%E5%8A%A8%E7%9A%84/</url>
+    <content><![CDATA[<p>能遇到优秀的人总是一件幸福又幸运的事儿！</p>
+<hr>
+<p>期末周过后备考了一周的六级（呜呜不太理想），接着马不停蹄开始看计算机二级（还不错！Word做过Excel和PPT看过），昨天总算是结束了这两项比较重要的考试，今天又是没课的一早</p>
+<p>——于是，虽然是想找初会有关的资料，但还是先稍微地放松了一下——</p>
+<p>首页给我推了一位交大up的记录视频，记录他申请到了哈佛的CS博士……真的太厉害！他是记录了他小半年的申请季，有写申请书，等顶会的录用，五考托福，与教授面试……仿佛是与他共同分享了这段经历，看过他沮丧也看着他欣喜若狂，到了视频结尾我能感到他已经把这份快乐传递给了我，我也深深地享受着这份幸福：为他而高兴，为我能知道如此优秀的他而幸福。</p>
+<p>上次有这种感觉是大抵是找操作系统复习资料的时候翻到浙大信安的大佬的博客，除了记录他的学习笔记和朋辈辅学的教案，还有他记录自己的生活与想法、总结学习和实习的文章，从这些文字背后可以让我真切地感到我在了解他的生活他的内心，单方面拉进了我与他的距离。</p>
+<p>关注的这两位大佬恰巧都是计算机的，不仅仅技术方面大牛，表达能力和情商都让仰慕，让我渴望向他们学习，向他们靠近。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>尖烽时刻总结</title>
+    <url>/2023/07/16/2023-07-16%E5%B0%96%E7%83%BD%E6%97%B6%E5%88%BB%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<p>拖了好久好久啊……<br>对于复赛的模拟系统可以说是非常熟悉了，上课时的个人赛和团队赛时已经把界面和注意事项弄得很熟悉了，先发优势很明显。<br>在校赛的时候很多地方做得很粗糙，也能取得一个较好的成绩，在复赛中对于很多操作和市场变化带来的机遇挑战有了更深的理解。</p>
+<span id="more"></span>
+
+<hr>
+<p>（插入图片）<br>这是一个卖车的比赛，类别是global challenge。与初赛的不同是，初赛只用管生产数量（好像无论设多少都可以）和定价，在缺货成本和库存成本，利润和销量之间权衡。可以决策的地方很少。</p>
+<p>复赛的生产是需要通过建厂来约束的，单价随着累计生产量和市场环境而变化，可以在自产和外包之间权衡。开头可以建厂，但幅度不要太大，因此市场增长很慢大家都有大量库存。我们开始时根据校赛错误判断，建厂太多、产能太大，有点吃亏。</p>
+<p>人力资源要根据未来几回合的研发（也就是战略）做决定，不能一回合全裁了下回合再大幅度招人，这样的招聘和裁员成本都是一笔不小的费用。<br><em>开始的几回合大家都是赚不到钱的（我看了其他市场也是这样），因此要在细节处下功夫，能省则省，越早盈利、越早分红肯定是越好的。</em></p>
+<p><em>有一个bug是，在本回合工资和员工数量是有一个约束关系的，比如5000元工资最多只能招5000员工，这样就导致本回合不能压工资。但是当你已经拥有了这么多员工，你就可以无限压价了，比如我上回合有了5000员工，我这回合就可以把工资调为1也可以维持这个员工数。当然这种方法有弊端，比如会使研发效率持续降低，然后会有大量的雇佣和裁员成本。但好消息是把这些成本加起来也会比正常情况划算很多。因此有人在第一回合直接把研发人员拉到1w，在第二回合降工资</em></p>
+<p>研发的话，功能自己研发，技术就不太建议自研，直接买会更划算。我们是在第6回合同时进入电动和氢动市场，美国内燃+氢动，中国混动+电动，欧洲内燃+混动，第7和8回合美国混动+氢动，中国电动+混动，欧洲电动+混动，这些决策是根据市场前景以及我们在各个市场已有市场份额和利润，再根据我们的生产情况来决定的。生产情况即要考虑哪个国家生产什么，怎么安排运输比较合理。<br>也不一定要开发电动和氢动，比如我舍友那组没开发也拿到了他们市场的第一。</p>
+<p>对了，之前一直以为要自己算利润，直到第5还是第6回合前才发现有一个界面是告诉我们利润的！这样就可以很清晰的判断我们哪种车最赚钱。<br>（插入图片）</p>
+<p>营销是最重要的一个步骤。首先是要找到每个国家每个车类别最高组的利润，分析他们的策略是什么，比如（随便说的，事实上不一定）混动车价格高于平均，功能与平均持平能达到利润最大化。然后根据我们上回合的市场份额作出营销重点，如果份额高于平均用扩大用户群最好，品牌营销是万金油。</p>
+<p>财务开始两回合大胆借长贷，因为会亏得很严重。内部贷款一定要均衡，或者可以美国中国放多点，因为美国要建厂，中国本身利润低，这两个国家比较容易出现亏损。后期赚钱后也建议还长贷，我们一开始觉得长贷可以减税，但后来计算发现还是还完更好。<strong>最最重要的是回购股票和股利支付！！！每回合都要把留存收益全部支付出去！越早回购股票越便宜，相同的钱回购的数量更多，同时股利支付的好处也是累计的，越早支付的股利叠加的次数越多。哪个更好我没有明确的答案（好像后期有了一个但是现在忘了），可以根据股东回报率的公式来判断。</strong></p>
+<p>对于我们的小组分工，我们因为是线上讨论，如果是共享屏幕一起看Excel效率会很低。<br>因此我们的决策步骤是：</p>
+<ol>
+<li>每人分配一个国家，在开会前研究所分配国家的预计销量和定价。 （只有这项独立完成）</li>
+<li>开会时每人轮流讲自己的分析过程和结论，其他人提出意见进行修改。</li>
+<li>针对各个国家的策略进行生产、人力资源和研发的调整</li>
+<li>把已讨论出的营销结果，由共享屏幕者输入系统</li>
+<li>由前面决策得出的预计利润，调整内部贷款、长期贷款和进行回购股票、支付股利等决策。</li>
+</ol>
+<p>说一个挺多市场出现的一个情况，估计他们是有人指导的。<br>我们市场有一个组从第一回合开始义无反顾地开通电动，且自己生产。要知道开始时电动市场的份额超级超级少，自己生产无敌贵，但他们还是坚持，即使特别亏，亏了6个B仍要坚持。直到第6回合我们的疑惑解开了，他们组从第4到第6回合的排名分别是第8到5到4，且利润迅猛增长，在第7回合他们每股盈利9.5，我们6.25……电动在第五回合之后市场迅速增长，他们凭借着早期的制造优势，可以超低价生产大量的电动车，他们的售价甚至比我们其他组的成本还低。他们通过超低价和超大量的销量，压缩其他组的电动份额（他们在第7回合27%）。薄利多销也使得他们利润很高。<em>电动真的很赚钱，即使我们的份额很小，也赚的比内燃混动要多</em>。在第7回合他们的累计股东回报率攀升到了第二，与我们仅有1.19%的差距。那一晚我超级超级紧张，很怕我们维持了6局的第一到最后被夺走。在最后一回合我们的利润也是不如他们的，可能因为我们前期融资方面做得好，累计效应比较大（他们亏了好多回合，前期根本发不了股利），回报率我们25.92%，他们24.71%，我们以1.21%的微弱差距锁定胜局！</p>
+<p>我们运气比较好，这个有策略的组在小的方面做得不够好，在其他市场有很多这样的“黑马”用这种策略在最后关头获得了第一。<em>我并不欣赏这样子打的组，很明显他们有过来人指导，知道后几回合的市场前景可以支撑电动崛起，正常组根本不敢这样搏，对于其他正常路子打的组不公平</em></p>
+<p>就这样吧，写了差不都两个小时了。目前还没想到写这一篇文章的意义。可能还有一些心得没有写出来，以后想起又觉得重要再补吧！同一个系统累计玩了20回合真的会有点疲倦呢，虽然本质是人与人之间的博弈，虽然我们也不断有新的体会，但总的来说还是不愿再玩了，也因为难逢对手。</p>
+]]></content>
+      <categories>
+        <category>总结</category>
       </categories>
   </entry>
   <entry>
