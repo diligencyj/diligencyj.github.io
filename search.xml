@@ -63,6 +63,26 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2022/12/15/2022-12-19-hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<p><strong>这篇官网文章写的很详细，忘记了命令可以回来看看</strong></p>
+<p><em><a href="https://hexo.io/zh-cn/docs/commands">Hexo指令</a></em></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>搭建网站过程2（从零开始版）</title>
     <url>/2022/12/16/2022-12-16-%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E8%BF%87%E7%A8%8B2/</url>
     <content><![CDATA[<p>本文摘要：</p>
@@ -131,26 +151,6 @@
       <tags>
         <tag>搭建网站</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/12/15/2022-12-19-hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<p><strong>这篇官网文章写的很详细，忘记了命令可以回来看看</strong></p>
-<p><em><a href="https://hexo.io/zh-cn/docs/commands">Hexo指令</a></em></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
   <entry>
     <title>浅谈我的消费观</title>
@@ -227,24 +227,6 @@
 <hr>
 <p>以上是没有什么用的废话。</p>
 <p>只是对于过去的一段日子有点懊悔，认为过得很不充实，想通过这种记录方式让它们看上去更充实。</p>
-]]></content>
-      <categories>
-        <category>杂记</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>有点难过</title>
-    <url>/2023/01/08/2023-01-08-%E6%9C%89%E7%82%B9%E9%9A%BE%E8%BF%87/</url>
-    <content><![CDATA[<p>由昨晚的梦引起的……</p>
-<span id="more"></span>
-
-<p>昨晚梦见了高三时班上的两个男生朋友ywq和lsc，好像也没有讲什么话，也不知道在什么地方，但感觉上大家还是像以前一样要好。我们随便聊着点什么，互相帮帮忙啥的。突然就有点想念ywq，他外表看上去特别像刻板印象中程序员大佬的样子，瘦弱文静不爱说话，但实际上他的体育还是不错的，熟起来也是特别多讲，有点外冷内热。高三时时常和他聊天，lzq在我们附近的时候我们三个一起聊，lzq走后我俩也经常聊。聊什么呢，可能是我问他某道题，可能是他给我讲他以前的故事或者他最近听来的15班那边的事儿，可能……我也记不起来了。在很多地方都能感受到他的才气和我，包括我们班的大多数人都不是一个层次的。我想起他和我说他以前初中进信息学，比别人晚两周进去，但是几天就把大部分人赶超了；想起他说他为了奖金去参加了某一个省级计算机比赛，拿了省二十几名；想起物理考试有一道题要用相对的思想（我忘了我有没有理解），他说他一考完试就想到了怎么做，去问物理老师，老师惊讶地问他是不是物理竞赛的；他书上也是没有什么笔记，如果有也会写的很工整秀气，作业也是；他偶尔也会提起lhf（一个奥赛金牌的北大大佬）讲讲他的故事，言语中能感受到ywq对他还是挺佩服的，这也是我听他讲过的人里唯一一个。我也总是看见他俩一起吃饭，可能大佬都是相互吸引的吧。</p>
-<p>我遇到的很优秀的人也不止他，比如tlj应该也是这种类型的，不过和他的关系确实不如和ywq密切，也没有过很多交流。去到的大学层次比ywq更高的也有很多（我认为的），比如sxl，xyq，sp，lky等，但是他们的优秀和ywq的在我感觉上还是有区别的。我喜欢和比我优秀的人做朋友是肯定的，又优秀又有趣又有灵气的最是喜欢，现在能想起的可能只有sxl和ywq。</p>
-<p>越想越难过啦，和sxl虽然在pyq偶尔会相遇，但总归是好久好久没有私聊过啦，也没有什么共同话题了。ywq就更是了，高考毕业游之后就再也没有交流过了，他也从来没有发过pyq，就等于再也没有这个朋友一样啦。其实有时候很想问问他在南科大感觉怎么样，是不是过得很好？但感觉很怪啊没啥事去关心一个异性朋友的近况，也是没有过的事。南科大的环境应该特别适合他那样的人的成长吧，能让才能得到充分释放。</p>
-<p>在大学再没有遇见到令我惊艳敬佩的人了，想想这也是很合理的，真符合我标准的“优秀有趣有灵气”的人，都会去到更好的学校吧……唉好难过好难过，以前的朋友不知道该怎么重新联系啦，新的朋友也不知道该怎么找。或许只能等我读研和工作吧……前提是我能成为这么优秀的人，够得着他们在的地方……</p>
-<p>才气是很难赶上的，但或许可以更加努力啊，据我所知前面提到的人可能除了ywq和我差不多以外，都是非常非常努力的，而且……所有人效率都比我高……</p>
-<p>任重而道远。以每天按计划进行，少娱乐少社交，考好期末为第一步吧。</p>
-<p>编辑：还是怀着美好的期待能在学校遇到的……</p>
 ]]></content>
       <categories>
         <category>杂记</category>
@@ -333,6 +315,24 @@
       </categories>
   </entry>
   <entry>
+    <title>有点难过</title>
+    <url>/2023/01/08/2023-01-08-%E6%9C%89%E7%82%B9%E9%9A%BE%E8%BF%87/</url>
+    <content><![CDATA[<p>由昨晚的梦引起的……</p>
+<span id="more"></span>
+
+<p>昨晚梦见了高三时班上的两个男生朋友ywq和lsc，好像也没有讲什么话，也不知道在什么地方，但感觉上大家还是像以前一样要好。我们随便聊着点什么，互相帮帮忙啥的。突然就有点想念ywq，他外表看上去特别像刻板印象中程序员大佬的样子，瘦弱文静不爱说话，但实际上他的体育还是不错的，熟起来也是特别多讲，有点外冷内热。高三时时常和他聊天，lzq在我们附近的时候我们三个一起聊，lzq走后我俩也经常聊。聊什么呢，可能是我问他某道题，可能是他给我讲他以前的故事或者他最近听来的15班那边的事儿，可能……我也记不起来了。在很多地方都能感受到他的才气和我，包括我们班的大多数人都不是一个层次的。我想起他和我说他以前初中进信息学，比别人晚两周进去，但是几天就把大部分人赶超了；想起他说他为了奖金去参加了某一个省级计算机比赛，拿了省二十几名；想起物理考试有一道题要用相对的思想（我忘了我有没有理解），他说他一考完试就想到了怎么做，去问物理老师，老师惊讶地问他是不是物理竞赛的；他书上也是没有什么笔记，如果有也会写的很工整秀气，作业也是；他偶尔也会提起lhf（一个奥赛金牌的北大大佬）讲讲他的故事，言语中能感受到ywq对他还是挺佩服的，这也是我听他讲过的人里唯一一个。我也总是看见他俩一起吃饭，可能大佬都是相互吸引的吧。</p>
+<p>我遇到的很优秀的人也不止他，比如tlj应该也是这种类型的，不过和他的关系确实不如和ywq密切，也没有过很多交流。去到的大学层次比ywq更高的也有很多（我认为的），比如sxl，xyq，sp，lky等，但是他们的优秀和ywq的在我感觉上还是有区别的。我喜欢和比我优秀的人做朋友是肯定的，又优秀又有趣又有灵气的最是喜欢，现在能想起的可能只有sxl和ywq。</p>
+<p>越想越难过啦，和sxl虽然在pyq偶尔会相遇，但总归是好久好久没有私聊过啦，也没有什么共同话题了。ywq就更是了，高考毕业游之后就再也没有交流过了，他也从来没有发过pyq，就等于再也没有这个朋友一样啦。其实有时候很想问问他在南科大感觉怎么样，是不是过得很好？但感觉很怪啊没啥事去关心一个异性朋友的近况，也是没有过的事。南科大的环境应该特别适合他那样的人的成长吧，能让才能得到充分释放。</p>
+<p>在大学再没有遇见到令我惊艳敬佩的人了，想想这也是很合理的，真符合我标准的“优秀有趣有灵气”的人，都会去到更好的学校吧……唉好难过好难过，以前的朋友不知道该怎么重新联系啦，新的朋友也不知道该怎么找。或许只能等我读研和工作吧……前提是我能成为这么优秀的人，够得着他们在的地方……</p>
+<p>才气是很难赶上的，但或许可以更加努力啊，据我所知前面提到的人可能除了ywq和我差不多以外，都是非常非常努力的，而且……所有人效率都比我高……</p>
+<p>任重而道远。以每天按计划进行，少娱乐少社交，考好期末为第一步吧。</p>
+<p>编辑：还是怀着美好的期待能在学校遇到的……</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
     <title>最近很喜欢看的</title>
     <url>/2023/01/13/2023-01-13-%E6%9C%80%E8%BF%91%E5%BE%88%E5%96%9C%E6%AC%A2%E7%9C%8B%E7%9A%84/</url>
     <content><![CDATA[<p>想把想法记录下来的欲望很强烈呢</p>
@@ -348,6 +348,45 @@
       <categories>
         <category>杂记</category>
       </categories>
+  </entry>
+  <entry>
+    <title>是消极还是豁达呢</title>
+    <url>/2023/01/23/2023-01-23-%E6%80%9D%E6%83%B3%E5%A5%BD%E5%83%8F%E6%9C%89%E4%BA%86%E6%98%8E%E6%98%BE%E5%8F%98%E5%8C%96/</url>
+    <content><![CDATA[<p>过年这段时间没有学习了，也没有很多时间玩手机，心沉下来便能感受到自己真的有很大变化。</p>
+<span id="more"></span>
+
+<hr>
+<p>最初是我妈说我很喜欢说“无所谓”，什么都“无所谓”，“都可以”。睡觉前仔细想了想，我说这话其实并不是敷衍也不是不关心。这段时间的心境是我从来没有过的，我更倾向于认为我说“无所谓”是我不执着于这件事或这个东西，不是不喜欢，不是不想要，而是觉得，我喜欢我拿了又有什么意义呢，它有和没有对我有什么实质影响呢，“一切皆空”，它并不会永远属于我的，有了它并不会让我实现什么重大目的……以上想法只是我分析我的心境的解释，现实中当事情发生时脑子已经完全是“无所谓”了。</p>
+<p>究其原因，其实从上高三开始我独处时光变多之后性格开始慢慢发生变化，大一上学期开始定型，变得更沉稳更喜欢和自己对话。首先是从对人际关系的态度开始发生变化，开始觉得：人总是要分别的，不用太执着于朋友的离去，身边有一二可以说话的人就可以，除了最亲近的朋友，其他人可以不刻意维持关系。从那时起我对大部分人都已经是一个偏冷淡的态度了，但还是会有很多执着的事情，比如好朋友的分别，重要日子的仪式感等。然后是从暑假开始，学会了观“四念处”，刚开始观会意识到很多执着是没有意义的，很多事情更是没有必要花时间的。那时感觉整个人松了一松，少点执念心情会更好，对待事物的心态豁达了很多。开学了之后其实是没有下意识继续观了，每天上课学习下课和朋友玩乐，潜意识里觉得我还是以前那个喜欢和喜欢的人社交的人（哈哈好绕），是在家待了两个月之后才有了现在的心境。</p>
+<p>举个最近的例子，以前对于春节，我会很执着与仪式感，我一定会在除夕洗完澡穿上全套的新衣服（近年没有全套），换新洗漱用品；妈妈会拖地收拾完成大扫除的最后工作，爸爸不知道在干嘛，除了去年在我的哭闹坚持下实现了全家一起看春晚，我有印象的近五年都是我自己一人坐在沙发上独自感受春晚的氛围。从前都会很在意啊，觉得应该这样应该那样的，如果没有做到这个年过得就不够完美，现在已经不是这样想了，无所谓都是无所谓的，可以没有新衣服，可以全家不看春晚（我还是看了六七个节目的），少点仪式感有什么实质性影响呢？没有的。那就无所谓了。写不写对联无所谓，年夜饭吃什么无所谓，花街去不去也无所谓。</p>
+<p>现阶段做什么是有意义的？我想这个问题的回答我几年来没有变过，以提高自己各方面素养为目标，学到真才实学为目的，考高分为去到更高层次的手段。无论如何对于学习我不会无所谓，因为这是很符合我的价值观追求的事情。</p>
+<p>对于其他的呢，想法还没有稳定，时时反思寻找一个度吧。</p>
+]]></content>
+      <categories>
+        <category>个性化想法</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>hexo d的出错记录</title>
+    <url>/2023/01/25/2023-01-25-hexo-d%E7%9A%84%E5%87%BA%E9%94%99%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<p>好奇怪呢，一个多月以来第一次遇到一些问题……</p>
+<span id="more"></span>
+
+<hr>
+<h3 id="Fatal1"><a href="#Fatal1" class="headerlink" title="Fatal1"></a>Fatal1</h3><p><code>git fatal: detected dubious ownership in repository</code><br>直译过来是<code>仓库检测到可疑的所有者</code>。</p>
+<p>具体的下面的报错我忘记复制下来了，大意是以前仓库的所有者是’S-1-5-32-544’，现在是×××。下面还有提示是如果要给这个所有者权限，可以输入×××。（但是我一开始没有认真读这段话，直接搜了解决方法）</p>
+<p>找到普遍的解决方法都是这种类型的<a href="https://blog.csdn.net/tcjy1000/article/details/127129224">文章</a>，我试着改了一下，一点用也没有，因为我不知道’S-1-5-32-544’是什么所有者的名字，现在又是什么所有者……到最后是认真读了读提示，把那段命令复制下来运行，解决。</p>
+<h3 id="Fatal2"><a href="#Fatal2" class="headerlink" title="Fatal2"></a>Fatal2</h3><p>以下是报错全文：</p>
+<figure class="highlight vbnet"><table><tr><td class="code"><pre><span class="line"><span class="keyword">On</span> branch master</span><br><span class="line"><span class="literal">nothing</span> <span class="keyword">to</span> commit, working tree clean</span><br><span class="line"><span class="symbol">kex_exchange_identification:</span> Connection closed <span class="keyword">by</span> remote host</span><br><span class="line">Connection closed <span class="keyword">by</span> ::<span class="number">1</span> port <span class="number">22</span></span><br><span class="line"><span class="symbol">fatal:</span> Could <span class="built_in">not</span> read <span class="keyword">from</span> remote repository.</span><br><span class="line"></span><br><span class="line">Please make sure you have the correct access rights</span><br><span class="line"><span class="built_in">and</span> the repository exists.</span><br><span class="line">FATAL Something<span class="comment">&#x27;s wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html</span></span><br><span class="line"><span class="symbol">Error:</span> Spawn failed</span><br><span class="line">    at ChildProcess.&lt;anonymous&gt; (D:\colorlife\diligencyj.github.io\node_modules\hexo-util\<span class="keyword">lib</span>\spawn.js:<span class="number">51</span>:<span class="number">21</span>)</span><br><span class="line">    at ChildProcess.emit (node:events:<span class="number">513</span>:<span class="number">28</span>)</span><br><span class="line">    at cp.emit (D:\colorlife\diligencyj.github.io\node_modules\cross-spawn\<span class="keyword">lib</span>\enoent.js:<span class="number">34</span>:<span class="number">29</span>)</span><br><span class="line">    at ChildProcess._handle.onexit (node:internal/child_process:<span class="number">291</span>:<span class="number">12</span>)</span><br></pre></td></tr></table></figure>
+<p>说我Could not read from remote repository.奇怪极了。可能的原因和<a href="https://www.zhihu.com/question/20023544">解决方法</a>千奇百怪，最后看到一个很合我新意的回答：<strong>如果之前楼上的答案都不行 ，你可以试着换个IP，你会惊奇的发现，耶 ！特么的竟然好了！</strong> 哈哈有意思，还有一个回答说网络异常也会这样。</p>
+<p>没错，我重试了几次之后就又可以了（耶！）</p>
+]]></content>
+      <categories>
+        <category>计算机</category>
+      </categories>
+      <tags>
+        <tag>搭建网站</tag>
+      </tags>
   </entry>
   <entry>
     <title>解决Easyconnect开机自启动问题</title>
@@ -376,65 +415,6 @@
       <categories>
         <category>计算机</category>
       </categories>
-  </entry>
-  <entry>
-    <title>是消极还是豁达呢</title>
-    <url>/2023/01/23/2023-01-23-%E6%80%9D%E6%83%B3%E5%A5%BD%E5%83%8F%E6%9C%89%E4%BA%86%E6%98%8E%E6%98%BE%E5%8F%98%E5%8C%96/</url>
-    <content><![CDATA[<p>过年这段时间没有学习了，也没有很多时间玩手机，心沉下来便能感受到自己真的有很大变化。</p>
-<span id="more"></span>
-
-<hr>
-<p>最初是我妈说我很喜欢说“无所谓”，什么都“无所谓”，“都可以”。睡觉前仔细想了想，我说这话其实并不是敷衍也不是不关心。这段时间的心境是我从来没有过的，我更倾向于认为我说“无所谓”是我不执着于这件事或这个东西，不是不喜欢，不是不想要，而是觉得，我喜欢我拿了又有什么意义呢，它有和没有对我有什么实质影响呢，“一切皆空”，它并不会永远属于我的，有了它并不会让我实现什么重大目的……以上想法只是我分析我的心境的解释，现实中当事情发生时脑子已经完全是“无所谓”了。</p>
-<p>究其原因，其实从上高三开始我独处时光变多之后性格开始慢慢发生变化，大一上学期开始定型，变得更沉稳更喜欢和自己对话。首先是从对人际关系的态度开始发生变化，开始觉得：人总是要分别的，不用太执着于朋友的离去，身边有一二可以说话的人就可以，除了最亲近的朋友，其他人可以不刻意维持关系。从那时起我对大部分人都已经是一个偏冷淡的态度了，但还是会有很多执着的事情，比如好朋友的分别，重要日子的仪式感等。然后是从暑假开始，学会了观“四念处”，刚开始观会意识到很多执着是没有意义的，很多事情更是没有必要花时间的。那时感觉整个人松了一松，少点执念心情会更好，对待事物的心态豁达了很多。开学了之后其实是没有下意识继续观了，每天上课学习下课和朋友玩乐，潜意识里觉得我还是以前那个喜欢和喜欢的人社交的人（哈哈好绕），是在家待了两个月之后才有了现在的心境。</p>
-<p>举个最近的例子，以前对于春节，我会很执着与仪式感，我一定会在除夕洗完澡穿上全套的新衣服（近年没有全套），换新洗漱用品；妈妈会拖地收拾完成大扫除的最后工作，爸爸不知道在干嘛，除了去年在我的哭闹坚持下实现了全家一起看春晚，我有印象的近五年都是我自己一人坐在沙发上独自感受春晚的氛围。从前都会很在意啊，觉得应该这样应该那样的，如果没有做到这个年过得就不够完美，现在已经不是这样想了，无所谓都是无所谓的，可以没有新衣服，可以全家不看春晚（我还是看了六七个节目的），少点仪式感有什么实质性影响呢？没有的。那就无所谓了。写不写对联无所谓，年夜饭吃什么无所谓，花街去不去也无所谓。</p>
-<p>现阶段做什么是有意义的？我想这个问题的回答我几年来没有变过，以提高自己各方面素养为目标，学到真才实学为目的，考高分为去到更高层次的手段。无论如何对于学习我不会无所谓，因为这是很符合我的价值观追求的事情。</p>
-<p>对于其他的呢，想法还没有稳定，时时反思寻找一个度吧。</p>
-]]></content>
-      <categories>
-        <category>个性化想法</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>期末复习的心理状况</title>
-    <url>/2023/02/14/2023-02-14-%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E7%9A%84%E5%BF%83%E6%80%81%E7%8A%B6%E5%86%B5/</url>
-    <content><![CDATA[<p>昨天看到朋友的pyq说觉得自己很()，前一晚还在emo事情很多干不完，第二早睡到中午然后去看电视。我当时的想法是：我要比ta好一点呢，我有在认真学习！结果今天，，，又开始摆了(发怒.JPG)</p>
-<span id="more"></span>
-
-<p>有一段时间没有发随笔了，其实也是很久没有打开过这部电脑了。因为在书房学习一般用台式机，屏幕大好操作，而且也没这么多干扰，不会想着看看这看看那的。</p>
-<p>今天是2月14，我打算2月18回学校，第一门考试2月21，时间所剩无几。</p>
-<p>我大概是从离开学还有两周开始急的，开始做规划，按照自己新找到的方法——思维导图复习，效果还不错，开头几天效率有点低，前几天速度也快了起来，心情也很好。一开始效率低有原因也是看很久B站，把应用时长限制在15min也有遵守，留了更多的时间给了静心和思考。</p>
-<p>学久了的累是会有成就感的，虽然有时可能是在一些无关紧要的事情上耗了时间，但无论如何是把时间用在了有点意义的事情上，下次绕过这些就好。但是玩手机玩累了真的是身心双重打击，一方面眼睛干想睡觉，另一方面悔恨不已想到自己好多东西没干。</p>
-<p>之前把原因归结为没有做计划，不知道自己时间有多紧，任务有多重，所以在松懈。但事实上，，，今天，，，刚才，，，我在知道自己最近的两门考试还有超级超级多不会，没有复习的情况下，还是刷了两小时B站，4小时微博，，，为什么不把B站卸了呢，因为还想留着让自己看看前段时间的B站使用量多离谱，，，刚看了，有一周10h的，有一周14h的，可以卸掉了，，，（卸完了，原来卸完也可以看时长的啊……）（对不起，这可能只是一个借口）</p>
-<p>时至今日，也没有找到一个很好的对治自己内心的方法。我能否认真学习完全看状态，状态好连续学四五个小时也没问题，状态不好，即使坐在了书桌前，也想着东看看西翻翻，随便一个想法就会上bing知乎耍耍（今天刷到B站教人怎样进入bing的候补名单体验chatGPT的，但是考虑到我会上瘾，所以就没试）<br>如果状态不好，事情又很紧急，就像写毛概论文那时候一样，就会超级无敌折磨，逼着自己静下心把文字看进去，也能勉强做到。</p>
-<p>我每次看手机超过30min的时候，内心都有一个很响亮的声音说别玩了别玩了，这时候当然也会出现另一个声音回答ta：再看一会儿，极少数是：好的不玩了。以至于我接下来看的所有东西的时候我都是不自在的，我仿佛是在谋害一个人的生命，ta一直劝我别继续了，我一直说等等，，，这是一个煎熬的过程，但是我很难抽离，我目前觉得是一种破罐子破摔的自我放弃的心态，已经玩了这么久了，我已经不是那个完美的时间管理者了，我不想回到真实世界面对现在浪费时间的自己，不如一直在这种状态下，不去感知自己浪费了多少时间，，，真的是一种逃避心理呢，我或许应该告诉自己人无完人，即使止损才是正确的，是不是也不应该过分地谴责自己呢。</p>
-<p>好吧，就这样吧，现在清醒过来还是要更加努力地复习，才能弥补被自己蹉跎了的时间。</p>
-<p>从大概半年前开始就喜欢在qq空间发一些不太想身边人知道的一些东西，想法也好生活也是，这段时间也有往上发，不是一个完全没有记录的空档假期。发东西总会是浪费一些时间，但记录下这瞬间大抵还是值得的。</p>
-]]></content>
-      <categories>
-        <category>杂记</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>hexo d的出错记录</title>
-    <url>/2023/01/25/2023-01-25-hexo-d%E7%9A%84%E5%87%BA%E9%94%99%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<p>好奇怪呢，一个多月以来第一次遇到一些问题……</p>
-<span id="more"></span>
-
-<hr>
-<h3 id="Fatal1"><a href="#Fatal1" class="headerlink" title="Fatal1"></a>Fatal1</h3><p><code>git fatal: detected dubious ownership in repository</code><br>直译过来是<code>仓库检测到可疑的所有者</code>。</p>
-<p>具体的下面的报错我忘记复制下来了，大意是以前仓库的所有者是’S-1-5-32-544’，现在是×××。下面还有提示是如果要给这个所有者权限，可以输入×××。（但是我一开始没有认真读这段话，直接搜了解决方法）</p>
-<p>找到普遍的解决方法都是这种类型的<a href="https://blog.csdn.net/tcjy1000/article/details/127129224">文章</a>，我试着改了一下，一点用也没有，因为我不知道’S-1-5-32-544’是什么所有者的名字，现在又是什么所有者……到最后是认真读了读提示，把那段命令复制下来运行，解决。</p>
-<h3 id="Fatal2"><a href="#Fatal2" class="headerlink" title="Fatal2"></a>Fatal2</h3><p>以下是报错全文：</p>
-<figure class="highlight vbnet"><table><tr><td class="code"><pre><span class="line"><span class="keyword">On</span> branch master</span><br><span class="line"><span class="literal">nothing</span> <span class="keyword">to</span> commit, working tree clean</span><br><span class="line"><span class="symbol">kex_exchange_identification:</span> Connection closed <span class="keyword">by</span> remote host</span><br><span class="line">Connection closed <span class="keyword">by</span> ::<span class="number">1</span> port <span class="number">22</span></span><br><span class="line"><span class="symbol">fatal:</span> Could <span class="built_in">not</span> read <span class="keyword">from</span> remote repository.</span><br><span class="line"></span><br><span class="line">Please make sure you have the correct access rights</span><br><span class="line"><span class="built_in">and</span> the repository exists.</span><br><span class="line">FATAL Something<span class="comment">&#x27;s wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html</span></span><br><span class="line"><span class="symbol">Error:</span> Spawn failed</span><br><span class="line">    at ChildProcess.&lt;anonymous&gt; (D:\colorlife\diligencyj.github.io\node_modules\hexo-util\<span class="keyword">lib</span>\spawn.js:<span class="number">51</span>:<span class="number">21</span>)</span><br><span class="line">    at ChildProcess.emit (node:events:<span class="number">513</span>:<span class="number">28</span>)</span><br><span class="line">    at cp.emit (D:\colorlife\diligencyj.github.io\node_modules\cross-spawn\<span class="keyword">lib</span>\enoent.js:<span class="number">34</span>:<span class="number">29</span>)</span><br><span class="line">    at ChildProcess._handle.onexit (node:internal/child_process:<span class="number">291</span>:<span class="number">12</span>)</span><br></pre></td></tr></table></figure>
-<p>说我Could not read from remote repository.奇怪极了。可能的原因和<a href="https://www.zhihu.com/question/20023544">解决方法</a>千奇百怪，最后看到一个很合我新意的回答：<strong>如果之前楼上的答案都不行 ，你可以试着换个IP，你会惊奇的发现，耶 ！特么的竟然好了！</strong> 哈哈有意思，还有一个回答说网络异常也会这样。</p>
-<p>没错，我重试了几次之后就又可以了（耶！）</p>
-]]></content>
-      <categories>
-        <category>计算机</category>
-      </categories>
-      <tags>
-        <tag>搭建网站</tag>
-      </tags>
   </entry>
   <entry>
     <title>开学前的考试周</title>
@@ -468,17 +448,20 @@
       </categories>
   </entry>
   <entry>
-    <title>清明义工带给我的</title>
-    <url>/2023/04/09/2023-04-09-%E6%B8%85%E6%98%8E%E4%B9%89%E5%B7%A5%E6%B4%BB%E5%8A%A8/</url>
-    <content><![CDATA[<p>二十年间收获唔该嗮最多的一天……好开心喔</p>
-<p>part1是交作业交上去了 part2是自存的<br>（写2的时候已经好困好困了呜呜 今天好累也是真的 明天还早八</p>
+    <title>期末复习的心理状况</title>
+    <url>/2023/02/14/2023-02-14-%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E7%9A%84%E5%BF%83%E6%80%81%E7%8A%B6%E5%86%B5/</url>
+    <content><![CDATA[<p>昨天看到朋友的pyq说觉得自己很()，前一晚还在emo事情很多干不完，第二早睡到中午然后去看电视。我当时的想法是：我要比ta好一点呢，我有在认真学习！结果今天，，，又开始摆了(发怒.JPG)</p>
 <span id="more"></span>
-<hr>
-<h2 id="Part-1"><a href="#Part-1" class="headerlink" title="Part 1 "></a>Part 1 </h2><p>清晨伴着微雨迎来了一天的清明义工活动，我作为后勤组被安排在了大门口负责引导民众进入和解答民众们的疑惑。志愿服务负责人给我们交代：如果有人没有预约或者预约错了就指引他们现场预约，如果他们要办骨灰撒海就要到对面撒海办……但事实上活动开始的前一小时我面对民众的疑问是一头雾水，因为他们问的是：没带身份证怎么办？其他亲人还没到可以先进去吗？里面有地方买水吗？用预约成功的短信可以进吗……我不知道，很迷茫也很不好意思。很幸运的是站我们那边的保安非常乐于和我们聊天，我很快就问到了这些问题的答案，接下来的一整天便是持着这些回答，看到有人在惊呼忘记带身份证时主动上前告诉他只要预约码就可以进，看到有几个人站着一起焦急地等着亲人时告诉他们可以先进去，把预约短信转发给他们就可以了……这就是我们一天的全部工作。</p>
-<p>在这数不清与民众的问答对话中我也收获了数不清的“唔该晒”和“多谢”。不仅是我收获了感谢，每每有人推着轮椅过来时保安都会开闸门并俯下身帮忙抬轮椅，我能看到在这些推轮椅的家人和坐轮椅的老人点头致意，眼中是由衷的感激与感恩，他们感动于保安提供便捷通道方便行走，而我作为旁边者被他们与保安间的善意所感动。我很欣赏这里的保安们，他们和我们一样从早站到晚没有太多休息，但我从他们身上没有看到不满没有感受到戾气，他们一直用耐心的话语对待每一位到来的人。他们似乎也挺喜欢这份工作，和我站得最近的保安总是乐呵呵的，时不时和我们聊上几句，比如说他不会说粤语也听不太懂粤语，所以和民众沟通有点障碍，但是他后来突然问我们：“呢边”的意思是“这里”吗？哈哈他好厉害领悟能力真好。</p>
-<p>令我印象比较深的一件事是有一个爸爸带着小儿子，有点焦急地说忘记带口罩了，问我们哪里有口罩卖，我当然是不知道的，和他说要不我拿两个给你吧，就从自己包里拿了两个给他们。那位爸爸边和我说着谢谢，边拍着他儿子：要说什么？小男孩很害羞地：“谢谢阿姨~”那位爸爸拍着儿子的头：什么阿姨，是姐姐！无奈地代他儿子对我说了谢谢。他们站在一旁戴上了口罩，又绕回入口时再次向我挥手致意：谢谢非常感谢！我感动又激动不已，两个小小的口罩就配起了他们这么真诚、直击内心的感谢，我能强烈地感受到了他给我的情绪传递。这种体验非常打动我。我似乎理解了保安对坐轮椅老人的帮助，除了他本身是一个善良的人，还可能是因为当一个人对你表示由衷感谢时，不仅是嘴上说着“谢谢”，他的身体会说、他的眼睛会说，他的心也会说，这些都是可以被感受到的，付出微小的善意就可以获得隆重的感激，似乎没有人能拒绝这样的乐事。</p>
-<p>当我们五点多准备离开园区时，看到保安还站在门口。我和同伴上前和保安道别：“我们要走了，再见！”保安说，你们还会再来吗？我们说不会了我们只来一天……不过还会有其他同学周末来。“好吧那再见吧”“再见！”我觉得我是不舍的，我不舍这位认识了一天的可爱保安，更不舍这里带给我的内心富足感。有缘再见吧！</p>
-<h2 id="Part-2"><a href="#Part-2" class="headerlink" title="Part 2"></a>Part 2</h2><p>还有一份感想是关于清明的。今天在门口站岗估计也从面前经过了上万了，老老少少形形色色，有老人和老人来的，有老人拖小孩，有年轻小两口来的……在没有看见有人需要帮忙时，我常常让大脑放空，看着他们我就会情不自禁地想他们之间是什么关系，想他们的家庭组成是怎样，他们有儿女吗，他们的父母还健在吗，他们穿着如何——年轻人大多酷酷的，也有中年人很潮流……有些人手提几大袋，有人开车送几箱东西来，有人两手空空走进去（也可能是有家人在里面了），这时我又会想他们与逝去的亲人关系如何，他们是否是孝顺子孙呢，他们是怀着什么样的心态来的呢，是对父辈的追思，还是为了完成一项义务，是为此准备了很久，还是想着人来了就好。有七八成的人都是老年人，老年人来祭拜已经成灰的人，很难描述我的感觉，但心情是有点复杂的。差点让我落泪的，是吃完午饭逛园区的时候，我看见有很多台围了好多人，一大家子热热闹闹的，香炉里的香也正旺；也有一些台前甚是冷清，有看见一对母女、一对老年夫妻、一小家人，桌子上摆满了东西，两三人静静地坐在凳子上等香烧完。桌上一个骨灰盒，凳上三两五六人，我突然被这些景象所触动，大家虔诚地在对一个不知还在不在的魂灵，述说着自己的思念：我还记得你，我还挂念着你呢。或许我还想到了有些家族人丁兴旺，但有一些已逐渐式微，在很久之后，还会有人记得他们吗（有点代入感……）。又或许我还想到，不久的将来，大部分的我们都会住进那小小的盒子里，这是一个很清晰的结局，我们都会消逝的。我好难过。</p>
+
+<p>有一段时间没有发随笔了，其实也是很久没有打开过这部电脑了。因为在书房学习一般用台式机，屏幕大好操作，而且也没这么多干扰，不会想着看看这看看那的。</p>
+<p>今天是2月14，我打算2月18回学校，第一门考试2月21，时间所剩无几。</p>
+<p>我大概是从离开学还有两周开始急的，开始做规划，按照自己新找到的方法——思维导图复习，效果还不错，开头几天效率有点低，前几天速度也快了起来，心情也很好。一开始效率低有原因也是看很久B站，把应用时长限制在15min也有遵守，留了更多的时间给了静心和思考。</p>
+<p>学久了的累是会有成就感的，虽然有时可能是在一些无关紧要的事情上耗了时间，但无论如何是把时间用在了有点意义的事情上，下次绕过这些就好。但是玩手机玩累了真的是身心双重打击，一方面眼睛干想睡觉，另一方面悔恨不已想到自己好多东西没干。</p>
+<p>之前把原因归结为没有做计划，不知道自己时间有多紧，任务有多重，所以在松懈。但事实上，，，今天，，，刚才，，，我在知道自己最近的两门考试还有超级超级多不会，没有复习的情况下，还是刷了两小时B站，4小时微博，，，为什么不把B站卸了呢，因为还想留着让自己看看前段时间的B站使用量多离谱，，，刚看了，有一周10h的，有一周14h的，可以卸掉了，，，（卸完了，原来卸完也可以看时长的啊……）（对不起，这可能只是一个借口）</p>
+<p>时至今日，也没有找到一个很好的对治自己内心的方法。我能否认真学习完全看状态，状态好连续学四五个小时也没问题，状态不好，即使坐在了书桌前，也想着东看看西翻翻，随便一个想法就会上bing知乎耍耍（今天刷到B站教人怎样进入bing的候补名单体验chatGPT的，但是考虑到我会上瘾，所以就没试）<br>如果状态不好，事情又很紧急，就像写毛概论文那时候一样，就会超级无敌折磨，逼着自己静下心把文字看进去，也能勉强做到。</p>
+<p>我每次看手机超过30min的时候，内心都有一个很响亮的声音说别玩了别玩了，这时候当然也会出现另一个声音回答ta：再看一会儿，极少数是：好的不玩了。以至于我接下来看的所有东西的时候我都是不自在的，我仿佛是在谋害一个人的生命，ta一直劝我别继续了，我一直说等等，，，这是一个煎熬的过程，但是我很难抽离，我目前觉得是一种破罐子破摔的自我放弃的心态，已经玩了这么久了，我已经不是那个完美的时间管理者了，我不想回到真实世界面对现在浪费时间的自己，不如一直在这种状态下，不去感知自己浪费了多少时间，，，真的是一种逃避心理呢，我或许应该告诉自己人无完人，即使止损才是正确的，是不是也不应该过分地谴责自己呢。</p>
+<p>好吧，就这样吧，现在清醒过来还是要更加努力地复习，才能弥补被自己蹉跎了的时间。</p>
+<p>从大概半年前开始就喜欢在qq空间发一些不太想身边人知道的一些东西，想法也好生活也是，这段时间也有往上发，不是一个完全没有记录的空档假期。发东西总会是浪费一些时间，但记录下这瞬间大抵还是值得的。</p>
 ]]></content>
       <categories>
         <category>杂记</category>
@@ -495,6 +478,23 @@
 <p>上次有这种感觉是大抵是找操作系统复习资料的时候翻到浙大信安的大佬的博客，除了记录他的学习笔记和朋辈辅学的教案，还有他记录自己的生活与想法、总结学习和实习的文章，从这些文字背后可以让我真切地感到我在了解他的生活他的内心，单方面拉进了我与他的距离。</p>
 <p>关注的这两位大佬恰巧都是计算机的，不仅仅技术方面大牛，表达能力和情商都让仰慕，让我渴望向他们学习，向他们靠近。</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>清明义工带给我的</title>
+    <url>/2023/04/09/2023-04-09-%E6%B8%85%E6%98%8E%E4%B9%89%E5%B7%A5%E6%B4%BB%E5%8A%A8/</url>
+    <content><![CDATA[<p>二十年间收获唔该嗮最多的一天……好开心喔</p>
+<p>part1是交作业交上去了 part2是自存的<br>（写2的时候已经好困好困了呜呜 今天好累也是真的 明天还早八</p>
+<span id="more"></span>
+<hr>
+<h2 id="Part-1"><a href="#Part-1" class="headerlink" title="Part 1 "></a>Part 1 </h2><p>清晨伴着微雨迎来了一天的清明义工活动，我作为后勤组被安排在了大门口负责引导民众进入和解答民众们的疑惑。志愿服务负责人给我们交代：如果有人没有预约或者预约错了就指引他们现场预约，如果他们要办骨灰撒海就要到对面撒海办……但事实上活动开始的前一小时我面对民众的疑问是一头雾水，因为他们问的是：没带身份证怎么办？其他亲人还没到可以先进去吗？里面有地方买水吗？用预约成功的短信可以进吗……我不知道，很迷茫也很不好意思。很幸运的是站我们那边的保安非常乐于和我们聊天，我很快就问到了这些问题的答案，接下来的一整天便是持着这些回答，看到有人在惊呼忘记带身份证时主动上前告诉他只要预约码就可以进，看到有几个人站着一起焦急地等着亲人时告诉他们可以先进去，把预约短信转发给他们就可以了……这就是我们一天的全部工作。</p>
+<p>在这数不清与民众的问答对话中我也收获了数不清的“唔该晒”和“多谢”。不仅是我收获了感谢，每每有人推着轮椅过来时保安都会开闸门并俯下身帮忙抬轮椅，我能看到在这些推轮椅的家人和坐轮椅的老人点头致意，眼中是由衷的感激与感恩，他们感动于保安提供便捷通道方便行走，而我作为旁边者被他们与保安间的善意所感动。我很欣赏这里的保安们，他们和我们一样从早站到晚没有太多休息，但我从他们身上没有看到不满没有感受到戾气，他们一直用耐心的话语对待每一位到来的人。他们似乎也挺喜欢这份工作，和我站得最近的保安总是乐呵呵的，时不时和我们聊上几句，比如说他不会说粤语也听不太懂粤语，所以和民众沟通有点障碍，但是他后来突然问我们：“呢边”的意思是“这里”吗？哈哈他好厉害领悟能力真好。</p>
+<p>令我印象比较深的一件事是有一个爸爸带着小儿子，有点焦急地说忘记带口罩了，问我们哪里有口罩卖，我当然是不知道的，和他说要不我拿两个给你吧，就从自己包里拿了两个给他们。那位爸爸边和我说着谢谢，边拍着他儿子：要说什么？小男孩很害羞地：“谢谢阿姨~”那位爸爸拍着儿子的头：什么阿姨，是姐姐！无奈地代他儿子对我说了谢谢。他们站在一旁戴上了口罩，又绕回入口时再次向我挥手致意：谢谢非常感谢！我感动又激动不已，两个小小的口罩就配起了他们这么真诚、直击内心的感谢，我能强烈地感受到了他给我的情绪传递。这种体验非常打动我。我似乎理解了保安对坐轮椅老人的帮助，除了他本身是一个善良的人，还可能是因为当一个人对你表示由衷感谢时，不仅是嘴上说着“谢谢”，他的身体会说、他的眼睛会说，他的心也会说，这些都是可以被感受到的，付出微小的善意就可以获得隆重的感激，似乎没有人能拒绝这样的乐事。</p>
+<p>当我们五点多准备离开园区时，看到保安还站在门口。我和同伴上前和保安道别：“我们要走了，再见！”保安说，你们还会再来吗？我们说不会了我们只来一天……不过还会有其他同学周末来。“好吧那再见吧”“再见！”我觉得我是不舍的，我不舍这位认识了一天的可爱保安，更不舍这里带给我的内心富足感。有缘再见吧！</p>
+<h2 id="Part-2"><a href="#Part-2" class="headerlink" title="Part 2"></a>Part 2</h2><p>还有一份感想是关于清明的。今天在门口站岗估计也从面前经过了上万了，老老少少形形色色，有老人和老人来的，有老人拖小孩，有年轻小两口来的……在没有看见有人需要帮忙时，我常常让大脑放空，看着他们我就会情不自禁地想他们之间是什么关系，想他们的家庭组成是怎样，他们有儿女吗，他们的父母还健在吗，他们穿着如何——年轻人大多酷酷的，也有中年人很潮流……有些人手提几大袋，有人开车送几箱东西来，有人两手空空走进去（也可能是有家人在里面了），这时我又会想他们与逝去的亲人关系如何，他们是否是孝顺子孙呢，他们是怀着什么样的心态来的呢，是对父辈的追思，还是为了完成一项义务，是为此准备了很久，还是想着人来了就好。有七八成的人都是老年人，老年人来祭拜已经成灰的人，很难描述我的感觉，但心情是有点复杂的。差点让我落泪的，是吃完午饭逛园区的时候，我看见有很多台围了好多人，一大家子热热闹闹的，香炉里的香也正旺；也有一些台前甚是冷清，有看见一对母女、一对老年夫妻、一小家人，桌子上摆满了东西，两三人静静地坐在凳子上等香烧完。桌上一个骨灰盒，凳上三两五六人，我突然被这些景象所触动，大家虔诚地在对一个不知还在不在的魂灵，述说着自己的思念：我还记得你，我还挂念着你呢。或许我还想到了有些家族人丁兴旺，但有一些已逐渐式微，在很久之后，还会有人记得他们吗（有点代入感……）。又或许我还想到，不久的将来，大部分的我们都会住进那小小的盒子里，这是一个很清晰的结局，我们都会消逝的。我好难过。</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
   </entry>
   <entry>
     <title>尖烽时刻复赛总结</title>
@@ -548,13 +548,16 @@
 <p>什么时候对于比赛有一个较为清晰的思路呢，好像是正式回合2之后吧……</p>
 <p>这个系统是以股价为评判标准，股价最重要的决定因素是利润（没有回购股票这一操作），一共可以开通6个产品，在保证没有产品亏损的情况下，当然是产品开得越多利润会越高！我们大概第4回合悟到了这个道理，在后面的三回合每回合加一个新产品，直到最后（第6）回合才拉满……</p>
 <p>这是一个Markerting类的比赛，最注重的是产品设计和营销。</p>
-<h3 id="产品设计"><a href="#产品设计" class="headerlink" title="产品设计"></a>产品设计</h3><p>有很多需要考虑的点：<code>外包装````销售地区````产品特性````功能值</code>，这些都要细细斟酌；这四个需要考虑的地方，落点都是你的销售群体是谁。还要有一个长远的战略，因为如果更新产品会花一大笔钱（这是我们第三回合才意识到的）。</p>
+<h3 id="产品设计"><a href="#产品设计" class="headerlink" title="产品设计"></a>产品设计</h3><p><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%B0%96%E7%83%BD%E5%86%B3%E8%B5%9B%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1.png" alt="图片alt"><br>有很多需要考虑的点：<code>外包装````销售地区````产品特性````功能值</code>，这些都要细细斟酌；这四个需要考虑的地方，落点都是你的销售群体是谁。还要有一个长远的战略，因为如果更新产品会花一大笔钱（这是我们第三回合才意识到的）。</p>
 <p>我们最后三回合得出的结论和形成的思路是，产品性能越好利润越高，要保持高性能的同时控制更新产品的成本，因此我们每个产品隔一回合更新一次，在没有被更新的回合中就是适当调低售价来维持销量。</p>
-<h3 id="营销"><a href="#营销" class="headerlink" title="营销"></a>营销</h3><p>与另两个系统不同，这里的销量预测很重要，如果预测误差高于一定值会有惩罚（这个也是我们第2还是3回合才发现的）。<br>销售只在欧洲和亚洲销售，同一产品可以选择在其中一个或两个国家销售。亚洲一直在亏钱，卖多亏多，第5回合我们终于下决心不在亚洲卖了，结果发现有固定资产折旧费用哈哈哈。第6回合卖了一个低价产品，亏得少了一点。<br>外包装无论哪个地区面向的消费者是谁，都是用药片最好。我们六个产品都是药片。</p>
+<h3 id="营销"><a href="#营销" class="headerlink" title="营销"></a>营销</h3><p><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%B0%96%E7%83%BD%E5%86%B3%E8%B5%9B%E8%90%A5%E9%94%80.png" alt="图片alt"><br>与另两个系统不同，这里的销量预测很重要，如果预测误差高于一定值会有惩罚（这个也是我们第2还是3回合才发现的）。<br>销售只在欧洲和亚洲销售，同一产品可以选择在其中一个或两个国家销售。亚洲一直在亏钱，卖多亏多，第5回合我们终于下决心不在亚洲卖了，结果发现有固定资产折旧费用哈哈哈。第6回合卖了一个低价产品，亏得少了一点。<br>外包装无论哪个地区面向的消费者是谁，都是用药片最好。我们六个产品都是药片。</p>
 <p>目标群体是什么，对应投的广告就多；同时根据目标群体也要有销售渠道的投入。</p>
-<h3 id="市场调研报告"><a href="#市场调研报告" class="headerlink" title="市场调研报告"></a>市场调研报告</h3><p>上面两部分的决策依据都是市场调研报告，归纳总结得出最好的。</p>
+<h3 id="市场调研报告"><a href="#市场调研报告" class="headerlink" title="市场调研报告"></a>市场调研报告</h3><p><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%B0%96%E7%83%BD%E5%86%B3%E8%B5%9B%E5%A4%96%E5%8C%85%E8%A3%85.png" alt="图片alt"></p>
+<p><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%B0%96%E7%83%BD%E5%86%B3%E8%B5%9B%E8%8D%AF%E5%93%81%E7%89%B9%E5%BE%81%E5%81%8F%E5%A5%BD.png" alt="图片alt"></p>
+<p>上面两部分的决策依据都是市场调研报告，归纳总结得出最好的。</p>
 <h2 id="商业案例分析"><a href="#商业案例分析" class="headerlink" title="商业案例分析"></a>商业案例分析</h2><p>周五出案例，周末进展较少，真正投入时间的可能只有五天左右。很多值得改进的地方，可以更高效的地方。其实不太愿回忆那段时光，一起熬大夜，一起讨论，但也有很多时候我在抱怨，我在和dh说没关系就这样吧我要睡觉了再见。dh真的很认真，她好重视非常重视，我第一次见她这么认真和执着。我的态度是，不用完美，基本完善就好，我相信其他人也做不到这种程度，但事实上我一直在被dh推着往前走，虽然我的财务部分真的找不到相关资料，空耗了许多时间，这也是不愿回首的原因之一。</p>
 <p>最终结果是我们真的做得很好。评委老师在我们下场后回过头来问我们：你们有老师指导吗？我觉得这是一个很高的评价。<br>我们也算是有老师指导的，李卫宁老师在周二晚指导了我们两小时，给我们提供了一些思路和方向，很感激。</p>
+<p><img src="https://github.com/diligencyj/diligencyj.github.io/raw/master/images/%E5%B0%96%E7%83%BD%E5%86%B3%E8%B5%9B%E5%95%86%E4%B8%9A%E6%A1%88%E4%BE%8B.png" alt="图片alt"></p>
 <h2 id="随便说点什么"><a href="#随便说点什么" class="headerlink" title="随便说点什么"></a>随便说点什么</h2><p>虽然决策指南有说，要避免与对手或者自身产品的过于雷同，这样会产生侵蚀效应。但是我认为，总共就五个功能，很占据市场份额大的选项组合也就那几种，怎么会不重呢。要有自己的优势特色，在这之外做的产品只要不亏就是赚的。自己如果完全避免和自己竞争，这不是把更多的份额让给别人吗，就比如A和B队分别有完全相同的两个产品，各占份额50%，如果A队此时增加了一个同样的产品，这虽然是在侵蚀自己的份额，但这样A队可以占总份额2&#x2F;3，不是更有利吗！</p>
 <p>比赛前的一周都很晚睡，每天睡眠时长5-6小时。模拟决策前一晚3点睡7点多起，脑子晕乎乎的，中午躺了十几分钟也没睡着。下午开始头疼，好疼，又困，只能一直在给自己加油打气：还剩几回合了！加油啊！不坚持下去我们队赢不了！  从下午两点到五点，每一回合都是最后两分钟做最终决策，休息一分钟看到结果立刻开始下一回合的决策，没能有丝毫的松懈和走神。还记得我在高度紧张中抽空看了一眼隔壁组，有人在趴台睡觉，大部分人都是不紧不慢毫不紧张……可能我很急的情况下说话也比较大声，听dh说是这样的，但是在那种情况下根本关注不到了。</p>
 <p>最后一回合我们第二名，与后面是断层式领先。好佩服自己啊！现在回想，当时我脑子拼命转，不断输出我的想法和结论，却记不得队友们说了些什么。有一个地方我不满我还很急地说怎么能这样！结果证明我的想法不太对哈哈，有点专制的感觉，也有点离了我不行的感觉。当然和队友的合作也非常愉快！特别是和dh，感觉我们很多决策思想非常一致，可能是校赛一路打来的默契吧。</p>
