@@ -63,26 +63,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/12/15/2022-12-19-hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<p><strong>这篇官网文章写的很详细，忘记了命令可以回来看看</strong></p>
-<p><em><a href="https://hexo.io/zh-cn/docs/commands">Hexo指令</a></em></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>搭建网站过程2（从零开始版）</title>
     <url>/2022/12/16/2022-12-16-%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E8%BF%87%E7%A8%8B2/</url>
     <content><![CDATA[<p>本文摘要：</p>
@@ -151,6 +131,26 @@
       <tags>
         <tag>搭建网站</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/12/15/2022-12-19-hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<p><strong>这篇官网文章写的很详细，忘记了命令可以回来看看</strong></p>
+<p><em><a href="https://hexo.io/zh-cn/docs/commands">Hexo指令</a></em></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>浅谈我的消费观</title>
@@ -245,6 +245,24 @@
 ]]></content>
   </entry>
   <entry>
+    <title>有点难过</title>
+    <url>/2023/01/08/2023-01-08-%E6%9C%89%E7%82%B9%E9%9A%BE%E8%BF%87/</url>
+    <content><![CDATA[<p>由昨晚的梦引起的……</p>
+<span id="more"></span>
+
+<p>昨晚梦见了高三时班上的两个男生朋友ywq和lsc，好像也没有讲什么话，也不知道在什么地方，但感觉上大家还是像以前一样要好。我们随便聊着点什么，互相帮帮忙啥的。突然就有点想念ywq，他外表看上去特别像刻板印象中程序员大佬的样子，瘦弱文静不爱说话，但实际上他的体育还是不错的，熟起来也是特别多讲，有点外冷内热。高三时时常和他聊天，lzq在我们附近的时候我们三个一起聊，lzq走后我俩也经常聊。聊什么呢，可能是我问他某道题，可能是他给我讲他以前的故事或者他最近听来的15班那边的事儿，可能……我也记不起来了。在很多地方都能感受到他的才气和我，包括我们班的大多数人都不是一个层次的。我想起他和我说他以前初中进信息学，比别人晚两周进去，但是几天就把大部分人赶超了；想起他说他为了奖金去参加了某一个省级计算机比赛，拿了省二十几名；想起物理考试有一道题要用相对的思想（我忘了我有没有理解），他说他一考完试就想到了怎么做，去问物理老师，老师惊讶地问他是不是物理竞赛的；他书上也是没有什么笔记，如果有也会写的很工整秀气，作业也是；他偶尔也会提起lhf（一个奥赛金牌的北大大佬）讲讲他的故事，言语中能感受到ywq对他还是挺佩服的，这也是我听他讲过的人里唯一一个。我也总是看见他俩一起吃饭，可能大佬都是相互吸引的吧。</p>
+<p>我遇到的很优秀的人也不止他，比如tlj应该也是这种类型的，不过和他的关系确实不如和ywq密切，也没有过很多交流。去到的大学层次比ywq更高的也有很多（我认为的），比如sxl，xyq，sp，lky等，但是他们的优秀和ywq的在我感觉上还是有区别的。我喜欢和比我优秀的人做朋友是肯定的，又优秀又有趣又有灵气的最是喜欢，现在能想起的可能只有sxl和ywq。</p>
+<p>越想越难过啦，和sxl虽然在pyq偶尔会相遇，但总归是好久好久没有私聊过啦，也没有什么共同话题了。ywq就更是了，高考毕业游之后就再也没有交流过了，他也从来没有发过pyq，就等于再也没有这个朋友一样啦。其实有时候很想问问他在南科大感觉怎么样，是不是过得很好？但感觉很怪啊没啥事去关心一个异性朋友的近况，也是没有过的事。南科大的环境应该特别适合他那样的人的成长吧，能让才能得到充分释放。</p>
+<p>在大学再没有遇见到令我惊艳敬佩的人了，想想这也是很合理的，真符合我标准的“优秀有趣有灵气”的人，都会去到更好的学校吧……唉好难过好难过，以前的朋友不知道该怎么重新联系啦，新的朋友也不知道该怎么找。或许只能等我读研和工作吧……前提是我能成为这么优秀的人，够得着他们在的地方……</p>
+<p>才气是很难赶上的，但或许可以更加努力啊，据我所知前面提到的人可能除了ywq和我差不多以外，都是非常非常努力的，而且……所有人效率都比我高……</p>
+<p>任重而道远。以每天按计划进行，少娱乐少社交，考好期末为第一步吧。</p>
+<p>编辑：还是怀着美好的期待能在学校遇到的……</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
     <title>2022观剧总结</title>
     <url>/2023/01/11/2023-01-11-2022%E8%A7%82%E5%89%A7%E6%80%BB%E7%BB%93/</url>
     <content><![CDATA[<h3 id="现场："><a href="#现场：" class="headerlink" title="现场："></a>现场：</h3><p>舞剧《永不消逝的电波》</p>
@@ -315,24 +333,6 @@
       </categories>
   </entry>
   <entry>
-    <title>有点难过</title>
-    <url>/2023/01/08/2023-01-08-%E6%9C%89%E7%82%B9%E9%9A%BE%E8%BF%87/</url>
-    <content><![CDATA[<p>由昨晚的梦引起的……</p>
-<span id="more"></span>
-
-<p>昨晚梦见了高三时班上的两个男生朋友ywq和lsc，好像也没有讲什么话，也不知道在什么地方，但感觉上大家还是像以前一样要好。我们随便聊着点什么，互相帮帮忙啥的。突然就有点想念ywq，他外表看上去特别像刻板印象中程序员大佬的样子，瘦弱文静不爱说话，但实际上他的体育还是不错的，熟起来也是特别多讲，有点外冷内热。高三时时常和他聊天，lzq在我们附近的时候我们三个一起聊，lzq走后我俩也经常聊。聊什么呢，可能是我问他某道题，可能是他给我讲他以前的故事或者他最近听来的15班那边的事儿，可能……我也记不起来了。在很多地方都能感受到他的才气和我，包括我们班的大多数人都不是一个层次的。我想起他和我说他以前初中进信息学，比别人晚两周进去，但是几天就把大部分人赶超了；想起他说他为了奖金去参加了某一个省级计算机比赛，拿了省二十几名；想起物理考试有一道题要用相对的思想（我忘了我有没有理解），他说他一考完试就想到了怎么做，去问物理老师，老师惊讶地问他是不是物理竞赛的；他书上也是没有什么笔记，如果有也会写的很工整秀气，作业也是；他偶尔也会提起lhf（一个奥赛金牌的北大大佬）讲讲他的故事，言语中能感受到ywq对他还是挺佩服的，这也是我听他讲过的人里唯一一个。我也总是看见他俩一起吃饭，可能大佬都是相互吸引的吧。</p>
-<p>我遇到的很优秀的人也不止他，比如tlj应该也是这种类型的，不过和他的关系确实不如和ywq密切，也没有过很多交流。去到的大学层次比ywq更高的也有很多（我认为的），比如sxl，xyq，sp，lky等，但是他们的优秀和ywq的在我感觉上还是有区别的。我喜欢和比我优秀的人做朋友是肯定的，又优秀又有趣又有灵气的最是喜欢，现在能想起的可能只有sxl和ywq。</p>
-<p>越想越难过啦，和sxl虽然在pyq偶尔会相遇，但总归是好久好久没有私聊过啦，也没有什么共同话题了。ywq就更是了，高考毕业游之后就再也没有交流过了，他也从来没有发过pyq，就等于再也没有这个朋友一样啦。其实有时候很想问问他在南科大感觉怎么样，是不是过得很好？但感觉很怪啊没啥事去关心一个异性朋友的近况，也是没有过的事。南科大的环境应该特别适合他那样的人的成长吧，能让才能得到充分释放。</p>
-<p>在大学再没有遇见到令我惊艳敬佩的人了，想想这也是很合理的，真符合我标准的“优秀有趣有灵气”的人，都会去到更好的学校吧……唉好难过好难过，以前的朋友不知道该怎么重新联系啦，新的朋友也不知道该怎么找。或许只能等我读研和工作吧……前提是我能成为这么优秀的人，够得着他们在的地方……</p>
-<p>才气是很难赶上的，但或许可以更加努力啊，据我所知前面提到的人可能除了ywq和我差不多以外，都是非常非常努力的，而且……所有人效率都比我高……</p>
-<p>任重而道远。以每天按计划进行，少娱乐少社交，考好期末为第一步吧。</p>
-<p>编辑：还是怀着美好的期待能在学校遇到的……</p>
-]]></content>
-      <categories>
-        <category>杂记</category>
-      </categories>
-  </entry>
-  <entry>
     <title>最近很喜欢看的</title>
     <url>/2023/01/13/2023-01-13-%E6%9C%80%E8%BF%91%E5%BE%88%E5%96%9C%E6%AC%A2%E7%9C%8B%E7%9A%84/</url>
     <content><![CDATA[<p>想把想法记录下来的欲望很强烈呢</p>
@@ -367,28 +367,6 @@
       </categories>
   </entry>
   <entry>
-    <title>hexo d的出错记录</title>
-    <url>/2023/01/25/2023-01-25-hexo-d%E7%9A%84%E5%87%BA%E9%94%99%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<p>好奇怪呢，一个多月以来第一次遇到一些问题……</p>
-<span id="more"></span>
-
-<hr>
-<h3 id="Fatal1"><a href="#Fatal1" class="headerlink" title="Fatal1"></a>Fatal1</h3><p><code>git fatal: detected dubious ownership in repository</code><br>直译过来是<code>仓库检测到可疑的所有者</code>。</p>
-<p>具体的下面的报错我忘记复制下来了，大意是以前仓库的所有者是’S-1-5-32-544’，现在是×××。下面还有提示是如果要给这个所有者权限，可以输入×××。（但是我一开始没有认真读这段话，直接搜了解决方法）</p>
-<p>找到普遍的解决方法都是这种类型的<a href="https://blog.csdn.net/tcjy1000/article/details/127129224">文章</a>，我试着改了一下，一点用也没有，因为我不知道’S-1-5-32-544’是什么所有者的名字，现在又是什么所有者……到最后是认真读了读提示，把那段命令复制下来运行，解决。</p>
-<h3 id="Fatal2"><a href="#Fatal2" class="headerlink" title="Fatal2"></a>Fatal2</h3><p>以下是报错全文：</p>
-<figure class="highlight vbnet"><table><tr><td class="code"><pre><span class="line"><span class="keyword">On</span> branch master</span><br><span class="line"><span class="literal">nothing</span> <span class="keyword">to</span> commit, working tree clean</span><br><span class="line"><span class="symbol">kex_exchange_identification:</span> Connection closed <span class="keyword">by</span> remote host</span><br><span class="line">Connection closed <span class="keyword">by</span> ::<span class="number">1</span> port <span class="number">22</span></span><br><span class="line"><span class="symbol">fatal:</span> Could <span class="built_in">not</span> read <span class="keyword">from</span> remote repository.</span><br><span class="line"></span><br><span class="line">Please make sure you have the correct access rights</span><br><span class="line"><span class="built_in">and</span> the repository exists.</span><br><span class="line">FATAL Something<span class="comment">&#x27;s wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html</span></span><br><span class="line"><span class="symbol">Error:</span> Spawn failed</span><br><span class="line">    at ChildProcess.&lt;anonymous&gt; (D:\colorlife\diligencyj.github.io\node_modules\hexo-util\<span class="keyword">lib</span>\spawn.js:<span class="number">51</span>:<span class="number">21</span>)</span><br><span class="line">    at ChildProcess.emit (node:events:<span class="number">513</span>:<span class="number">28</span>)</span><br><span class="line">    at cp.emit (D:\colorlife\diligencyj.github.io\node_modules\cross-spawn\<span class="keyword">lib</span>\enoent.js:<span class="number">34</span>:<span class="number">29</span>)</span><br><span class="line">    at ChildProcess._handle.onexit (node:internal/child_process:<span class="number">291</span>:<span class="number">12</span>)</span><br></pre></td></tr></table></figure>
-<p>说我Could not read from remote repository.奇怪极了。可能的原因和<a href="https://www.zhihu.com/question/20023544">解决方法</a>千奇百怪，最后看到一个很合我新意的回答：<strong>如果之前楼上的答案都不行 ，你可以试着换个IP，你会惊奇的发现，耶 ！特么的竟然好了！</strong> 哈哈有意思，还有一个回答说网络异常也会这样。</p>
-<p>没错，我重试了几次之后就又可以了（耶！）</p>
-]]></content>
-      <categories>
-        <category>计算机</category>
-      </categories>
-      <tags>
-        <tag>搭建网站</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>解决Easyconnect开机自启动问题</title>
     <url>/2023/01/24/2023-01-24-%E8%A7%A3%E5%86%B3Easyconnect%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<p>Easyconnect的执行程序SangforPWEs甚至是在任务管理器里也kill不掉呢，因为用户是system…</p>
@@ -417,6 +395,48 @@
       </categories>
   </entry>
   <entry>
+    <title>hexo d的出错记录</title>
+    <url>/2023/01/25/2023-01-25-hexo-d%E7%9A%84%E5%87%BA%E9%94%99%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<p>好奇怪呢，一个多月以来第一次遇到一些问题……</p>
+<span id="more"></span>
+
+<hr>
+<h3 id="Fatal1"><a href="#Fatal1" class="headerlink" title="Fatal1"></a>Fatal1</h3><p><code>git fatal: detected dubious ownership in repository</code><br>直译过来是<code>仓库检测到可疑的所有者</code>。</p>
+<p>具体的下面的报错我忘记复制下来了，大意是以前仓库的所有者是’S-1-5-32-544’，现在是×××。下面还有提示是如果要给这个所有者权限，可以输入×××。（但是我一开始没有认真读这段话，直接搜了解决方法）</p>
+<p>找到普遍的解决方法都是这种类型的<a href="https://blog.csdn.net/tcjy1000/article/details/127129224">文章</a>，我试着改了一下，一点用也没有，因为我不知道’S-1-5-32-544’是什么所有者的名字，现在又是什么所有者……到最后是认真读了读提示，把那段命令复制下来运行，解决。</p>
+<h3 id="Fatal2"><a href="#Fatal2" class="headerlink" title="Fatal2"></a>Fatal2</h3><p>以下是报错全文：</p>
+<figure class="highlight vbnet"><table><tr><td class="code"><pre><span class="line"><span class="keyword">On</span> branch master</span><br><span class="line"><span class="literal">nothing</span> <span class="keyword">to</span> commit, working tree clean</span><br><span class="line"><span class="symbol">kex_exchange_identification:</span> Connection closed <span class="keyword">by</span> remote host</span><br><span class="line">Connection closed <span class="keyword">by</span> ::<span class="number">1</span> port <span class="number">22</span></span><br><span class="line"><span class="symbol">fatal:</span> Could <span class="built_in">not</span> read <span class="keyword">from</span> remote repository.</span><br><span class="line"></span><br><span class="line">Please make sure you have the correct access rights</span><br><span class="line"><span class="built_in">and</span> the repository exists.</span><br><span class="line">FATAL Something<span class="comment">&#x27;s wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html</span></span><br><span class="line"><span class="symbol">Error:</span> Spawn failed</span><br><span class="line">    at ChildProcess.&lt;anonymous&gt; (D:\colorlife\diligencyj.github.io\node_modules\hexo-util\<span class="keyword">lib</span>\spawn.js:<span class="number">51</span>:<span class="number">21</span>)</span><br><span class="line">    at ChildProcess.emit (node:events:<span class="number">513</span>:<span class="number">28</span>)</span><br><span class="line">    at cp.emit (D:\colorlife\diligencyj.github.io\node_modules\cross-spawn\<span class="keyword">lib</span>\enoent.js:<span class="number">34</span>:<span class="number">29</span>)</span><br><span class="line">    at ChildProcess._handle.onexit (node:internal/child_process:<span class="number">291</span>:<span class="number">12</span>)</span><br></pre></td></tr></table></figure>
+<p>说我Could not read from remote repository.奇怪极了。可能的原因和<a href="https://www.zhihu.com/question/20023544">解决方法</a>千奇百怪，最后看到一个很合我新意的回答：<strong>如果之前楼上的答案都不行 ，你可以试着换个IP，你会惊奇的发现，耶 ！特么的竟然好了！</strong> 哈哈有意思，还有一个回答说网络异常也会这样。</p>
+<p>没错，我重试了几次之后就又可以了（耶！）</p>
+]]></content>
+      <categories>
+        <category>计算机</category>
+      </categories>
+      <tags>
+        <tag>搭建网站</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>期末复习的心理状况</title>
+    <url>/2023/02/14/2023-02-14-%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E7%9A%84%E5%BF%83%E6%80%81%E7%8A%B6%E5%86%B5/</url>
+    <content><![CDATA[<p>昨天看到朋友的pyq说觉得自己很()，前一晚还在emo事情很多干不完，第二早睡到中午然后去看电视。我当时的想法是：我要比ta好一点呢，我有在认真学习！结果今天，，，又开始摆了(发怒.JPG)</p>
+<span id="more"></span>
+
+<p>有一段时间没有发随笔了，其实也是很久没有打开过这部电脑了。因为在书房学习一般用台式机，屏幕大好操作，而且也没这么多干扰，不会想着看看这看看那的。</p>
+<p>今天是2月14，我打算2月18回学校，第一门考试2月21，时间所剩无几。</p>
+<p>我大概是从离开学还有两周开始急的，开始做规划，按照自己新找到的方法——思维导图复习，效果还不错，开头几天效率有点低，前几天速度也快了起来，心情也很好。一开始效率低有原因也是看很久B站，把应用时长限制在15min也有遵守，留了更多的时间给了静心和思考。</p>
+<p>学久了的累是会有成就感的，虽然有时可能是在一些无关紧要的事情上耗了时间，但无论如何是把时间用在了有点意义的事情上，下次绕过这些就好。但是玩手机玩累了真的是身心双重打击，一方面眼睛干想睡觉，另一方面悔恨不已想到自己好多东西没干。</p>
+<p>之前把原因归结为没有做计划，不知道自己时间有多紧，任务有多重，所以在松懈。但事实上，，，今天，，，刚才，，，我在知道自己最近的两门考试还有超级超级多不会，没有复习的情况下，还是刷了两小时B站，4小时微博，，，为什么不把B站卸了呢，因为还想留着让自己看看前段时间的B站使用量多离谱，，，刚看了，有一周10h的，有一周14h的，可以卸掉了，，，（卸完了，原来卸完也可以看时长的啊……）（对不起，这可能只是一个借口）</p>
+<p>时至今日，也没有找到一个很好的对治自己内心的方法。我能否认真学习完全看状态，状态好连续学四五个小时也没问题，状态不好，即使坐在了书桌前，也想着东看看西翻翻，随便一个想法就会上bing知乎耍耍（今天刷到B站教人怎样进入bing的候补名单体验chatGPT的，但是考虑到我会上瘾，所以就没试）<br>如果状态不好，事情又很紧急，就像写毛概论文那时候一样，就会超级无敌折磨，逼着自己静下心把文字看进去，也能勉强做到。</p>
+<p>我每次看手机超过30min的时候，内心都有一个很响亮的声音说别玩了别玩了，这时候当然也会出现另一个声音回答ta：再看一会儿，极少数是：好的不玩了。以至于我接下来看的所有东西的时候我都是不自在的，我仿佛是在谋害一个人的生命，ta一直劝我别继续了，我一直说等等，，，这是一个煎熬的过程，但是我很难抽离，我目前觉得是一种破罐子破摔的自我放弃的心态，已经玩了这么久了，我已经不是那个完美的时间管理者了，我不想回到真实世界面对现在浪费时间的自己，不如一直在这种状态下，不去感知自己浪费了多少时间，，，真的是一种逃避心理呢，我或许应该告诉自己人无完人，即使止损才是正确的，是不是也不应该过分地谴责自己呢。</p>
+<p>好吧，就这样吧，现在清醒过来还是要更加努力地复习，才能弥补被自己蹉跎了的时间。</p>
+<p>从大概半年前开始就喜欢在qq空间发一些不太想身边人知道的一些东西，想法也好生活也是，这段时间也有往上发，不是一个完全没有记录的空档假期。发东西总会是浪费一些时间，但记录下这瞬间大抵还是值得的。</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
     <title>开学前的考试周</title>
     <url>/2023/03/06/2023-03-06-%E5%BC%80%E5%AD%A6%E5%89%8D%E7%9A%84%E8%80%83%E8%AF%95%E5%91%A8/</url>
     <content><![CDATA[<p>成绩除了体育都出完啦，考得不太理想……</p>
@@ -442,26 +462,6 @@
 <p><strong>经验教训：老师说不是重点的地方也起码把书和习题看一遍！</strong></p>
 <p>还有一个就是做的题太少，（找不到配套相关的练习册 呃课后习题只差一点没做完啦）错的地方都是没见过的考点和考法，法律这种东西自己又推不出来，没见过的只能靠蒙。</p>
 <p>财管自我感觉复习的还不错！成绩也还不错！考试考得好简单，可能难一点我的班级排名会更高呢。不过话说回来，我们是和会一一起排名，所以简单分高也不是一件坏事呢。财管真的是我这一学期最喜欢的课，不仅是老师讲得好，更重要的是我能感觉真真切切学到了与我们专业很相关还很实用最重要的是也很有趣的知识！</p>
-]]></content>
-      <categories>
-        <category>杂记</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>期末复习的心理状况</title>
-    <url>/2023/02/14/2023-02-14-%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E7%9A%84%E5%BF%83%E6%80%81%E7%8A%B6%E5%86%B5/</url>
-    <content><![CDATA[<p>昨天看到朋友的pyq说觉得自己很()，前一晚还在emo事情很多干不完，第二早睡到中午然后去看电视。我当时的想法是：我要比ta好一点呢，我有在认真学习！结果今天，，，又开始摆了(发怒.JPG)</p>
-<span id="more"></span>
-
-<p>有一段时间没有发随笔了，其实也是很久没有打开过这部电脑了。因为在书房学习一般用台式机，屏幕大好操作，而且也没这么多干扰，不会想着看看这看看那的。</p>
-<p>今天是2月14，我打算2月18回学校，第一门考试2月21，时间所剩无几。</p>
-<p>我大概是从离开学还有两周开始急的，开始做规划，按照自己新找到的方法——思维导图复习，效果还不错，开头几天效率有点低，前几天速度也快了起来，心情也很好。一开始效率低有原因也是看很久B站，把应用时长限制在15min也有遵守，留了更多的时间给了静心和思考。</p>
-<p>学久了的累是会有成就感的，虽然有时可能是在一些无关紧要的事情上耗了时间，但无论如何是把时间用在了有点意义的事情上，下次绕过这些就好。但是玩手机玩累了真的是身心双重打击，一方面眼睛干想睡觉，另一方面悔恨不已想到自己好多东西没干。</p>
-<p>之前把原因归结为没有做计划，不知道自己时间有多紧，任务有多重，所以在松懈。但事实上，，，今天，，，刚才，，，我在知道自己最近的两门考试还有超级超级多不会，没有复习的情况下，还是刷了两小时B站，4小时微博，，，为什么不把B站卸了呢，因为还想留着让自己看看前段时间的B站使用量多离谱，，，刚看了，有一周10h的，有一周14h的，可以卸掉了，，，（卸完了，原来卸完也可以看时长的啊……）（对不起，这可能只是一个借口）</p>
-<p>时至今日，也没有找到一个很好的对治自己内心的方法。我能否认真学习完全看状态，状态好连续学四五个小时也没问题，状态不好，即使坐在了书桌前，也想着东看看西翻翻，随便一个想法就会上bing知乎耍耍（今天刷到B站教人怎样进入bing的候补名单体验chatGPT的，但是考虑到我会上瘾，所以就没试）<br>如果状态不好，事情又很紧急，就像写毛概论文那时候一样，就会超级无敌折磨，逼着自己静下心把文字看进去，也能勉强做到。</p>
-<p>我每次看手机超过30min的时候，内心都有一个很响亮的声音说别玩了别玩了，这时候当然也会出现另一个声音回答ta：再看一会儿，极少数是：好的不玩了。以至于我接下来看的所有东西的时候我都是不自在的，我仿佛是在谋害一个人的生命，ta一直劝我别继续了，我一直说等等，，，这是一个煎熬的过程，但是我很难抽离，我目前觉得是一种破罐子破摔的自我放弃的心态，已经玩了这么久了，我已经不是那个完美的时间管理者了，我不想回到真实世界面对现在浪费时间的自己，不如一直在这种状态下，不去感知自己浪费了多少时间，，，真的是一种逃避心理呢，我或许应该告诉自己人无完人，即使止损才是正确的，是不是也不应该过分地谴责自己呢。</p>
-<p>好吧，就这样吧，现在清醒过来还是要更加努力地复习，才能弥补被自己蹉跎了的时间。</p>
-<p>从大概半年前开始就喜欢在qq空间发一些不太想身边人知道的一些东西，想法也好生活也是，这段时间也有往上发，不是一个完全没有记录的空档假期。发东西总会是浪费一些时间，但记录下这瞬间大抵还是值得的。</p>
 ]]></content>
       <categories>
         <category>杂记</category>
